@@ -1,0 +1,10 @@
+"vals"
+"interactive"	"FALSE"
+"To limit by proportion of cohort with genes in examined state, enter minimum proportion here:
+(enter 0 for no limit): "	"0"
+"To limit by count of patients with genes in examined state, enter count here:
+(Enter 1 to skip limiting by count)"	"1"
+"Analyze pathways for individual members of the cohort? (y or n) "	"y"
+"Would you like to run the path analysis in verbose mode? (y or n) "	"y"
+"To add additional path significance tests, please select the R script file containing the interfaces to these enrichment tests"	""
+"Use special path significance analysis settings for this data type? (y/n)"	"FALSE"

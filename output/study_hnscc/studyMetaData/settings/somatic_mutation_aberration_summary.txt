@@ -1,0 +1,28 @@
+"vals"
+"interactive"	"FALSE"
+"To load somatic mutation data: enter 1
+To process somatic sequencing data, limiting the coverage, enter 2
+To exit somatic mutation interface: enter 3.
+"	"1"
+"Select a .maf file containing the data set to be analyzed."	"data/TCGA.HNSC.mutect.84c7a87a-9dcc-48fb-bd69-ba9d6e6f3ca2.DR-7.0.somatic_cleaned.maf"
+"Have manual gene symbol corrections already been conducted? (y/n)"	"y"
+"Would you like to append dbSNP status to variant classifications? (y/n)"	"n"
+"Would you like to include PolyPhen analysis results in this analysis? (y/n) "	"n"
+"
+Please enter the row numbers of the variant types you would like to analyze (sepparated by a space).
+"	"Frame_Shift_Del; Frame_Shift_Ins; In_Frame_Del; In_Frame_Ins; Missense_Mutation; Nonsense_Mutation; Nonstop_Mutation; Splice_Site"
+"
+Please enter the row numbers of the variant types you would like to analyze (sepparated by a space).
+(Full list of options.)"	"Frame_Shift_Del; Frame_Shift_Ins; In_Frame_Del; In_Frame_Ins; Missense_Mutation; Nonsense_Mutation; Nonstop_Mutation; Splice_Region; Splice_Site; Translation_Start_Site"
+"Would you like to filter out those somatic mutations with dbSNP values? (please enter y or n) "	"n"
+"Use special path significance analysis settings for this data type? (y/n)"	"FALSE"
+"To limit by proportion of cohort with genes in examined state, enter minimum proportion here:
+(enter 0 for no limit): "	"0"
+"To limit by count of patients with genes in examined state, enter count here:
+(Enter 1 to skip limiting by count)"	"1"
+"Analyze pathways for individual members of the cohort? (y or n) "	"n"
+"Would you like to run the path analysis in verbose mode? (y or n) "	"y"
+"To add additional path significance tests, please select the R script file containing the interfaces to these enrichment tests"	""
+"Would you like to filter out hypermutators?
+If yes, please enter a mutation count threshold.
+If no just press enter n "	"n"

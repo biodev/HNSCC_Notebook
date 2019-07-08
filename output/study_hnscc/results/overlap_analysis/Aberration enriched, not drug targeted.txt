@@ -1,0 +1,233 @@
+"path_id"	"full_path_length"	"testable_path_length"	"aberrational_genes"	"proportion_aberrational"	"proportion_of_cohort_w_aberrational_gene_in_path"	"Num_patient_with_aberrational_gene_.s._in_path"	"count_of_aberrational_genes_in_path_cross_cohort"	"max_in_one_gene"	"min_in_one_gene"	"hyperg_p_value"	"hyperg_p_w_FDR"
+"5-Phosphoribose 1-diphosphate biosynthesis"	"5-Phosphoribose 1-diphosphate biosynthesis"	3	3	3	1	0.0177165354330709	9	9	5	2	0	0
+"ABH2 mediated Reversal of Alkylation Damage"	"ABH2 mediated Reversal of Alkylation Damage"	1	1	1	1	0.00393700787401575	2	2	2	2	0	0
+"ABH3 mediated Reversal of Alkylation Damage"	"ABH3 mediated Reversal of Alkylation Damage"	1	1	1	1	0.0078740157480315	4	4	4	4	0	0
+"ATM mediated phosphorylation of repair proteins"	"ATM mediated phosphorylation of repair proteins"	5	5	5	1	0.0826771653543307	42	43	14	1	0	0
+"ATM mediated response to DNA double-strand break"	"ATM mediated response to DNA double-strand break"	5	5	5	1	0.0826771653543307	42	43	14	1	0	0
+"ATP sensitive Potassium channels"	"ATP sensitive Potassium channels"	4	4	4	1	0.0846456692913386	43	43	19	2	0	0
+"Abnormal conversion of 2-oxoglutarate to 2-hydroxyglutarate"	"Abnormal conversion of 2-oxoglutarate to 2-hydroxyglutarate"	1	1	1	1	0.0078740157480315	4	4	4	4	0	0
+"Abnormal metabolism in phenylketonuria"	"Abnormal metabolism in phenylketonuria"	4	4	4	1	0.0216535433070866	11	11	5	1	0	0
+"Acrosome Reaction"	"Acrosome Reaction"	1	1	1	1	0.00196850393700787	1	1	1	1	0	0
+"Activation and oligomerization of BAK protein"	"Activation and oligomerization of BAK protein"	2	2	2	1	0.0078740157480315	4	4	3	1	0	0
+"Activation of AMPA receptors"	"Activation of AMPA receptors"	4	4	4	1	0.0846456692913386	43	45	15	8	0	0
+"Activation of Ca-permeable Kainate Receptor"	"Activation of Ca-permeable Kainate Receptor"	10	10	10	1	0.108267716535433	55	61	16	1	0	0
+"Activation of Na-permeable Kainate Receptors"	"Activation of Na-permeable Kainate Receptors"	2	2	2	1	0.0433070866141732	22	22	16	6	0	0
+"Activation of RAS in B cells"	"Activation of RAS in B cells"	5	5	5	1	0.0807086614173228	41	44	29	1	0	0
+"Activation, myristolyation of BID and translocation to mitochondria"	"Activation, myristolyation of BID and translocation to mitochondria"	4	4	4	1	0.116141732283465	59	62	51	2	0	0
+"Acyl chain remodeling of CL"	"Acyl chain remodeling of CL"	6	6	6	1	0.0334645669291339	17	19	5	2	0	0
+"Adenylate cyclase activating pathway"	"Adenylate cyclase activating pathway"	10	10	10	1	0.183070866141732	93	107	26	3	0	0
+"Agmatine biosynthesis"	"Agmatine biosynthesis"	2	2	2	1	0.00590551181102362	3	3	2	1	0	0
+"Alpha-oxidation of phytanate"	"Alpha-oxidation of phytanate"	4	4	4	1	0.0216535433070866	11	11	5	1	0	0
+"Amino Acid conjugation"	"Amino Acid conjugation"	8	8	8	1	0.0826771653543307	42	47	11	2	0	0
+"Amplification  of signal from unattached  kinetochores via a MAD2  inhibitory signal"	"Amplification  of signal from unattached  kinetochores via a MAD2  inhibitory signal"	2	2	2	1	0.0078740157480315	4	4	3	1	0	0
+"Amplification of signal from the kinetochores"	"Amplification of signal from the kinetochores"	2	2	2	1	0.0078740157480315	4	4	3	1	0	0
+"Anchoring fibril formation"	"Anchoring fibril formation"	7	7	7	1	0.094488188976378	48	56	20	3	0	0
+"Antagonism of Activin by Follistatin"	"Antagonism of Activin by Follistatin"	4	4	4	1	0.015748031496063	8	8	3	1	0	0
+"Aromatic amines can be N-hydroxylated or N-dealkylated by CYP1A2"	"Aromatic amines can be N-hydroxylated or N-dealkylated by CYP1A2"	1	1	1	1	0.0078740157480315	4	4	4	4	0	0
+"Assembly of the ORC complex at the origin of replication"	"Assembly of the ORC complex at the origin of replication"	6	6	6	1	0.0275590551181102	14	15	4	1	0	0
+"Assembly of the RAD50-MRE11-NBS1 complex at DNA double-strand breaks"	"Assembly of the RAD50-MRE11-NBS1 complex at DNA double-strand breaks"	4	4	4	1	0.0295275590551181	15	16	9	1	0	0
+"Astrocytic Glutamate-Glutamine Uptake And Metabolism"	"Astrocytic Glutamate-Glutamine Uptake And Metabolism"	4	4	4	1	0.0216535433070866	11	11	4	1	0	0
+"Axonal growth inhibition (RHOA activation)"	"Axonal growth inhibition (RHOA activation)"	8	8	8	1	0.078740157480315	40	43	10	1	0	0
+"Axonal growth stimulation"	"Axonal growth stimulation"	4	4	4	1	0.0255905511811024	13	13	9	1	0	0
+"Beta oxidation of butanoyl-CoA to acetyl-CoA"	"Beta oxidation of butanoyl-CoA to acetyl-CoA"	3	3	3	1	0.0137795275590551	7	7	4	1	0	0
+"Beta oxidation of decanoyl-CoA to octanoyl-CoA-CoA"	"Beta oxidation of decanoyl-CoA to octanoyl-CoA-CoA"	5	5	5	1	0.0275590551181102	14	14	4	1	0	0
+"Beta oxidation of hexanoyl-CoA to butanoyl-CoA"	"Beta oxidation of hexanoyl-CoA to butanoyl-CoA"	5	5	5	1	0.0255905511811024	13	13	4	1	0	0
+"Beta oxidation of lauroyl-CoA to decanoyl-CoA-CoA"	"Beta oxidation of lauroyl-CoA to decanoyl-CoA-CoA"	5	5	5	1	0.0255905511811024	13	14	4	1	0	0
+"Beta oxidation of myristoyl-CoA to lauroyl-CoA"	"Beta oxidation of myristoyl-CoA to lauroyl-CoA"	3	3	3	1	0.0177165354330709	9	9	3	3	0	0
+"Beta oxidation of octanoyl-CoA to hexanoyl-CoA"	"Beta oxidation of octanoyl-CoA to hexanoyl-CoA"	5	5	5	1	0.0275590551181102	14	14	4	1	0	0
+"Beta oxidation of palmitoyl-CoA to myristoyl-CoA"	"Beta oxidation of palmitoyl-CoA to myristoyl-CoA"	3	3	3	1	0.0196850393700787	10	10	4	3	0	0
+"Bicarbonate transporters"	"Bicarbonate transporters"	9	9	9	1	0.127952755905512	65	76	23	3	0	0
+"Biogenic amines are oxidatively deaminated to aldehydes by MAOA and MAOB"	"Biogenic amines are oxidatively deaminated to aldehydes by MAOA and MAOB"	2	2	2	1	0.00393700787401575	2	2	1	1	0	0
+"Biosynthesis of A2E, implicated in retinal degradation"	"Biosynthesis of A2E, implicated in retinal degradation"	1	1	1	1	0.00393700787401575	2	2	2	2	0	0
+"Biotin transport and metabolism"	"Biotin transport and metabolism"	11	11	11	1	0.116141732283465	59	64	18	1	0	0
+"Breakdown of the nuclear lamina"	"Breakdown of the nuclear lamina"	3	3	3	1	0.015748031496063	8	8	5	1	0	0
+"C6 deamination of adenosine"	"C6 deamination of adenosine"	2	2	2	1	0.015748031496063	8	8	6	2	0	0
+"CHL1 interactions"	"CHL1 interactions"	9	9	9	1	0.133858267716535	68	72	17	4	0	0
+"COPI Mediated Transport"	"COPI Mediated Transport"	10	10	10	1	0.0669291338582677	34	39	9	1	0	0
+"COX reactions"	"COX reactions"	1	1	1	1	0.0137795275590551	7	7	7	7	0	0
+"Cam-PDE 1 activation"	"Cam-PDE 1 activation"	4	4	4	1	0.0452755905511811	23	23	13	1	0	0
+"Catecholamine biosynthesis"	"Catecholamine biosynthesis"	4	4	4	1	0.0354330708661417	18	18	7	1	0	0
+"Cation-coupled Chloride cotransporters"	"Cation-coupled Chloride cotransporters"	7	7	7	1	0.0826771653543307	42	45	9	1	0	0
+"Classical Kir channels"	"Classical Kir channels"	4	4	4	1	0.0295275590551181	15	15	5	3	0	0
+"Cohesin Loading onto Chromatin"	"Cohesin Loading onto Chromatin"	10	10	10	1	0.125984251968504	64	71	25	3	0	0
+"Collagen biosynthesis and modifying enzymes"	"Collagen biosynthesis and modifying enzymes"	64	64	64	1	0.541338582677165	275	578	41	1	0	0
+"Conjugation of benzoate with glycine"	"Conjugation of benzoate with glycine"	5	5	5	1	0.0590551181102362	30	32	11	3	0	0
+"Conjugation of carboxylic acids"	"Conjugation of carboxylic acids"	8	8	8	1	0.0826771653543307	42	47	11	2	0	0
+"Conjugation of phenylacetate with glutamine"	"Conjugation of phenylacetate with glutamine"	2	2	2	1	0.0334645669291339	17	18	11	7	0	0
+"Conjugation of salicylate with glycine"	"Conjugation of salicylate with glycine"	7	7	7	1	0.0708661417322835	36	40	11	2	0	0
+"Constitutive Signaling by NOTCH1 t(7;9)(NOTCH1:M1580_K2555) Translocation Mutant"	"Constitutive Signaling by NOTCH1 t(7;9)(NOTCH1:M1580_K2555) Translocation Mutant"	7	7	7	1	0.218503937007874	111	116	86	1	0	0
+"Crosslinking of collagen fibrils"	"Crosslinking of collagen fibrils"	9	9	9	1	0.0590551181102362	30	35	8	1	0	0
+"DNA Damage Recognition in GG-NER"	"DNA Damage Recognition in GG-NER"	2	2	2	1	0.00393700787401575	2	3	2	1	0	0
+"DNA Damage Reversal"	"DNA Damage Reversal"	3	3	3	1	0.0196850393700787	10	10	4	2	0	0
+"Degradation of GABA"	"Degradation of GABA"	2	2	2	1	0.015748031496063	8	8	6	2	0	0
+"Degradation of cysteine and homocysteine"	"Degradation of cysteine and homocysteine"	8	8	8	1	0.0295275590551181	15	16	5	1	0	0
+"Depolarization of the Presynaptic Terminal Triggers the Opening of Calcium Channels"	"Depolarization of the Presynaptic Terminal Triggers the Opening of Calcium Channels"	12	12	12	1	0.122047244094488	62	75	17	1	0	0
+"Dermatan sulfate biosynthesis"	"Dermatan sulfate biosynthesis"	11	11	11	1	0.143700787401575	73	87	28	1	0	0
+"Dopamine receptors"	"Dopamine receptors"	5	5	5	1	0.0354330708661417	18	18	6	1	0	0
+"ER Quality Control Compartment (ERQC)"	"ER Quality Control Compartment (ERQC)"	6	6	6	1	0.0433070866141732	22	23	8	2	0	0
+"Eicosanoids"	"Eicosanoids"	12	12	12	1	0.108267716535433	55	59	8	2	0	0
+"Electric Transmission Across Gap Junctions"	"Electric Transmission Across Gap Junctions"	5	5	5	1	0.0393700787401575	20	21	10	1	0	0
+"Electron transport from NADPH to Ferredoxin"	"Electron transport from NADPH to Ferredoxin"	3	3	3	1	0.0137795275590551	7	7	3	2	0	0
+"Elevation of cytosolic Ca2+ levels"	"Elevation of cytosolic Ca2+ levels"	9	9	9	1	0.116141732283465	59	67	20	2	0	0
+"Establishment of Sister Chromatid Cohesion"	"Establishment of Sister Chromatid Cohesion"	11	11	11	1	0.0925196850393701	47	52	9	3	0	0
+"FMO oxidises nucleophiles"	"FMO oxidises nucleophiles"	3	3	3	1	0.0295275590551181	15	18	7	5	0	0
+"FasL/ CD95L signaling"	"FasL/ CD95L signaling"	5	5	5	1	0.118110236220472	60	61	51	2	0	0
+"Fatty Acids bound to GPR40 (FFAR1) regulate insulin secretion"	"Fatty Acids bound to GPR40 (FFAR1) regulate insulin secretion"	8	8	8	1	0.0807086614173228	41	44	21	1	0	0
+"Fibronectin matrix formation"	"Fibronectin matrix formation"	6	6	6	1	0.0649606299212598	33	34	17	1	0	0
+"Ficolins bind to repetitive carbohydrate structures on the target cell surface"	"Ficolins bind to repetitive carbohydrate structures on the target cell surface"	5	5	5	1	0.0275590551181102	14	15	7	1	0	0
+"Formation of annular gap junctions"	"Formation of annular gap junctions"	9	9	9	1	0.0767716535433071	39	44	13	1	0	0
+"Formation of editosomes by ADAR proteins"	"Formation of editosomes by ADAR proteins"	2	2	2	1	0.015748031496063	8	8	6	2	0	0
+"Formation of the Editosome"	"Formation of the Editosome"	2	2	2	1	0.0177165354330709	9	9	8	1	0	0
+"Formation of the active cofactor, UDP-glucuronate"	"Formation of the active cofactor, UDP-glucuronate"	3	3	3	1	0.0196850393700787	10	10	5	2	0	0
+"Free fatty acids regulate insulin secretion"	"Free fatty acids regulate insulin secretion"	8	8	8	1	0.0807086614173228	41	44	21	1	0	0
+"Fructose catabolism"	"Fructose catabolism"	2	2	2	1	0.0118110236220472	6	6	4	2	0	0
+"GABA A receptor activation"	"GABA A receptor activation"	13	13	13	1	0.137795275590551	70	87	13	3	0	0
+"GABA synthesis"	"GABA synthesis"	2	2	2	1	0.015748031496063	8	8	5	3	0	0
+"GLI proteins bind promoters of Hh responsive genes to promote transcription"	"GLI proteins bind promoters of Hh responsive genes to promote transcription"	7	7	7	1	0.122047244094488	62	69	14	5	0	0
+"Gap junction degradation"	"Gap junction degradation"	10	10	10	1	0.0807086614173228	41	46	13	1	0	0
+"Glycoprotein hormones"	"Glycoprotein hormones"	10	10	10	1	0.0374015748031496	19	19	3	1	0	0
+"Glyoxylate metabolism"	"Glyoxylate metabolism"	5	5	5	1	0.0334645669291339	17	17	8	1	0	0
+"Golgi to ER Retrograde Transport"	"Golgi to ER Retrograde Transport"	10	10	10	1	0.0669291338582677	34	39	9	1	0	0
+"HCN channels"	"HCN channels"	4	4	4	1	0.0669291338582677	34	35	23	1	0	0
+"Highly sodium permeable acetylcholine nicotinic receptors"	"Highly sodium permeable acetylcholine nicotinic receptors"	7	7	7	1	0.0413385826771654	21	22	5	1	0	0
+"Histidine catabolism"	"Histidine catabolism"	5	5	5	1	0.0295275590551181	15	16	6	1	0	0
+"Hyaluronan biosynthesis and export"	"Hyaluronan biosynthesis and export"	4	4	4	1	0.0531496062992126	27	30	10	3	0	0
+"Hydrolysis of LPE"	"Hydrolysis of LPE"	2	2	2	1	0.015748031496063	8	8	7	1	0	0
+"Hydroxycarboxylic acid-binding receptors"	"Hydroxycarboxylic acid-binding receptors"	3	3	3	1	0.0216535433070866	11	11	5	3	0	0
+"Hypusine synthesis from eIF5A-lysine"	"Hypusine synthesis from eIF5A-lysine"	4	4	4	1	0.00984251968503937	5	5	2	1	0	0
+"Influenza Virus Induced Apoptosis"	"Influenza Virus Induced Apoptosis"	4	4	4	1	0.031496062992126	16	16	11	1	0	0
+"Inositol transporters"	"Inositol transporters"	7	7	7	1	0.0610236220472441	31	37	8	3	0	0
+"Insulin effects increased synthesis of Xylulose-5-Phosphate"	"Insulin effects increased synthesis of Xylulose-5-Phosphate"	2	2	2	1	0.0118110236220472	6	6	4	2	0	0
+"Interaction With Cumulus Cells"	"Interaction With Cumulus Cells"	1	1	1	1	0.00393700787401575	2	2	2	2	0	0
+"Interaction With The Zona Pellucida"	"Interaction With The Zona Pellucida"	10	10	10	1	0.078740157480315	40	44	8	1	0	0
+"Interconversion of 2-oxoglutarate and 2-hydroxyglutarate"	"Interconversion of 2-oxoglutarate and 2-hydroxyglutarate"	3	3	3	1	0.0177165354330709	9	9	3	3	0	0
+"Ionotropic activity of Kainate Receptors"	"Ionotropic activity of Kainate Receptors"	10	10	10	1	0.108267716535433	55	61	16	1	0	0
+"Laminin interactions"	"Laminin interactions"	23	23	23	1	0.338582677165354	172	245	37	2	0	0
+"Lectin pathway of complement activation"	"Lectin pathway of complement activation"	6	6	6	1	0.0334645669291339	17	19	7	1	0	0
+"Leukotriene receptors"	"Leukotriene receptors"	5	5	5	1	0.0275590551181102	14	14	6	1	0	0
+"Linoleic acid (LA) metabolism"	"Linoleic acid (LA) metabolism"	6	6	6	1	0.0177165354330709	9	9	2	1	0	0
+"Loss of Function of FBXW7 in Cancer and NOTCH1 Signaling"	"Loss of Function of FBXW7 in Cancer and NOTCH1 Signaling"	5	5	5	1	0.226377952755905	115	130	86	1	0	0
+"Lysosphingolipid and LPA receptors"	"Lysosphingolipid and LPA receptors"	9	9	9	1	0.0413385826771654	21	21	4	1	0	0
+"MRN complex relocalizes to nuclear foci"	"MRN complex relocalizes to nuclear foci"	4	4	4	1	0.0295275590551181	15	16	9	1	0	0
+"Metabolism of serotonin"	"Metabolism of serotonin"	2	2	2	1	0.00590551181102362	3	3	2	1	0	0
+"Microtubule-dependent trafficking of connexons from Golgi to the plasma membrane"	"Microtubule-dependent trafficking of connexons from Golgi to the plasma membrane"	1	1	1	1	0.00393700787401575	2	2	2	2	0	0
+"Mitochondrial Uncoupling Proteins"	"Mitochondrial Uncoupling Proteins"	3	3	3	1	0.0177165354330709	9	9	6	1	0	0
+"Mitochondrial transcription initiation"	"Mitochondrial transcription initiation"	3	3	3	1	0.0137795275590551	7	7	4	1	0	0
+"Molybdenum cofactor biosynthesis"	"Molybdenum cofactor biosynthesis"	6	6	6	1	0.0236220472440945	12	12	3	1	0	0
+"Multifunctional anion exchangers"	"Multifunctional anion exchangers"	6	6	6	1	0.0531496062992126	27	27	8	1	0	0
+"N-Glycan antennae elongation"	"N-Glycan antennae elongation"	15	15	15	1	0.0708661417322835	36	45	7	1	0	0
+"N-glycan antennae elongation in the medial/trans-Golgi"	"N-glycan antennae elongation in the medial/trans-Golgi"	20	20	20	1	0.094488188976378	48	61	7	1	0	0
+"N-glycan trimming and elongation in the cis-Golgi"	"N-glycan trimming and elongation in the cis-Golgi"	5	5	5	1	0.0177165354330709	9	9	3	1	0	0
+"NADPH regeneration"	"NADPH regeneration"	1	1	1	1	0.0078740157480315	4	4	4	4	0	0
+"NFG and proNGF binds to p75NTR"	"NFG and proNGF binds to p75NTR"	3	3	3	1	0.047244094488189	24	24	22	1	0	0
+"NGF processing"	"NGF processing"	4	4	4	1	0.0255905511811024	13	15	10	1	0	0
+"NICD traffics to nucleus"	"NICD traffics to nucleus"	13	13	13	1	0.307086614173228	156	190	86	1	0	0
+"NOSIP mediated eNOS trafficking"	"NOSIP mediated eNOS trafficking"	2	2	2	1	0.0137795275590551	7	7	4	3	0	0
+"Nectin/Necl  trans heterodimerization"	"Nectin/Necl  trans heterodimerization"	7	7	7	1	0.0354330708661417	18	22	6	1	0	0
+"Neurofascin interactions"	"Neurofascin interactions"	7	7	7	1	0.0826771653543307	42	47	10	2	0	0
+"Neurotransmitter uptake and Metabolism In Glial Cells"	"Neurotransmitter uptake and Metabolism In Glial Cells"	4	4	4	1	0.0216535433070866	11	11	4	1	0	0
+"Notch-HLH transcription pathway"	"Notch-HLH transcription pathway"	13	13	13	1	0.307086614173228	156	190	86	1	0	0
+"NrCAM interactions"	"NrCAM interactions"	7	7	7	1	0.0807086614173228	41	45	10	3	0	0
+"Organic anion transport"	"Organic anion transport"	5	5	5	1	0.0295275590551181	15	19	5	2	0	0
+"Organic anion transporters"	"Organic anion transporters"	8	8	8	1	0.0649606299212598	33	34	7	1	0	0
+"PI and PC transport between ER and Golgi membranes"	"PI and PC transport between ER and Golgi membranes"	1	1	1	1	0.00393700787401575	2	2	2	2	0	0
+"PLC-mediated hydrolysis of PIP2"	"PLC-mediated hydrolysis of PIP2"	1	1	1	1	0.0177165354330709	9	9	9	9	0	0
+"Peptide hormone biosynthesis"	"Peptide hormone biosynthesis"	12	12	12	1	0.0452755905511811	23	23	3	1	0	0
+"Plasmalogen biosynthesis"	"Plasmalogen biosynthesis"	4	4	4	1	0.031496062992126	16	17	5	3	0	0
+"Platelet calcium homeostasis"	"Platelet calcium homeostasis"	19	19	19	1	0.218503937007874	111	145	20	2	0	0
+"Post-transcriptional silencing by small RNAs"	"Post-transcriptional silencing by small RNAs"	7	7	7	1	0.094488188976378	48	53	11	4	0	0
+"Potassium transport channels"	"Potassium transport channels"	3	3	3	1	0.0216535433070866	11	11	6	2	0	0
+"Pregnenolone biosynthesis"	"Pregnenolone biosynthesis"	9	9	9	1	0.0255905511811024	13	16	3	1	0	0
+"Processing of Intronless Pre-mRNAs"	"Processing of Intronless Pre-mRNAs"	14	14	14	1	0.0708661417322835	36	41	6	1	0	0
+"Progressive trimming of alpha-1,2-linked mannose residues from Man9/8/7GlcNAc2 to produce Man5GlcNAc2"	"Progressive trimming of alpha-1,2-linked mannose residues from Man9/8/7GlcNAc2 to produce Man5GlcNAc2"	3	3	3	1	0.0078740157480315	4	4	2	1	0	0
+"Proton-coupled neutral amino acid transporters"	"Proton-coupled neutral amino acid transporters"	2	2	2	1	0.00984251968503937	5	5	3	2	0	0
+"Reactions specific to the complex N-glycan synthesis pathway"	"Reactions specific to the complex N-glycan synthesis pathway"	4	4	4	1	0.0255905511811024	13	13	5	2	0	0
+"Reactions specific to the hybrid N-glycan synthesis pathway"	"Reactions specific to the hybrid N-glycan synthesis pathway"	1	1	1	1	0.00590551181102362	3	3	3	3	0	0
+"Receptor-ligand binding initiates the second proteolytic cleavage of Notch receptor"	"Receptor-ligand binding initiates the second proteolytic cleavage of Notch receptor"	14	14	14	1	0.295275590551181	150	171	86	1	0	0
+"Recruitment of repair and signaling proteins to double-strand breaks"	"Recruitment of repair and signaling proteins to double-strand breaks"	8	8	8	1	0.118110236220472	60	70	16	1	0	0
+"Recycling of eIF2:GDP"	"Recycling of eIF2:GDP"	8	8	8	1	0.0374015748031496	19	21	5	1	0	0
+"Reduction of cytosolic Ca++ levels"	"Reduction of cytosolic Ca++ levels"	10	10	10	1	0.127952755905512	65	78	15	4	0	0
+"Regulation by TREX1"	"Regulation by TREX1"	1	1	1	1	0.0078740157480315	4	4	4	4	0	0
+"Regulation of Commissural axon pathfinding by Slit and Robo"	"Regulation of Commissural axon pathfinding by Slit and Robo"	4	4	4	1	0.0984251968503937	50	56	25	4	0	0
+"Regulation of gene expression in endocrine-committed (NEUROG3+) progenitor cells"	"Regulation of gene expression in endocrine-committed (NEUROG3+) progenitor cells"	5	5	5	1	0.0275590551181102	14	14	6	1	0	0
+"Regulation of the Fanconi anemia pathway"	"Regulation of the Fanconi anemia pathway"	10	10	10	1	0.110236220472441	56	65	22	1	0	0
+"Reuptake of GABA"	"Reuptake of GABA"	4	4	4	1	0.0236220472440945	12	12	4	2	0	0
+"Reversal of Alkylation Damage By DNA Dioxygenases"	"Reversal of Alkylation Damage By DNA Dioxygenases"	2	2	2	1	0.0118110236220472	6	6	4	2	0	0
+"Role of second messengers in netrin-1 signaling"	"Role of second messengers in netrin-1 signaling"	10	10	10	1	0.137795275590551	70	85	24	1	0	0
+"Serotonin and melatonin biosynthesis"	"Serotonin and melatonin biosynthesis"	5	5	5	1	0.0374015748031496	19	19	7	1	0	0
+"Serotonin clearance from the synaptic cleft"	"Serotonin clearance from the synaptic cleft"	2	2	2	1	0.00590551181102362	3	3	2	1	0	0
+"Sodium-coupled sulphate, di- and tri-carboxylate transporters"	"Sodium-coupled sulphate, di- and tri-carboxylate transporters"	5	5	5	1	0.0374015748031496	19	21	10	1	0	0
+"Sodium/Calcium exchangers"	"Sodium/Calcium exchangers"	9	9	9	1	0.0905511811023622	46	50	15	1	0	0
+"Sperm Motility And Taxes"	"Sperm Motility And Taxes"	9	9	9	1	0.0846456692913386	43	49	12	1	0	0
+"Sterols are 12-hydroxylated by CYP8B1"	"Sterols are 12-hydroxylated by CYP8B1"	2	2	2	1	0.0236220472440945	12	12	7	5	0	0
+"Sulfide oxidation to sulfate"	"Sulfide oxidation to sulfate"	5	5	5	1	0.0196850393700787	10	10	5	1	0	0
+"Synthesis of 12-eicosatetraenoic acid derivatives"	"Synthesis of 12-eicosatetraenoic acid derivatives"	6	6	6	1	0.0255905511811024	13	14	3	1	0	0
+"Synthesis of CL"	"Synthesis of CL"	1	1	1	1	0.00196850393700787	1	1	1	1	0	0
+"Synthesis of Dolichyl-phosphate"	"Synthesis of Dolichyl-phosphate"	5	5	5	1	0.0177165354330709	9	9	3	1	0	0
+"Synthesis of Hepoxilins (HX) and Trioxilins (TrX)"	"Synthesis of Hepoxilins (HX) and Trioxilins (TrX)"	1	1	1	1	0.00590551181102362	3	3	3	3	0	0
+"Synthesis of IP2, IP, and Ins in the cytosol"	"Synthesis of IP2, IP, and Ins in the cytosol"	11	11	11	1	0.0964566929133858	49	51	11	1	0	0
+"Synthesis of IPs in the ER lumen"	"Synthesis of IPs in the ER lumen"	1	1	1	1	0.0078740157480315	4	4	4	4	0	0
+"Synthesis of PI"	"Synthesis of PI"	2	2	2	1	0.00590551181102362	3	3	2	1	0	0
+"Synthesis of PIPs at the ER membrane"	"Synthesis of PIPs at the ER membrane"	3	3	3	1	0.0196850393700787	10	10	7	1	0	0
+"Synthesis of PIPs at the early endosome membrane"	"Synthesis of PIPs at the early endosome membrane"	13	13	13	1	0.106299212598425	54	63	11	1	0	0
+"Synthesis of PIPs at the late endosome membrane"	"Synthesis of PIPs at the late endosome membrane"	10	10	10	1	0.0925196850393701	47	52	10	1	0	0
+"Synthesis of PS"	"Synthesis of PS"	2	2	2	1	0.015748031496063	8	8	6	2	0	0
+"Synthesis of UDP-N-acetyl-glucosamine"	"Synthesis of UDP-N-acetyl-glucosamine"	5	5	5	1	0.0334645669291339	17	17	7	1	0	0
+"Synthesis of dolichyl-phosphate-glucose"	"Synthesis of dolichyl-phosphate-glucose"	1	1	1	1	0.00393700787401575	2	2	2	2	0	0
+"TET1,2,3 and TDG demethylate DNA"	"TET1,2,3 and TDG demethylate DNA"	4	4	4	1	0.047244094488189	24	26	8	4	0	0
+"TRAIL  signaling"	"TRAIL  signaling"	7	7	7	1	0.118110236220472	60	62	51	1	0	0
+"TWIK related potassium channel (TREK)"	"TWIK related potassium channel (TREK)"	3	3	3	1	0.0177165354330709	9	9	3	3	0	0
+"TWIK-related alkaline pH activated K+ channel (TALK)"	"TWIK-related alkaline pH activated K+ channel (TALK)"	2	2	2	1	0.015748031496063	8	8	7	1	0	0
+"TWIK-related spinal cord K+ channel (TRESK)"	"TWIK-related spinal cord K+ channel (TRESK)"	1	1	1	1	0.0078740157480315	4	4	4	4	0	0
+"TWIK-releated acid-sensitive K+ channel (TASK)"	"TWIK-releated acid-sensitive K+ channel (TASK)"	2	2	2	1	0.0118110236220472	6	6	4	2	0	0
+"Tandem of pore domain in a weak inwardly rectifying K+ channels (TWIK)"	"Tandem of pore domain in a weak inwardly rectifying K+ channels (TWIK)"	3	3	3	1	0.00984251968503937	5	5	2	1	0	0
+"Tandem pore domain halothane-inhibited K+ channel (THIK)"	"Tandem pore domain halothane-inhibited K+ channel (THIK)"	1	1	1	1	0.015748031496063	8	8	8	8	0	0
+"Tandem pore domain potassium channels"	"Tandem pore domain potassium channels"	12	12	12	1	0.0748031496062992	38	40	8	1	0	0
+"Terminal pathway of complement"	"Terminal pathway of complement"	7	7	7	1	0.110236220472441	56	66	18	1	0	0
+"The AIM2 inflammasome"	"The AIM2 inflammasome"	3	3	3	1	0.0078740157480315	4	4	2	1	0	0
+"The activation of arylsulfatases"	"The activation of arylsulfatases"	13	13	13	1	0.0688976377952756	35	40	6	1	0	0
+"The fatty acid cycling model"	"The fatty acid cycling model"	3	3	3	1	0.0177165354330709	9	9	6	1	0	0
+"The proton buffering model"	"The proton buffering model"	3	3	3	1	0.0177165354330709	9	9	6	1	0	0
+"Toxicity of botulinum toxin type C (BoNT/C)"	"Toxicity of botulinum toxin type C (BoNT/C)"	3	3	3	1	0.0177165354330709	9	9	5	1	0	0
+"Transfer of LPS from LBP carrier to CD14"	"Transfer of LPS from LBP carrier to CD14"	2	2	2	1	0.0118110236220472	6	7	6	1	0	0
+"Translesion synthesis by HREV1"	"Translesion synthesis by HREV1"	1	1	1	1	0.00196850393700787	1	1	1	1	0	0
+"Translesion synthesis by Pol eta"	"Translesion synthesis by Pol eta"	1	1	1	1	0.00590551181102362	3	3	3	3	0	0
+"Transmission across Electrical Synapses"	"Transmission across Electrical Synapses"	5	5	5	1	0.0393700787401575	20	21	10	1	0	0
+"Transport of nucleosides and free purine and pyrimidine bases across the plasma membrane"	"Transport of nucleosides and free purine and pyrimidine bases across the plasma membrane"	7	7	7	1	0.0255905511811024	13	15	3	1	0	0
+"Type II Na+/Pi cotransporters"	"Type II Na+/Pi cotransporters"	3	3	3	1	0.0196850393700787	10	11	5	3	0	0
+"Vitamin D (calciferol) metabolism"	"Vitamin D (calciferol) metabolism"	7	7	7	1	0.173228346456693	88	95	37	1	0	0
+"Vitamins"	"Vitamins"	6	6	6	1	0.0413385826771654	21	21	8	1	0	0
+"binding of TCF/LEF:CTNNB1 to target gene promoters"	"binding of TCF/LEF:CTNNB1 to target gene promoters"	7	7	7	1	0.0531496062992126	27	27	6	1	0	0
+"mRNA Editing"	"mRNA Editing"	4	4	4	1	0.031496062992126	16	17	8	1	0	0
+"mRNA Editing: A to I Conversion"	"mRNA Editing: A to I Conversion"	2	2	2	1	0.015748031496063	8	8	6	2	0	0
+"mRNA Editing: C to U Conversion"	"mRNA Editing: C to U Conversion"	2	2	2	1	0.0177165354330709	9	9	8	1	0	0
+"mitochondrial fatty acid beta-oxidation of saturated fatty acids"	"mitochondrial fatty acid beta-oxidation of saturated fatty acids"	8	8	8	1	0.0433070866141732	22	23	4	1	0	0
+"mitochondrial fatty acid beta-oxidation of unsaturated fatty acids"	"mitochondrial fatty acid beta-oxidation of unsaturated fatty acids"	6	6	6	1	0.0255905511811024	13	15	3	1	0	0
+"p75NTR regulates axonogenesis"	"p75NTR regulates axonogenesis"	9	9	9	1	0.0807086614173228	41	44	10	1	0	0
+"regulation of FZD by ubiquitination"	"regulation of FZD by ubiquitination"	21	21	21	1	0.141732283464567	72	91	15	1	0	0
+"O-glycosylation of TSR domain-containing proteins"	"O-glycosylation of TSR domain-containing proteins"	39	39	38	0.974358974358974	0.389763779527559	198	331	31	0	0.000656621125588952	0.0241898756031135
+"Defective B3GAT3 causes JDSSDHD"	"Defective B3GAT3 causes JDSSDHD"	120	120	112	0.933333333333333	0.533464566929134	271	476	28	0	0.000205584308268225	0.00779323917045762
+"Defective B4GALT1 causes B4GALT1-CDG (CDG-2d)"	"Defective B4GALT1 causes B4GALT1-CDG (CDG-2d)"	120	120	112	0.933333333333333	0.533464566929134	271	476	28	0	0.000205584308268225	0.00779323917045762
+"Defective B4GALT7 causes EDS, progeroid type"	"Defective B4GALT7 causes EDS, progeroid type"	120	120	112	0.933333333333333	0.533464566929134	271	476	28	0	0.000205584308268225	0.00779323917045762
+"Defective CHST14 causes EDS, musculocontractural type"	"Defective CHST14 causes EDS, musculocontractural type"	120	120	112	0.933333333333333	0.533464566929134	271	476	28	0	0.000205584308268225	0.00779323917045762
+"Defective CHST3 causes SEDCJD"	"Defective CHST3 causes SEDCJD"	120	120	112	0.933333333333333	0.533464566929134	271	476	28	0	0.000205584308268225	0.00779323917045762
+"Defective CHST6 causes MCDC1"	"Defective CHST6 causes MCDC1"	120	120	112	0.933333333333333	0.533464566929134	271	476	28	0	0.000205584308268225	0.00779323917045762
+"Defective CHSY1 causes TPBS"	"Defective CHSY1 causes TPBS"	120	120	112	0.933333333333333	0.533464566929134	271	476	28	0	0.000205584308268225	0.00779323917045762
+"Defective EXT1 causes exostoses 1, TRPS2 and CHDS"	"Defective EXT1 causes exostoses 1, TRPS2 and CHDS"	120	120	112	0.933333333333333	0.533464566929134	271	476	28	0	0.000205584308268225	0.00779323917045762
+"Defective EXT2 causes exostoses 2"	"Defective EXT2 causes exostoses 2"	120	120	112	0.933333333333333	0.533464566929134	271	476	28	0	0.000205584308268225	0.00779323917045762
+"Defective PAPSS2 causes SEMD-PA"	"Defective PAPSS2 causes SEMD-PA"	120	120	112	0.933333333333333	0.533464566929134	271	476	28	0	0.000205584308268225	0.00779323917045762
+"Defective SLC26A2 causes chondrodysplasias"	"Defective SLC26A2 causes chondrodysplasias"	120	120	112	0.933333333333333	0.533464566929134	271	476	28	0	0.000205584308268225	0.00779323917045762
+"Diseases associated with glycosaminoglycan metabolism"	"Diseases associated with glycosaminoglycan metabolism"	120	120	112	0.933333333333333	0.533464566929134	271	476	28	0	0.000205584308268225	0.00779323917045762
+"Glycosaminoglycan metabolism"	"Glycosaminoglycan metabolism"	120	120	112	0.933333333333333	0.533464566929134	271	476	28	0	0.000205584308268225	0.00779323917045762
+"MPS I - Hurler syndrome"	"MPS I - Hurler syndrome"	120	120	112	0.933333333333333	0.533464566929134	271	476	28	0	0.000205584308268225	0.00779323917045762
+"MPS II - Hunter syndrome"	"MPS II - Hunter syndrome"	120	120	112	0.933333333333333	0.533464566929134	271	476	28	0	0.000205584308268225	0.00779323917045762
+"MPS IIIA - Sanfilippo syndrome A"	"MPS IIIA - Sanfilippo syndrome A"	120	120	112	0.933333333333333	0.533464566929134	271	476	28	0	0.000205584308268225	0.00779323917045762
+"MPS IIIB - Sanfilippo syndrome B"	"MPS IIIB - Sanfilippo syndrome B"	120	120	112	0.933333333333333	0.533464566929134	271	476	28	0	0.000205584308268225	0.00779323917045762
+"MPS IIIC - Sanfilippo syndrome C"	"MPS IIIC - Sanfilippo syndrome C"	120	120	112	0.933333333333333	0.533464566929134	271	476	28	0	0.000205584308268225	0.00779323917045762
+"MPS IIID - Sanfilippo syndrome D"	"MPS IIID - Sanfilippo syndrome D"	120	120	112	0.933333333333333	0.533464566929134	271	476	28	0	0.000205584308268225	0.00779323917045762
+"MPS IV - Morquio syndrome A"	"MPS IV - Morquio syndrome A"	120	120	112	0.933333333333333	0.533464566929134	271	476	28	0	0.000205584308268225	0.00779323917045762
+"MPS IV - Morquio syndrome B"	"MPS IV - Morquio syndrome B"	120	120	112	0.933333333333333	0.533464566929134	271	476	28	0	0.000205584308268225	0.00779323917045762
+"MPS IX - Natowicz syndrome"	"MPS IX - Natowicz syndrome"	120	120	112	0.933333333333333	0.533464566929134	271	476	28	0	0.000205584308268225	0.00779323917045762
+"MPS VI - Maroteaux-Lamy syndrome"	"MPS VI - Maroteaux-Lamy syndrome"	120	120	112	0.933333333333333	0.533464566929134	271	476	28	0	0.000205584308268225	0.00779323917045762
+"MPS VII - Sly syndrome"	"MPS VII - Sly syndrome"	120	120	112	0.933333333333333	0.533464566929134	271	476	28	0	0.000205584308268225	0.00779323917045762
+"Mucopolysaccharidoses"	"Mucopolysaccharidoses"	120	120	112	0.933333333333333	0.533464566929134	271	476	28	0	0.000205584308268225	0.00779323917045762
