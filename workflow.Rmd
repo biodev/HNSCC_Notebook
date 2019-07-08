@@ -13,36 +13,29 @@ knitr::opts_chunk$set(echo = TRUE)
 
 This notebook and repo contains everything needed to reproduce the light/dark pathway analysis in Choonoo, et al.
 
-```{r cars}
-# Set directory to the package contents
-#setwd("/Users/choonoo/pathLayerDistributionVersion2-master")
+```{r}
 library(here)
-# Install package
-#all_r_files <- list.files(here("R"),full.names = TRUE )
-#devtools::install("./packageDir")
-#lapply(all_r_files, source)
-
-
-# Load packages
 library("packageDir")
 library("roxygen2")
 library("rBiopaxParser")
 library("stringr")
 ```
 
-##
+## Processing Pathway Information
 
-```{r}
+
+
+```{r include=FALSE}
 path_detail <- getDefaultPaths("reference_data/paths/ReactomePathways 2015 02 17 13 46 25 2019.06.10 18.48.35.txt")
 saveRDS(path_detail, file="data/path_detail.rds")
-
 ```
 
-## Including Plots
+## Running Overlap analysis
 
-You can also embed plots, for example:
+A number of settings options have to be set for this analysis. 
 
 ```{r}
+path_detail <- readRDS("data/path_detail.rds")
 
 settings <- getBasicSettings()
 
@@ -70,7 +63,6 @@ If yes, please enter a mutation count threshold.
 If no just press enter n ` <- "n"
 
 settings$somatic_mutation_aberration_summary$`Use special path significance analysis settings for this data type? (y/n)` <- "n"
-
  
 ```
 
@@ -104,99 +96,20 @@ settings$functional_drug_screen_summary$`
 
 
 study = getStudyObject(study.name="hnscc", 
-											 geneIdentifierType="HUGO",path_detail = path_detail, settings = settings)
+											 geneIdentifierType="HUGO",
+											 path_detail = path_detail, 
+											 settings = settings)
+```
 
+## Running the Analysis
+
+
+
+```{r}
 study <- loadBasicArms(study)
-
 study <- autoRunFromSettings(study)
-
 saveStudy(study)
 
 ```
 
 
-```{r}
-	if(is.null(path_detail)){
-			path_detail = getPaths()
-			STUDY@studyMetaData@paths = path_detail
-	}
-
-		STUDY = loadBasicArms(STUDY=STUDY)
-
-				if(class(additionalArms)=="function"){
-			print("loading additional arms")
-			STUDY = additionalArms(STUDY=STUDY)
-		}
-		
-		
-```
-
-```
-
-```
-Pathway source: reactome pathways
-
-
-Load somatic mutation data (option 5)
-
-
-```
-# Have manual gene symbol corrections already been conducted? (y/n)
-```
-Answer: no
-
-
-
-```{r eval=FALSE}
-library(packageDir)
-
-STUDY = initiateStudy(path_detail=path_detail)
-
-getPaths() #<- needs pathwayMetadataFile.txt, Reactome.2014.04.06.12.52.27.txt
-
-loadBasicArms()
-
-runArm()
-
-#run an individual part of analysis
-STUDY=runArm(armDescription=sel, study=STUDY)
-			results = STUDY@results
-
-# run the entire study
-STUDY = autoRunFromSettings(study=STUDY)
-			results = STUDY@results
-
-# functions <- RunDrugScreen, runSomaticMutationsProcessing, RunGenericEnrichment, RunOverlapAnalysis
-
-#RunDrugScreen(settings, study)
-#runPanelAnalysis(path_detail=path_detail, s=s, study=study)
-			
-#runSomaticMutationsProcessing(settings, study)
-#processSomaticData(study, study_name="no_study_name_provided", paths_detail, s=list())
-			
-#RunGenericEnrichment(settings, study)
-#RunGenericEnrichment_main(aberration_data_type=aberration_data_type,
-																	# study=study,
-																	# dataSetName=dataSetName,
-																	# pgm=NULL,
-																	# genevector=NULL,
-																	# targetName=targetName,
-																	# target_list=target_list,
-																	# path_detail=study@studyMetaData@paths, 
-																	# s=s)
-			
-#RunOverlapAnalysis(settings, study)
-#abDrugOverlapAnalysis(study=study, settings=settings)
-			# abDrugOverlapAnalysis<-function(study,
-			# 													thresh=0.05,
-			# 													enrich_col="hyperg_p_w_FDR",
-			# 													verbose=T,
-			# 													settings=NULL)
-			
-			
-			
-STUDY = addPathwayImagesWithSelection(study=STUDY)
-
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
