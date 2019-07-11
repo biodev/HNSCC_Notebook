@@ -17,7 +17,6 @@ This notebook and repo contains everything needed to reproduce the light/dark pa
 library(here)
 library("packageDir")
 library("roxygen2")
-library("rBiopaxParser")
 library("stringr")
 ```
 
@@ -85,20 +84,8 @@ settings$functional_drug_screen_summary$`
  To save an HTML summary of the results enter h
  To exit drug screen interface, enter q
 ` <- "p"
- 
- settings$functional_drug_screen_summary$`Please select a file with a drug screen results data set
-` <- "data/Targetome_Level123_8_7_17.txt"
- 
- settings$functional_drug_screen_summary$`Have manual symbol corrections been performed yet for the current data set? (y/n)` <- "y"
 
-
-#select gene, not target
-
-
-study = getStudyObject(study.name="hnscc", 
-											 geneIdentifierType="HUGO",
-											 path_detail = path_detail, 
-											 settings = settings)
+study = getStudyObject(study.name="hnscc", geneIdentifierType="HUGO", path_detail = path_detail, settings = settings)
 ```
 
 ## Running the Analysis
