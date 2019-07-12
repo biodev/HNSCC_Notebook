@@ -9,6 +9,17 @@ output: html_notebook
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+## Installing the packageDir package
+
+The majority of the analysis code is contained in a package called `packageDir` authored by Sam Higgins.
+
+To install, use the following code:
+
+```{r}
+install.packages("remotes")
+remotes::install_github("biodev/packageDir")
+```
+
 ## Reproducing HNSCC notebook
 
 This notebook and repo contains everything needed to reproduce the light/dark pathway analysis in Choonoo, et al.
@@ -23,7 +34,7 @@ library("DT")
 
 ## Processing Pathway Information
 
-This step takes a little bit of time, so we've cached the results in `data/path_detail.rds`. Make `eval=TRUE` to run it
+This step takes a little bit of time, so we've cached the results in `data/path_detail.rds`. Make `eval=TRUE` to run this part of the workflow.
 
 ```{r eval=FALSE}
 path_detail <- getDefaultPaths("reference_data/paths/ReactomePathways 2015 02 17 13 46 25 2019.06.10 18.48.35.txt")
@@ -58,7 +69,7 @@ settings$somatic_mutation_aberration_summary$`Have manual gene symbol correction
 
 settings$somatic_mutation_aberration_summary$`
 Please enter the row numbers of the variant types you would like to analyze (sepparated by a space).
-(Full list of options.)` <- "Frame_Shift_Del; Frame_Shift_Ins; In_Frame_Del; In_Frame_Ins; Missense_Mutation; Nonsense_Mutation; Nonstop_Mutation; Splice_Site"
+(Full list of options.)` <- "\nFrame_Shift_Del; Frame_Shift_Ins; In_Frame_Del; In_Frame_Ins; Missense_Mutation; Nonsense_Mutation; Nonstop_Mutation; Splice_Site"
 
 settings$somatic_mutation_aberration_summary$`Would you like to filter out hypermutators?
 If yes, please enter a mutation count threshold.
