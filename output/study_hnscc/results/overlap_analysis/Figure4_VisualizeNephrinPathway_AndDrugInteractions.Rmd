@@ -1,0 +1,81 @@
+---
+title: "Figure4- Visualization of Nephrin Interactions and Drug Target Evidence"
+author: "Aurora S Blucher"
+date: "7/9/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(dplyr)
+library(ggplot2)
+library(tidyr)
+
+
+```
+
+
+This script creates the table for drug-target interactions for drugs interacting with the Nephrin Interaction pathway. It parses the Reactome gene set file, selects the member genes for the Nephrin Interactions pathway, and selects all drug-target interactions from the Cancer Targetome.
+
+Produces the table "NephrinInteractions_GeneMembers_withDrugEvidence.txt" which was cross-checked with drug information pulled from ReactomeFIViz Cytoscape app. Target information in this file was used to manually adjust colors of nodes and edges in visualization of pathway for Figure 4.
+
+
+```{r cars}
+#PARSING REACTOME PATHWAY FILE
+#Pathway->Gene members
+#Using same version as Gabby's analyses (2015 version)
+#read in as one column, then split
+reactomePathway_GeneList<-read.csv(file="ReactomePathways 2015.02.17 13.46.25.txt",header = FALSE,sep = "\n")
+
+#first separate pathway name and "Reactome Pathways"
+#then separate_rows to convert to LONG format
+#remove unneeded "ReactomePathways" indicator
+pathwayList_GenesOneColumn<-reactomePathway_GeneList%>% 
+  separate(V1, c("Pathway", "Extra_AndGenes"), sep = "\t", extra = "merge") %>%
+  separate_rows(Extra_AndGenes) %>% filter(Extra_AndGenes!="ReactomePathways") %>% select(Pathway, "Gene"=Extra_AndGenes)
+
+#FILTER TO NEPHRIN INTERACTIONS PATHWAY
+nephrinInteractions<-pathwayList_GenesOneColumn %>% filter(Pathway=="Nephrin interactions")
+nephrinInteractions #22 genes total, correct
+
+
+#PARSE DRUG-TARGET INTERACTION DATA CANCER TARGETOME
+#Drug->Target interaction evidence
+#Using same version as Gabby's analyses (2017 Targetome evidence file)
+allInteractionData<-read.csv(file="Targetome_FullEvidence_070617.txt",header = TRUE,sep = "\t") 
+
+#FILTERING AND CLEAN UP INTERACTION EVIDENCE (same cleaning steps as in TIPS Targetome paper)
+#Filter interaction data to target species = human
+drugInteractions<-allInteractionData %>% filter(Target_Species=="Homo sapiens")
+#Clean up assay types for easier filtering
+levels(drugInteractions$Assay_Type)<-list(KD=c("KD", "Kd"), Ki=c("Ki"), IC50=c("EC50"), EC50=c("EC50"), null=c("null"))
+#Make sure assay values are read in as numeric!
+drugInteractions$Assay_Value<-as.numeric(as.character(drugInteractions$Assay_Value))
+
+#filter to ATC class L drugs= antineoplastics (to match Gabby's analyses for HNSCC light and dark pathways)
+#uses accompanying drug information file for drug-target evidence
+alldrugData<-read.csv(file = "Targetome_DrugInformation_070617.txt", header= TRUE, sep="\t")
+cancerDrugs<-alldrugData%>% filter(grepl("^L", ATC_ClassID)) 
+drugInteractions_cleaned<-drugInteractions%>%filter(Drug %in% cancerDrugs$Drug)
+#final cleaned targetome evidence file
+n_distinct(drugInteractions_cleaned$Drug) #check # of drugs, 137 with evidence, correct (141 total drugs, 137 with interaction evidence)
+
+#GET DRUG-TARGET INTERACTIONS FOR NEPHRIN PATHWAYS
+nephrinPathway_Interactions<-drugInteractions_cleaned %>% filter (Target_Name %in% nephrinInteractions$Gene) %>% unique()
+  
+#Filter interactions to <1000nM, require "=" reported
+nephrinPathway_Interactions_1000nM<-nephrinPathway_Interactions %>% filter(Assay_Relation=="=" & Assay_Value<=1000)
+
+#summarize just the best (minimum assay value) for each drug-target interaction
+summaryEvidence<-nephrinPathway_Interactions_1000nM %>% 
+  group_by(Target_Name, Drug, Assay_Type) %>% 
+  summarize(MinAssayValue=min(Assay_Value)) %>%
+  select(Target_Name, Drug, Assay_Type, MinAssayValue)
+summaryEvidence #interactions we want to visualize
+
+#write table to file
+write.table(summaryEvidence, "NephrinInteractions_GeneMembers_withDrugEvidence.txt", sep="\t", row.names = FALSE, col.names = TRUE, quote = FALSE)
+
+
+
+```
