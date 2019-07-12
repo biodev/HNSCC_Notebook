@@ -10,7 +10,7 @@ To exit somatic mutation interface: enter 3.
 "Would you like to include PolyPhen analysis results in this analysis? (y/n) "	"n"
 "
 Please enter the row numbers of the variant types you would like to analyze (sepparated by a space).
-"	"Frame_Shift_Del; Frame_Shift_Ins; In_Frame_Del; In_Frame_Ins; Missense_Mutation; Nonsense_Mutation; Nonstop_Mutation; Splice_Site"
+"	"Missense_Mutation; Nonsense_Mutation"
 "
 Please enter the row numbers of the variant types you would like to analyze (sepparated by a space).
 (Full list of options.)"	"Frame_Shift_Del; Frame_Shift_Ins; In_Frame_Del; In_Frame_Ins; Missense_Mutation; Nonsense_Mutation; Nonstop_Mutation; Splice_Region; Splice_Site; Translation_Start_Site"

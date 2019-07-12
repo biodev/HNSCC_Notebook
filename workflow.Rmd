@@ -2,7 +2,7 @@
 title: "Light/Dark Pathways Workflow"
 author: "Ted Laderas"
 date: "6/6/2019"
-output: html_document
+output: html_notebook
 ---
 
 ```{r setup, include=FALSE}
@@ -18,13 +18,14 @@ library(here)
 library("packageDir")
 library("roxygen2")
 library("stringr")
+library("DT")
 ```
 
 ## Processing Pathway Information
 
+This step takes a little bit of time, so we've cached the results in `data/path_detail.rds`. Make `eval=TRUE` to run it
 
-
-```{r include=FALSE}
+```{r eval=FALSE}
 path_detail <- getDefaultPaths("reference_data/paths/ReactomePathways 2015 02 17 13 46 25 2019.06.10 18.48.35.txt")
 saveRDS(path_detail, file="data/path_detail.rds")
 ```
@@ -32,6 +33,8 @@ saveRDS(path_detail, file="data/path_detail.rds")
 ## Running Overlap analysis
 
 A number of settings options have to be set for this analysis. 
+
+### Somatic Mutation Settings
 
 ```{r}
 path_detail <- readRDS("data/path_detail.rds")
@@ -55,7 +58,7 @@ settings$somatic_mutation_aberration_summary$`Have manual gene symbol correction
 
 settings$somatic_mutation_aberration_summary$`
 Please enter the row numbers of the variant types you would like to analyze (sepparated by a space).
-` <- "Frame_Shift_Del; Frame_Shift_Ins; In_Frame_Del; In_Frame_Ins; Missense_Mutation; Nonsense_Mutation; Nonstop_Mutation; Splice_Site"
+(Full list of options.)` <- "Frame_Shift_Del; Frame_Shift_Ins; In_Frame_Del; In_Frame_Ins; Missense_Mutation; Nonsense_Mutation; Nonstop_Mutation; Splice_Site"
 
 settings$somatic_mutation_aberration_summary$`Would you like to filter out hypermutators?
 If yes, please enter a mutation count threshold.
@@ -66,7 +69,7 @@ settings$somatic_mutation_aberration_summary$`Use special path significance anal
 ```
 
 
-# Process Drug Screen Settings
+# Process Functional Drug Screen Settings
 
 ```{r}
 settings$functional_drug_screen_summary$`Please select a file with a drug screen results data set
@@ -84,13 +87,26 @@ settings$functional_drug_screen_summary$`
  To save an HTML summary of the results enter h
  To exit drug screen interface, enter q
 ` <- "p"
+ 
+settings$functional_drug_screen_summary[['Enter \\"g\\" to examine coverage using a set of gene names.\nEnter \\"d\\" to examine coverage using drug names, along with a drug target matrix: ']] <- "g"
 
+settings$functional_drug_screen_summary$`Please select a file` <- "data/Targetome_Level123_8_7_17.txt"
+
+settings$functional_drug_screen_summary$`Please type in the name of the column with the gene symbols: ` <-	"targets"
+settings$functional_drug_screen_summary$`Have manual gene symbol corrections already been made? (y/n)` <-	"y"
+```
+
+## Building the study with the settings
+
+```{r}
 study = getStudyObject(study.name="hnscc", geneIdentifierType="HUGO", path_detail = path_detail, settings = settings)
 ```
 
 ## Running the Analysis
 
+`loadBasicArms()` loads the data from the specified locations.
 
+`autoRunFromSettings()` runs all of the mutation processing and overlap analysis code.
 
 ```{r}
 study <- loadBasicArms(study)
@@ -99,4 +115,20 @@ saveStudy(study)
 
 ```
 
+## Inspecting the output
 
+Output is generated in `output/study_hnscc/results/overlap_analysis`. The relevant files are:
+
+`Aberrationally enriched, containing drug targets.txt` - Light pathway file
+
+```{r}
+lightPaths <- read.delim("output/study_hnscc/results/overlap_analysis/Aberrationally enriched, containing drug targets.txt", delim="\t")
+DT::datatable(lightPaths)
+```
+
+`Aberration enriched, not drug targeted.txt` - Dark pathway file
+
+```{r}
+darkPaths <- read.delim("output/study_hnscc/results/overlap_analysis/Aberration enriched, not drug targeted.txt", delim = "\t")
+DT::datatable(darkPaths)
+```

@@ -18,8 +18,8 @@
 "Analyze pathways for individual members of the cohort? (y or n) "	"n"
 "Would you like to run the path analysis in verbose mode? (y or n) "	"y"
 "To add additional path significance tests, please select the R script file containing the interfaces to these enrichment tests"	""
-"Enter \"g\" to examine coverage using a set of gene names.
-Enter \"d\" to examine coverage using drug names, along with a drug target matrix: "	"g"
-"Please select a file"	"C:\Code\HNSCC_Notebook\data\Targetome_Level123_8_7_17.txt"
+"Enter \\"g\\" to examine coverage using a set of gene names.
+Enter \\"d\\" to examine coverage using drug names, along with a drug target matrix: "	"g"
+"Please select a file"	"data/Targetome_Level123_8_7_17.txt"
 "Please type in the name of the column with the gene symbols: "	"targets"
 "Have manual gene symbol corrections already been made? (y/n)"	"y"

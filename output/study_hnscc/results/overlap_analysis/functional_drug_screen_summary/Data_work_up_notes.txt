@@ -1,3 +1,3 @@
 "Note"	"Value"
-"1"	"Drug screen coverage data file used"	"C:\Code\HNSCC_Notebook\data\Targetome_Level123_8_7_17.txt"
+"1"	"Drug screen coverage data file used"	"data/Targetome_Level123_8_7_17.txt"
 "2"	"Time stamp for drug screen data file"	"2019-06-06 12:40:47"
