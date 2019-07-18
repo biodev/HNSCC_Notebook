@@ -18,7 +18,6 @@ pkgs <- c(
   "GSEABase",
   "Gviz",
   "AnnotationDbi", 
-  "reactome.db", 
   "graphite", 
   "HGNChelper", 
   "graph",
