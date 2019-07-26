@@ -8,8 +8,11 @@ This repository contains the workflow for light and dark pathway analysis of hea
 
 ###Input Data
 [TCGA HNSCC cohort gene mutations](https://github.com/biodev/HNSCC_Notebook/blob/master/data/TCGA.HNSC.mutect.84c7a87a-9dcc-48fb-bd69-ba9d6e6f3ca2.DR-7.0.somatic_cleaned.maf)
+
 [Reactome Pathways](https://github.com/biodev/HNSCC_Notebook/tree/master/reference_data/paths)
+
 [Target list from Cancer Targetome](https://github.com/biodev/HNSCC_Notebook/blob/master/data/Targetome_Level123_8_7_17.txt)
+
 [HPV consensus annotation file](https://github.com/biodev/HNSCC_Notebook/blob/master/data/HPV_Annotation_MB.csv)
 
 ###Notebooks
