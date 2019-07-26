@@ -39,7 +39,7 @@ HPV-Negative Cohort Dark Pathways
 
 
 ### Citation
-Choonoo, et al. 2019. Illuminating biological pathways for drug targeting in head and neck squamous cell carcinoma. *Submitted*
+Choonoo, G., Blucher, A., Higgins, S., Boardman, M., Jeng, S., Zheng, C., Jacobs, J., Anderson, A., Chamberlin, S., Evans, N., Vigoda, M., Cordier, B., Tyner, J., Kulesz-Martin, M., McWeeney, S., and Laderas, T.  2019. Illuminating biological pathways for drug targeting in head and neck squamous cell carcinoma. *Submitted*
 
 ### Contact
 Please contact Ted Laderas and/or Aurora Blucher for questions relating to this work.
