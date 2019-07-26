@@ -6,7 +6,7 @@
 
 This repository contains the workflow for light and dark pathway analysis of head and neck squamous cell carcinoma (HNSCC). For the TCGA cohort, we first assessed biological pathways that are significantly enriched for gene mutations in HNSCC patient tumors and then evaluated whether these pathways contained drug targets of FDA-approved cancer drugs. Enriched pathways containing drug targets are "light" to drugs and therefore of interest for targeting with the current set of approved drugs. Enriched pathways containing no drug targets are "dark" to drugs and of interest for future therapeutics development. 
 
-![Figure 1. Identifying Targetable Pathways in the TCGA Head and Neck Squamous Cell Carcinoma Cohort](Figure1_Overview.pdf)
+![Figure 1. Identifying Targetable Pathways in the TCGA Head and Neck Squamous Cell Carcinoma Cohort](Figure1_Overview_070919.pdf)
 
 ### Notebook
 The notebook for this analysis can be found [here](https://github.com/biodev/HNSCC_Notebook/blob/master/HNSCC_Dark_Pathways.ipynb). This workflow requires the input files outlined below and produces the "light" and "dark" pathways presented and discussed in our manuscript.
