@@ -1,0 +1,529 @@
+,TCGA_BARCODE,NATURE_BARCODE,ONCOTARGET_HPV_BARCODE,ONCOTARGET_BARCODE,NATURE_HPV_STATUS,TCGA_HPV_STATUS,ONCOTARGET_HPV_TYPE,ONCOTARGET_WGS,ONCOTARGET_HPV_STATUS,FINAL_HPV_CALL
+1,TCGA-BA-4074,TCGA-BA-4074,NA,TCGA-BA-4074,Negative,NA,NA,yes,Negative,High Confidence Negative
+2,TCGA-BA-4075,NA,NA,TCGA-BA-4075,NA,NA,NA,yes,Negative,High Confidence Negative
+3,TCGA-BA-4076,TCGA-BA-4076,NA,TCGA-BA-4076,Negative,NA,NA,yes,Negative,High Confidence Negative
+5,TCGA-BA-4078,TCGA-BA-4078,NA,TCGA-BA-4078,Negative,NA,NA,yes,Negative,High Confidence Negative
+6,TCGA-BA-5149,TCGA-BA-5149,NA,TCGA-BA-5149,Negative,NA,NA,yes,Negative,High Confidence Negative
+7,TCGA-BA-5151,TCGA-BA-5151,NA,TCGA-BA-5151,Negative,NA,NA,yes,Negative,High Confidence Negative
+10,TCGA-BA-5555,TCGA-BA-5555,NA,TCGA-BA-5555,Negative,NA,NA,yes,Negative,High Confidence Negative
+11,TCGA-BA-5556,TCGA-BA-5556,NA,TCGA-BA-5556,Negative,NA,NA,yes,Negative,High Confidence Negative
+12,TCGA-BA-5557,TCGA-BA-5557,NA,TCGA-BA-5557,Negative,NA,NA,yes,Negative,High Confidence Negative
+13,TCGA-BA-5558,TCGA-BA-5558,NA,TCGA-BA-5558,Negative,NA,NA,yes,Negative,High Confidence Negative
+16,TCGA-BA-6869,TCGA-BA-6869,NA,TCGA-BA-6869,Negative,NA,NA,yes,Negative,High Confidence Negative
+19,TCGA-BA-6872,TCGA-BA-6872,NA,TCGA-BA-6872,Negative,NA,NA,yes,Negative,High Confidence Negative
+20,TCGA-BA-6873,TCGA-BA-6873,NA,TCGA-BA-6873,Negative,NA,NA,yes,Negative,High Confidence Negative
+39,TCGA-BB-4224,TCGA-BB-4224,NA,TCGA-BB-4224,Negative,NA,NA,yes,Negative,High Confidence Negative
+60,TCGA-CN-4722,NA,NA,TCGA-CN-4722,NA,NA,NA,yes,Negative,High Confidence Negative
+62,TCGA-CN-4725,TCGA-CN-4725,NA,TCGA-CN-4725,Negative,NA,NA,yes,Negative,High Confidence Negative
+64,TCGA-CN-4727,TCGA-CN-4727,NA,TCGA-CN-4727,Negative,NA,NA,yes,Negative,High Confidence Negative
+66,TCGA-CN-4729,TCGA-CN-4729,NA,TCGA-CN-4729,Negative,NA,NA,yes,Negative,High Confidence Negative
+67,TCGA-CN-4730,TCGA-CN-4730,NA,TCGA-CN-4730,Negative,NA,NA,yes,Negative,High Confidence Negative
+68,TCGA-CN-4731,TCGA-CN-4731,NA,TCGA-CN-4731,Negative,NA,NA,yes,Negative,High Confidence Negative
+69,TCGA-CN-4733,TCGA-CN-4733,NA,TCGA-CN-4733,Negative,NA,NA,yes,Negative,High Confidence Negative
+70,TCGA-CN-4734,NA,NA,TCGA-CN-4734,NA,NA,NA,yes,Negative,High Confidence Negative
+71,TCGA-CN-4735,TCGA-CN-4735,NA,TCGA-CN-4735,Negative,NA,NA,yes,Negative,High Confidence Negative
+72,TCGA-CN-4736,TCGA-CN-4736,NA,TCGA-CN-4736,Negative,NA,NA,yes,Negative,High Confidence Negative
+73,TCGA-CN-4737,TCGA-CN-4737,NA,TCGA-CN-4737,Negative,NA,NA,yes,Negative,High Confidence Negative
+74,TCGA-CN-4738,TCGA-CN-4738,NA,TCGA-CN-4738,Negative,NA,NA,yes,Negative,High Confidence Negative
+75,TCGA-CN-4739,TCGA-CN-4739,NA,TCGA-CN-4739,Negative,NA,NA,yes,Negative,High Confidence Negative
+76,TCGA-CN-4740,TCGA-CN-4740,NA,TCGA-CN-4740,Negative,NA,NA,yes,Negative,High Confidence Negative
+78,TCGA-CN-4742,TCGA-CN-4742,NA,TCGA-CN-4742,Negative,NA,NA,yes,Negative,High Confidence Negative
+79,TCGA-CN-5355,TCGA-CN-5355,NA,TCGA-CN-5355,Negative,NA,NA,yes,Negative,High Confidence Negative
+80,TCGA-CN-5356,TCGA-CN-5356,NA,TCGA-CN-5356,Negative,NA,NA,yes,Negative,High Confidence Negative
+83,TCGA-CN-5360,TCGA-CN-5360,NA,TCGA-CN-5360,Negative,NA,NA,yes,Negative,High Confidence Negative
+84,TCGA-CN-5361,NA,NA,TCGA-CN-5361,NA,NA,NA,yes,Negative,High Confidence Negative
+85,TCGA-CN-5363,TCGA-CN-5363,NA,TCGA-CN-5363,Negative,NA,NA,yes,Negative,High Confidence Negative
+86,TCGA-CN-5364,TCGA-CN-5364,NA,TCGA-CN-5364,Negative,NA,NA,yes,Negative,High Confidence Negative
+87,TCGA-CN-5365,TCGA-CN-5365,NA,TCGA-CN-5365,Negative,NA,NA,yes,Negative,High Confidence Negative
+88,TCGA-CN-5366,TCGA-CN-5366,NA,TCGA-CN-5366,Negative,NA,NA,yes,Negative,High Confidence Negative
+89,TCGA-CN-5367,TCGA-CN-5367,NA,TCGA-CN-5367,Negative,NA,NA,yes,Negative,High Confidence Negative
+90,TCGA-CN-5369,TCGA-CN-5369,NA,TCGA-CN-5369,Negative,NA,NA,yes,Negative,High Confidence Negative
+92,TCGA-CN-5373,TCGA-CN-5373,NA,TCGA-CN-5373,Negative,NA,NA,yes,Negative,High Confidence Negative
+95,TCGA-CN-6011,TCGA-CN-6011,NA,TCGA-CN-6011,Negative,NA,NA,yes,Negative,High Confidence Negative
+97,TCGA-CN-6013,TCGA-CN-6013,NA,TCGA-CN-6013,Negative,NA,NA,yes,Negative,High Confidence Negative
+99,TCGA-CN-6017,TCGA-CN-6017,NA,TCGA-CN-6017,Negative,NA,NA,yes,Negative,High Confidence Negative
+100,TCGA-CN-6018,TCGA-CN-6018,NA,TCGA-CN-6018,Negative,NA,NA,yes,Negative,High Confidence Negative
+101,TCGA-CN-6019,TCGA-CN-6019,NA,TCGA-CN-6019,Negative,NA,NA,yes,Negative,High Confidence Negative
+108,TCGA-CN-6989,TCGA-CN-6989,NA,TCGA-CN-6989,Negative,NA,NA,yes,Negative,High Confidence Negative
+110,TCGA-CN-6994,TCGA-CN-6994,NA,TCGA-CN-6994,Negative,NA,NA,yes,Negative,High Confidence Negative
+112,TCGA-CN-6996,NA,NA,TCGA-CN-6996,NA,NA,NA,yes,Negative,High Confidence Negative
+114,TCGA-CN-6998,TCGA-CN-6998,NA,TCGA-CN-6998,Negative,NA,NA,yes,Negative,High Confidence Negative
+136,TCGA-CQ-5325,TCGA-CQ-5325,NA,TCGA-CQ-5325,Negative,NA,NA,yes,Negative,High Confidence Negative
+138,TCGA-CQ-5327,NA,NA,TCGA-CQ-5327,NA,NA,NA,yes,Negative,High Confidence Negative
+139,TCGA-CQ-5329,TCGA-CQ-5329,NA,TCGA-CQ-5329,Negative,NA,NA,yes,Negative,High Confidence Negative
+140,TCGA-CQ-5330,TCGA-CQ-5330,NA,TCGA-CQ-5330,Negative,NA,NA,yes,Negative,High Confidence Negative
+146,TCGA-CQ-6219,NA,NA,TCGA-CQ-6219,NA,NA,NA,yes,Negative,High Confidence Negative
+147,TCGA-CQ-6220,TCGA-CQ-6220,NA,TCGA-CQ-6220,Negative,NA,NA,yes,Negative,High Confidence Negative
+148,TCGA-CQ-6221,TCGA-CQ-6221,NA,TCGA-CQ-6221,Negative,NA,NA,yes,Negative,High Confidence Negative
+150,TCGA-CQ-6223,TCGA-CQ-6223,NA,TCGA-CQ-6223,Negative,NA,NA,yes,Negative,High Confidence Negative
+151,TCGA-CQ-6224,TCGA-CQ-6224,NA,TCGA-CQ-6224,Negative,NA,NA,yes,Negative,High Confidence Negative
+152,TCGA-CQ-6225,TCGA-CQ-6225,NA,TCGA-CQ-6225,Negative,NA,NA,yes,Negative,High Confidence Negative
+154,TCGA-CQ-6228,TCGA-CQ-6228,NA,TCGA-CQ-6228,Negative,NA,NA,yes,Negative,High Confidence Negative
+155,TCGA-CQ-6229,TCGA-CQ-6229,NA,TCGA-CQ-6229,Negative,NA,NA,yes,Negative,High Confidence Negative
+158,TCGA-CQ-7065,TCGA-CQ-7065,NA,TCGA-CQ-7065,Negative,NA,NA,yes,Negative,High Confidence Negative
+160,TCGA-CQ-7068,TCGA-CQ-7068,NA,TCGA-CQ-7068,Negative,NA,NA,yes,Negative,High Confidence Negative
+193,TCGA-CR-6491,TCGA-CR-6491,NA,TCGA-CR-6491,Negative,NA,NA,yes,Negative,High Confidence Negative
+210,TCGA-CR-7382,TCGA-CR-7382,NA,TCGA-CR-7382,Negative,NA,NA,yes,Negative,High Confidence Negative
+217,TCGA-CR-7391,TCGA-CR-7391,NA,TCGA-CR-7391,Negative,NA,NA,yes,Negative,High Confidence Negative
+229,TCGA-CV-5431,TCGA-CV-5431,NA,TCGA-CV-5431,Negative,NA,NA,yes,Negative,High Confidence Negative
+230,TCGA-CV-5432,TCGA-CV-5432,NA,TCGA-CV-5432,Negative,NA,NA,yes,Negative,High Confidence Negative
+234,TCGA-CV-5439,TCGA-CV-5439,NA,TCGA-CV-5439,Negative,NA,NA,yes,Negative,High Confidence Negative
+240,TCGA-CV-5966,TCGA-CV-5966,NA,TCGA-CV-5966,Negative,NA,NA,yes,Negative,High Confidence Negative
+241,TCGA-CV-5970,TCGA-CV-5970,NA,TCGA-CV-5970,Negative,NA,NA,yes,Negative,High Confidence Negative
+243,TCGA-CV-5973,TCGA-CV-5973,NA,TCGA-CV-5973,Negative,NA,NA,yes,Negative,High Confidence Negative
+244,TCGA-CV-5976,TCGA-CV-5976,NA,TCGA-CV-5976,Negative,NA,NA,yes,Negative,High Confidence Negative
+245,TCGA-CV-5977,TCGA-CV-5977,NA,TCGA-CV-5977,Negative,NA,NA,yes,Negative,High Confidence Negative
+248,TCGA-CV-6003,TCGA-CV-6003,NA,TCGA-CV-6003,Negative,NA,NA,yes,Negative,High Confidence Negative
+250,TCGA-CV-6436,TCGA-CV-6436,NA,TCGA-CV-6436,Negative,NA,NA,yes,Negative,High Confidence Negative
+251,TCGA-CV-6441,TCGA-CV-6441,NA,TCGA-CV-6441,Negative,NA,NA,yes,Negative,High Confidence Negative
+252,TCGA-CV-6933,TCGA-CV-6933,NA,TCGA-CV-6933,Negative,NA,NA,yes,Negative,High Confidence Negative
+257,TCGA-CV-6938,TCGA-CV-6938,NA,TCGA-CV-6938,Negative,NA,NA,yes,Negative,High Confidence Negative
+263,TCGA-CV-6945,TCGA-CV-6945,NA,TCGA-CV-6945,Negative,NA,NA,yes,Negative,High Confidence Negative
+264,TCGA-CV-6948,TCGA-CV-6948,NA,TCGA-CV-6948,Negative,NA,NA,yes,Negative,High Confidence Negative
+266,TCGA-CV-6951,TCGA-CV-6951,NA,TCGA-CV-6951,Negative,NA,NA,yes,Negative,High Confidence Negative
+267,TCGA-CV-6952,TCGA-CV-6952,NA,TCGA-CV-6952,Negative,NA,NA,yes,Negative,High Confidence Negative
+269,TCGA-CV-6954,TCGA-CV-6954,NA,TCGA-CV-6954,Negative,NA,NA,yes,Negative,High Confidence Negative
+271,TCGA-CV-6956,TCGA-CV-6956,NA,TCGA-CV-6956,Negative,NA,NA,yes,Negative,High Confidence Negative
+272,TCGA-CV-6959,TCGA-CV-6959,NA,TCGA-CV-6959,Negative,NA,NA,yes,Negative,High Confidence Negative
+273,TCGA-CV-6960,TCGA-CV-6960,NA,TCGA-CV-6960,Negative,NA,NA,yes,Negative,High Confidence Negative
+277,TCGA-CV-7090,TCGA-CV-7090,NA,TCGA-CV-7090,Negative,NA,NA,yes,Negative,High Confidence Negative
+278,TCGA-CV-7091,TCGA-CV-7091,NA,TCGA-CV-7091,Negative,NA,NA,yes,Negative,High Confidence Negative
+279,TCGA-CV-7095,TCGA-CV-7095,NA,TCGA-CV-7095,Negative,NA,NA,yes,Negative,High Confidence Negative
+288,TCGA-CV-7178,TCGA-CV-7178,NA,TCGA-CV-7178,Negative,NA,NA,yes,Negative,High Confidence Negative
+289,TCGA-CV-7180,TCGA-CV-7180,NA,TCGA-CV-7180,Negative,NA,NA,yes,Negative,High Confidence Negative
+290,TCGA-CV-7183,TCGA-CV-7183,NA,TCGA-CV-7183,Negative,NA,NA,yes,Negative,High Confidence Negative
+293,TCGA-CV-7238,TCGA-CV-7238,NA,TCGA-CV-7238,Negative,NA,NA,yes,Negative,High Confidence Negative
+297,TCGA-CV-7247,TCGA-CV-7247,NA,TCGA-CV-7247,Negative,NA,NA,yes,Negative,High Confidence Negative
+303,TCGA-CV-7255,TCGA-CV-7255,NA,TCGA-CV-7255,Negative,NA,NA,yes,Negative,High Confidence Negative
+305,TCGA-CV-7263,TCGA-CV-7263,NA,TCGA-CV-7263,Negative,NA,NA,yes,Negative,High Confidence Negative
+307,TCGA-CV-7407,TCGA-CV-7407,NA,TCGA-CV-7407,Negative,NA,NA,yes,Negative,High Confidence Negative
+310,TCGA-CV-7411,TCGA-CV-7411,NA,TCGA-CV-7411,Negative,NA,NA,yes,Negative,High Confidence Negative
+312,TCGA-CV-7414,TCGA-CV-7414,NA,TCGA-CV-7414,Negative,NA,NA,yes,Negative,High Confidence Negative
+314,TCGA-CV-7416,TCGA-CV-7416,NA,TCGA-CV-7416,Negative,NA,NA,yes,Negative,High Confidence Negative
+322,TCGA-CV-7428,NA,NA,TCGA-CV-7428,NA,NA,NA,yes,Negative,High Confidence Negative
+323,TCGA-CV-7429,TCGA-CV-7429,NA,TCGA-CV-7429,Negative,NA,NA,yes,Negative,High Confidence Negative
+325,TCGA-CV-7432,TCGA-CV-7432,NA,TCGA-CV-7432,Negative,NA,NA,yes,Negative,High Confidence Negative
+327,TCGA-CV-7434,TCGA-CV-7434,NA,TCGA-CV-7434,Negative,NA,NA,yes,Negative,High Confidence Negative
+364,TCGA-CX-7085,TCGA-CX-7085,NA,TCGA-CX-7085,Negative,NA,NA,yes,Negative,High Confidence Negative
+365,TCGA-CX-7086,TCGA-CX-7086,NA,TCGA-CX-7086,Negative,NA,NA,yes,Negative,High Confidence Negative
+368,TCGA-D6-6515,TCGA-D6-6515,NA,TCGA-D6-6515,Negative,NA,NA,yes,Negative,High Confidence Negative
+370,TCGA-D6-6517,TCGA-D6-6517,NA,TCGA-D6-6517,Negative,NA,NA,yes,Negative,High Confidence Negative
+371,TCGA-D6-6823,TCGA-D6-6823,NA,TCGA-D6-6823,Negative,NA,NA,yes,Negative,High Confidence Negative
+373,TCGA-D6-6825,TCGA-D6-6825,NA,TCGA-D6-6825,Negative,NA,NA,yes,Negative,High Confidence Negative
+374,TCGA-D6-6826,TCGA-D6-6826,NA,TCGA-D6-6826,Negative,NA,NA,yes,Negative,High Confidence Negative
+375,TCGA-D6-6827,NA,NA,TCGA-D6-6827,NA,NA,NA,yes,Negative,High Confidence Negative
+388,TCGA-DQ-5624,TCGA-DQ-5624,NA,TCGA-DQ-5624,Negative,NA,NA,yes,Negative,High Confidence Negative
+389,TCGA-DQ-5625,TCGA-DQ-5625,NA,TCGA-DQ-5625,Negative,NA,NA,yes,Negative,High Confidence Negative
+390,TCGA-DQ-5629,TCGA-DQ-5629,NA,TCGA-DQ-5629,Negative,NA,NA,yes,Negative,High Confidence Negative
+391,TCGA-DQ-5630,TCGA-DQ-5630,NA,TCGA-DQ-5630,Negative,NA,NA,yes,Negative,High Confidence Negative
+392,TCGA-DQ-5631,TCGA-DQ-5631,NA,TCGA-DQ-5631,Negative,NA,NA,yes,Negative,High Confidence Negative
+415,TCGA-H7-7774,TCGA-H7-7774,NA,TCGA-H7-7774,Negative,NA,NA,yes,Negative,High Confidence Negative
+422,TCGA-HD-7753,TCGA-HD-7753,NA,TCGA-HD-7753,Negative,NA,NA,yes,Negative,High Confidence Negative
+439,TCGA-IQ-7632,TCGA-IQ-7632,NA,TCGA-IQ-7632,Negative,NA,NA,yes,Negative,High Confidence Negative
+23,TCGA-BA-A4IG,NA,TCGA-BA-A4IG,TCGA-BA-A4IG,NA,NA,HPV16,no,Positive,High Confidence Positive
+46,TCGA-BB-7864,NA,TCGA-BB-7864,TCGA-BB-7864,NA,NA,HPV56,no,Positive,High Confidence Positive
+401,TCGA-DQ-7596,NA,TCGA-DQ-7596,TCGA-DQ-7596,NA,NA,HPV16,no,Positive,High Confidence Positive
+443,TCGA-IQ-A61I,NA,TCGA-IQ-A61I,TCGA-IQ-A61I,NA,NA,HPV35,no,Positive,High Confidence Positive
+464,TCGA-P3-A5Q5,NA,TCGA-P3-A5Q5,TCGA-P3-A5Q5,NA,NA,HPV16,no,Positive,High Confidence Positive
+467,TCGA-P3-A5QE,NA,TCGA-P3-A5QE,TCGA-P3-A5QE,NA,NA,HPV16,no,Positive,High Confidence Positive
+468,TCGA-P3-A5QF,NA,TCGA-P3-A5QF,TCGA-P3-A5QF,NA,NA,HPV16,no,Positive,High Confidence Positive
+469,TCGA-P3-A6SW,NA,TCGA-P3-A6SW,TCGA-P3-A6SW,NA,NA,HPV16,no,Positive,High Confidence Positive
+476,TCGA-P3-A6T6,NA,TCGA-P3-A6T6,TCGA-P3-A6T6,NA,NA,HPV16,no,Positive,High Confidence Positive
+525,TCGA-UP-A6WW,NA,TCGA-UP-A6WW,TCGA-UP-A6WW,NA,NA,HPV16,no,Positive,High Confidence Positive
+4,TCGA-BA-4077,TCGA-BA-4077,TCGA-BA-4077,TCGA-BA-4077,Positive,NA,HPV16,yes,Positive,Highest Confidence Positive
+9,TCGA-BA-5153,TCGA-BA-5153,TCGA-BA-5153,TCGA-BA-5153,Positive,NA,HPV16,yes,Positive,Highest Confidence Positive
+14,TCGA-BA-5559,TCGA-BA-5559,TCGA-BA-5559,TCGA-BA-5559,Positive,NA,HPV16,yes,Positive,Highest Confidence Positive
+24,TCGA-BA-A4IH,NA,TCGA-BA-A4IH,TCGA-BA-A4IH,NA,Positive,HPV16,yes,Positive,Highest Confidence Positive
+38,TCGA-BB-4223,TCGA-BB-4223,TCGA-BB-4223,TCGA-BB-4223,Positive,NA,HPV16,yes,Positive,Highest Confidence Positive
+40,TCGA-BB-4225,TCGA-BB-4225,TCGA-BB-4225,TCGA-BB-4225,Positive,NA,HPV33,yes,Positive,Highest Confidence Positive
+42,TCGA-BB-4228,TCGA-BB-4228,TCGA-BB-4228,TCGA-BB-4228,Positive,Positive,HPV16,yes,Positive,Highest Confidence Positive
+43,TCGA-BB-7861,NA,TCGA-BB-7861,TCGA-BB-7861,NA,Positive,HPV16,no,Positive,Highest Confidence Positive
+47,TCGA-BB-7866,NA,TCGA-BB-7866,TCGA-BB-7866,NA,Positive,HPV16,no,Positive,Highest Confidence Positive
+56,TCGA-BB-A6UM,NA,TCGA-BB-A6UM,TCGA-BB-A6UM,NA,Positive,HPV16,no,Positive,Highest Confidence Positive
+77,TCGA-CN-4741,TCGA-CN-4741,TCGA-CN-4741,TCGA-CN-4741,Positive,NA,HPV16,yes,Positive,Highest Confidence Positive
+93,TCGA-CN-5374,TCGA-CN-5374,TCGA-CN-5374,TCGA-CN-5374,Positive,Positive,HPV16,yes,Positive,Highest Confidence Positive
+117,TCGA-CN-A499,NA,TCGA-CN-A499,TCGA-CN-A499,NA,Positive,HPV16,no,Positive,Highest Confidence Positive
+120,TCGA-CN-A49C,NA,TCGA-CN-A49C,TCGA-CN-A49C,NA,Positive,HPV16,no,Positive,Highest Confidence Positive
+129,TCGA-CN-A6UY,NA,TCGA-CN-A6UY,TCGA-CN-A6UY,NA,Positive,HPV16,no,Positive,Highest Confidence Positive
+132,TCGA-CN-A6V6,NA,TCGA-CN-A6V6,TCGA-CN-A6V6,NA,Positive,HPV16,no,Positive,Highest Confidence Positive
+133,TCGA-CN-A6V7,NA,TCGA-CN-A6V7,TCGA-CN-A6V7,NA,Positive,HPV16,no,Positive,Highest Confidence Positive
+134,TCGA-CQ-5323,TCGA-CQ-5323,TCGA-CQ-5323,TCGA-CQ-5323,Positive,NA,HPV16,yes,Positive,Highest Confidence Positive
+174,TCGA-CR-5243,TCGA-CR-5243,TCGA-CR-5243,TCGA-CR-5243,Positive,NA,HPV16,yes,Positive,Highest Confidence Positive
+176,TCGA-CR-5248,TCGA-CR-5248,TCGA-CR-5248,TCGA-CR-5248,Positive,NA,HPV16,yes,Positive,Highest Confidence Positive
+177,TCGA-CR-5249,TCGA-CR-5249,TCGA-CR-5249,TCGA-CR-5249,Positive,NA,HPV16,yes,Positive,Highest Confidence Positive
+178,TCGA-CR-5250,TCGA-CR-5250,TCGA-CR-5250,TCGA-CR-5250,Positive,Positive,HPV16,yes,Positive,Highest Confidence Positive
+179,TCGA-CR-6467,TCGA-CR-6467,TCGA-CR-6467,TCGA-CR-6467,Positive,NA,HPV33,yes,Positive,Highest Confidence Positive
+180,TCGA-CR-6470,TCGA-CR-6470,TCGA-CR-6470,TCGA-CR-6470,Positive,NA,HPV16,yes,Positive,Highest Confidence Positive
+181,TCGA-CR-6471,TCGA-CR-6471,TCGA-CR-6471,TCGA-CR-6471,Positive,NA,HPV33,yes,Positive,Highest Confidence Positive
+182,TCGA-CR-6472,TCGA-CR-6472,TCGA-CR-6472,TCGA-CR-6472,Positive,NA,HPV16,yes,Positive,Highest Confidence Positive
+183,TCGA-CR-6473,TCGA-CR-6473,TCGA-CR-6473,TCGA-CR-6473,Positive,NA,HPV16,yes,Positive,Highest Confidence Positive
+187,TCGA-CR-6480,NA,TCGA-CR-6480,TCGA-CR-6480,NA,Positive,HPV16,yes,Positive,Highest Confidence Positive
+188,TCGA-CR-6481,TCGA-CR-6481,TCGA-CR-6481,TCGA-CR-6481,Positive,Positive,HPV16,yes,Positive,Highest Confidence Positive
+189,TCGA-CR-6482,TCGA-CR-6482,TCGA-CR-6482,TCGA-CR-6482,Positive,Positive,HPV16,yes,Positive,Highest Confidence Positive
+191,TCGA-CR-6487,TCGA-CR-6487,TCGA-CR-6487,TCGA-CR-6487,Positive,Positive,HPV16,yes,Positive,Highest Confidence Positive
+199,TCGA-CR-7368,TCGA-CR-7368,TCGA-CR-7368,TCGA-CR-7368,Positive,NA,HPV16,yes,Positive,Highest Confidence Positive
+200,TCGA-CR-7369,TCGA-CR-7369,TCGA-CR-7369,TCGA-CR-7369,Positive,NA,HPV16,yes,Positive,Highest Confidence Positive
+212,TCGA-CR-7385,TCGA-CR-7385,TCGA-CR-7385,TCGA-CR-7385,Positive,NA,HPV16,yes,Positive,Highest Confidence Positive
+227,TCGA-CR-7404,TCGA-CR-7404,TCGA-CR-7404,TCGA-CR-7404,Positive,Positive,HPV16,yes,Positive,Highest Confidence Positive
+237,TCGA-CV-5442,TCGA-CV-5442,TCGA-CV-5442,TCGA-CV-5442,Positive,NA,HPV16,yes,Positive,Highest Confidence Positive
+238,TCGA-CV-5443,TCGA-CV-5443,TCGA-CV-5443,TCGA-CV-5443,Positive,NA,HPV16,yes,Positive,Highest Confidence Positive
+242,TCGA-CV-5971,TCGA-CV-5971,TCGA-CV-5971,TCGA-CV-5971,Positive,NA,HPV16,yes,Positive,Highest Confidence Positive
+249,TCGA-CV-6433,TCGA-CV-6433,TCGA-CV-6433,TCGA-CV-6433,Positive,NA,HPV16,yes,Positive,Highest Confidence Positive
+258,TCGA-CV-6939,TCGA-CV-6939,TCGA-CV-6939,TCGA-CV-6939,Positive,NA,HPV33,yes,Positive,Highest Confidence Positive
+274,TCGA-CV-6961,TCGA-CV-6961,TCGA-CV-6961,TCGA-CV-6961,Positive,NA,HPV16,yes,Positive,Highest Confidence Positive
+282,TCGA-CV-7100,TCGA-CV-7100,TCGA-CV-7100,TCGA-CV-7100,Positive,NA,HPV33,yes,Positive,Highest Confidence Positive
+306,TCGA-CV-7406,TCGA-CV-7406,TCGA-CV-7406,TCGA-CV-7406,Positive,NA,HPV16,yes,Positive,Highest Confidence Positive
+395,TCGA-DQ-7590,NA,TCGA-DQ-7590,TCGA-DQ-7590,NA,Positive,HPV16,no,Positive,Highest Confidence Positive
+396,TCGA-DQ-7591,TCGA-DQ-7591,TCGA-DQ-7591,TCGA-DQ-7591,Positive,Positive,HPV35,yes,Positive,Highest Confidence Positive
+398,TCGA-DQ-7593,NA,TCGA-DQ-7593,TCGA-DQ-7593,NA,Positive,HPV16,no,Positive,Highest Confidence Positive
+399,TCGA-DQ-7594,NA,TCGA-DQ-7594,TCGA-DQ-7594,NA,Positive,HPV16,no,Positive,Highest Confidence Positive
+420,TCGA-H7-A76A,NA,TCGA-H7-A76A,TCGA-H7-A76A,NA,Positive,HPV16,no,Positive,Highest Confidence Positive
+423,TCGA-HD-7754,TCGA-HD-7754,TCGA-HD-7754,TCGA-HD-7754,Positive,NA,HPV16,yes,Positive,Highest Confidence Positive
+425,TCGA-HD-7832,TCGA-HD-7832,TCGA-HD-7832,TCGA-HD-7832,Positive,NA,HPV33,no,Positive,Highest Confidence Positive
+428,TCGA-HD-8314,NA,TCGA-HD-8314,TCGA-HD-8314,NA,Positive,HPV35,no,Positive,Highest Confidence Positive
+433,TCGA-HD-A634,NA,TCGA-HD-A634,TCGA-HD-A634,NA,Positive,HPV16,no,Positive,Highest Confidence Positive
+436,TCGA-HL-7533,NA,TCGA-HL-7533,TCGA-HL-7533,NA,Positive,HPV16,no,Positive,Highest Confidence Positive
+452,TCGA-KU-A6H7,NA,TCGA-KU-A6H7,TCGA-KU-A6H7,NA,Positive,HPV16,no,Positive,Highest Confidence Positive
+461,TCGA-MZ-A5BI,NA,TCGA-MZ-A5BI,TCGA-MZ-A5BI,NA,Positive,HPV33,no,Positive,Highest Confidence Positive
+462,TCGA-MZ-A6I9,NA,TCGA-MZ-A6I9,TCGA-MZ-A6I9,NA,Positive,HPV16,no,Positive,Highest Confidence Positive
+481,TCGA-QK-A6IF,NA,TCGA-QK-A6IF,TCGA-QK-A6IF,NA,Positive,HPV16,no,Positive,Highest Confidence Positive
+486,TCGA-QK-A6V9,NA,TCGA-QK-A6V9,TCGA-QK-A6V9,NA,Positive,HPV16,no,Positive,Highest Confidence Positive
+497,TCGA-RS-A6TP,NA,TCGA-RS-A6TP,TCGA-RS-A6TP,NA,Positive,HPV16,no,Positive,Highest Confidence Positive
+500,TCGA-T2-A6X0,NA,TCGA-T2-A6X0,TCGA-T2-A6X0,NA,Positive,HPV16,no,Positive,Highest Confidence Positive
+504,TCGA-TN-A7HI,NA,TCGA-TN-A7HI,TCGA-TN-A7HI,NA,Positive,HPV33,no,Positive,Highest Confidence Positive
+506,TCGA-TN-A7HL,NA,TCGA-TN-A7HL,TCGA-TN-A7HL,NA,Positive,HPV16,no,Positive,Highest Confidence Positive
+8,TCGA-BA-5152,TCGA-BA-5152,NA,TCGA-BA-5152,Negative,NA,NA,no,Unknown,Low Confidence Negative
+15,TCGA-BA-6868,TCGA-BA-6868,NA,TCGA-BA-6868,Negative,NA,NA,no,Unknown,Low Confidence Negative
+17,TCGA-BA-6870,TCGA-BA-6870,NA,TCGA-BA-6870,Negative,NA,NA,no,Unknown,Low Confidence Negative
+18,TCGA-BA-6871,TCGA-BA-6871,NA,TCGA-BA-6871,Negative,NA,NA,no,Unknown,Low Confidence Negative
+21,TCGA-BA-7269,TCGA-BA-7269,NA,TCGA-BA-7269,Negative,NA,NA,no,Unknown,Low Confidence Negative
+37,TCGA-BB-4217,TCGA-BB-4217,NA,TCGA-BB-4217,Negative,NA,NA,no,Unknown,Low Confidence Negative
+61,TCGA-CN-4723,TCGA-CN-4723,NA,TCGA-CN-4723,Negative,NA,NA,no,Unknown,Low Confidence Negative
+63,TCGA-CN-4726,TCGA-CN-4726,NA,TCGA-CN-4726,Negative,NA,NA,no,Unknown,Low Confidence Negative
+65,TCGA-CN-4728,TCGA-CN-4728,NA,TCGA-CN-4728,Negative,NA,NA,no,Unknown,Low Confidence Negative
+81,TCGA-CN-5358,TCGA-CN-5358,NA,TCGA-CN-5358,Negative,NA,NA,no,Unknown,Low Confidence Negative
+82,TCGA-CN-5359,TCGA-CN-5359,NA,TCGA-CN-5359,Negative,NA,NA,no,Unknown,Low Confidence Negative
+91,TCGA-CN-5370,TCGA-CN-5370,NA,TCGA-CN-5370,Negative,NA,NA,no,Unknown,Low Confidence Negative
+94,TCGA-CN-6010,TCGA-CN-6010,NA,TCGA-CN-6010,Negative,NA,NA,no,Unknown,Low Confidence Negative
+96,TCGA-CN-6012,TCGA-CN-6012,NA,TCGA-CN-6012,Negative,NA,NA,no,Unknown,Low Confidence Negative
+98,TCGA-CN-6016,TCGA-CN-6016,NA,TCGA-CN-6016,Negative,NA,NA,no,Unknown,Low Confidence Negative
+102,TCGA-CN-6020,TCGA-CN-6020,NA,TCGA-CN-6020,Negative,NA,NA,no,Unknown,Low Confidence Negative
+103,TCGA-CN-6021,TCGA-CN-6021,NA,TCGA-CN-6021,Negative,NA,NA,no,Unknown,Low Confidence Negative
+104,TCGA-CN-6022,TCGA-CN-6022,NA,TCGA-CN-6022,Negative,NA,NA,no,Unknown,Low Confidence Negative
+105,TCGA-CN-6023,TCGA-CN-6023,NA,TCGA-CN-6023,Negative,NA,NA,no,Unknown,Low Confidence Negative
+106,TCGA-CN-6024,TCGA-CN-6024,NA,TCGA-CN-6024,Negative,NA,NA,no,Unknown,Low Confidence Negative
+107,TCGA-CN-6988,TCGA-CN-6988,NA,TCGA-CN-6988,Negative,NA,NA,no,Unknown,Low Confidence Negative
+109,TCGA-CN-6992,TCGA-CN-6992,NA,TCGA-CN-6992,Negative,NA,NA,no,Unknown,Low Confidence Negative
+111,TCGA-CN-6995,TCGA-CN-6995,NA,TCGA-CN-6995,Negative,NA,NA,no,Unknown,Low Confidence Negative
+113,TCGA-CN-6997,TCGA-CN-6997,NA,TCGA-CN-6997,Negative,NA,NA,no,Unknown,Low Confidence Negative
+135,TCGA-CQ-5324,TCGA-CQ-5324,NA,TCGA-CQ-5324,Negative,NA,NA,no,Unknown,Low Confidence Negative
+137,TCGA-CQ-5326,TCGA-CQ-5326,NA,TCGA-CQ-5326,Negative,NA,NA,no,Unknown,Low Confidence Negative
+141,TCGA-CQ-5331,TCGA-CQ-5331,NA,TCGA-CQ-5331,Negative,NA,NA,no,Unknown,Low Confidence Negative
+142,TCGA-CQ-5332,TCGA-CQ-5332,NA,TCGA-CQ-5332,Negative,NA,NA,no,Unknown,Low Confidence Negative
+144,TCGA-CQ-5334,TCGA-CQ-5334,NA,TCGA-CQ-5334,Negative,NA,NA,no,Unknown,Low Confidence Negative
+145,TCGA-CQ-6218,TCGA-CQ-6218,NA,TCGA-CQ-6218,Negative,NA,NA,no,Unknown,Low Confidence Negative
+153,TCGA-CQ-6227,TCGA-CQ-6227,NA,TCGA-CQ-6227,Negative,NA,NA,no,Unknown,Low Confidence Negative
+175,TCGA-CR-5247,TCGA-CR-5247,NA,TCGA-CR-5247,Negative,NA,NA,no,Unknown,Low Confidence Negative
+184,TCGA-CR-6474,TCGA-CR-6474,NA,TCGA-CR-6474,Negative,NA,NA,no,Unknown,Low Confidence Negative
+185,TCGA-CR-6477,TCGA-CR-6477,NA,TCGA-CR-6477,Negative,NA,NA,no,Unknown,Low Confidence Negative
+186,TCGA-CR-6478,TCGA-CR-6478,NA,TCGA-CR-6478,Negative,NA,NA,no,Unknown,Low Confidence Negative
+190,TCGA-CR-6484,TCGA-CR-6484,NA,TCGA-CR-6484,Negative,NA,NA,no,Unknown,Low Confidence Negative
+192,TCGA-CR-6488,TCGA-CR-6488,NA,TCGA-CR-6488,Negative,NA,NA,no,Unknown,Low Confidence Negative
+194,TCGA-CR-6492,TCGA-CR-6492,NA,TCGA-CR-6492,Negative,NA,NA,no,Unknown,Low Confidence Negative
+195,TCGA-CR-6493,TCGA-CR-6493,NA,TCGA-CR-6493,Negative,NA,NA,no,Unknown,Low Confidence Negative
+196,TCGA-CR-7364,TCGA-CR-7364,NA,TCGA-CR-7364,Negative,NA,NA,no,Unknown,Low Confidence Negative
+197,TCGA-CR-7365,TCGA-CR-7365,NA,TCGA-CR-7365,Negative,NA,NA,no,Unknown,Low Confidence Negative
+198,TCGA-CR-7367,TCGA-CR-7367,NA,TCGA-CR-7367,Negative,NA,NA,no,Unknown,Low Confidence Negative
+201,TCGA-CR-7370,TCGA-CR-7370,NA,TCGA-CR-7370,Negative,NA,NA,no,Unknown,Low Confidence Negative
+202,TCGA-CR-7371,TCGA-CR-7371,NA,TCGA-CR-7371,Negative,NA,NA,no,Unknown,Low Confidence Negative
+203,TCGA-CR-7372,TCGA-CR-7372,NA,TCGA-CR-7372,Negative,NA,NA,no,Unknown,Low Confidence Negative
+204,TCGA-CR-7373,TCGA-CR-7373,NA,TCGA-CR-7373,Negative,NA,NA,no,Unknown,Low Confidence Negative
+205,TCGA-CR-7374,TCGA-CR-7374,NA,TCGA-CR-7374,Negative,NA,NA,no,Unknown,Low Confidence Negative
+206,TCGA-CR-7376,TCGA-CR-7376,NA,TCGA-CR-7376,Negative,NA,NA,no,Unknown,Low Confidence Negative
+207,TCGA-CR-7377,TCGA-CR-7377,NA,TCGA-CR-7377,Negative,NA,NA,no,Unknown,Low Confidence Negative
+208,TCGA-CR-7379,TCGA-CR-7379,NA,TCGA-CR-7379,Negative,NA,NA,no,Unknown,Low Confidence Negative
+209,TCGA-CR-7380,TCGA-CR-7380,NA,TCGA-CR-7380,Negative,NA,NA,no,Unknown,Low Confidence Negative
+211,TCGA-CR-7383,TCGA-CR-7383,NA,TCGA-CR-7383,Negative,NA,NA,no,Unknown,Low Confidence Negative
+213,TCGA-CR-7386,TCGA-CR-7386,NA,TCGA-CR-7386,Negative,NA,NA,no,Unknown,Low Confidence Negative
+214,TCGA-CR-7388,TCGA-CR-7388,NA,TCGA-CR-7388,Negative,NA,NA,no,Unknown,Low Confidence Negative
+215,TCGA-CR-7389,TCGA-CR-7389,NA,TCGA-CR-7389,Negative,NA,NA,no,Unknown,Low Confidence Negative
+216,TCGA-CR-7390,TCGA-CR-7390,NA,TCGA-CR-7390,Negative,NA,NA,no,Unknown,Low Confidence Negative
+218,TCGA-CR-7392,TCGA-CR-7392,NA,TCGA-CR-7392,Negative,NA,NA,no,Unknown,Low Confidence Negative
+219,TCGA-CR-7393,TCGA-CR-7393,NA,TCGA-CR-7393,Negative,NA,NA,no,Unknown,Low Confidence Negative
+220,TCGA-CR-7394,TCGA-CR-7394,NA,TCGA-CR-7394,Negative,NA,NA,no,Unknown,Low Confidence Negative
+221,TCGA-CR-7395,TCGA-CR-7395,NA,TCGA-CR-7395,Negative,NA,NA,no,Unknown,Low Confidence Negative
+222,TCGA-CR-7397,TCGA-CR-7397,NA,TCGA-CR-7397,Negative,NA,NA,no,Unknown,Low Confidence Negative
+223,TCGA-CR-7398,TCGA-CR-7398,NA,TCGA-CR-7398,Negative,NA,NA,no,Unknown,Low Confidence Negative
+224,TCGA-CR-7399,TCGA-CR-7399,NA,TCGA-CR-7399,Negative,NA,NA,no,Unknown,Low Confidence Negative
+225,TCGA-CR-7401,TCGA-CR-7401,NA,TCGA-CR-7401,Negative,NA,NA,no,Unknown,Low Confidence Negative
+226,TCGA-CR-7402,TCGA-CR-7402,NA,TCGA-CR-7402,Negative,NA,NA,no,Unknown,Low Confidence Negative
+228,TCGA-CV-5430,TCGA-CV-5430,NA,TCGA-CV-5430,Negative,NA,NA,no,Unknown,Low Confidence Negative
+231,TCGA-CV-5434,TCGA-CV-5434,NA,TCGA-CV-5434,Negative,NA,NA,no,Unknown,Low Confidence Negative
+232,TCGA-CV-5435,TCGA-CV-5435,NA,TCGA-CV-5435,Negative,NA,NA,no,Unknown,Low Confidence Negative
+233,TCGA-CV-5436,TCGA-CV-5436,NA,TCGA-CV-5436,Negative,NA,NA,no,Unknown,Low Confidence Negative
+235,TCGA-CV-5440,TCGA-CV-5440,NA,TCGA-CV-5440,Negative,NA,NA,no,Unknown,Low Confidence Negative
+236,TCGA-CV-5441,TCGA-CV-5441,NA,TCGA-CV-5441,Negative,NA,NA,no,Unknown,Low Confidence Negative
+239,TCGA-CV-5444,TCGA-CV-5444,NA,TCGA-CV-5444,Negative,NA,NA,no,Unknown,Low Confidence Negative
+246,TCGA-CV-5978,TCGA-CV-5978,NA,TCGA-CV-5978,Negative,NA,NA,no,Unknown,Low Confidence Negative
+247,TCGA-CV-5979,TCGA-CV-5979,NA,TCGA-CV-5979,Negative,NA,NA,no,Unknown,Low Confidence Negative
+253,TCGA-CV-6934,TCGA-CV-6934,NA,TCGA-CV-6934,Negative,NA,NA,no,Unknown,Low Confidence Negative
+254,TCGA-CV-6935,TCGA-CV-6935,NA,TCGA-CV-6935,Negative,NA,NA,no,Unknown,Low Confidence Negative
+255,TCGA-CV-6936,TCGA-CV-6936,NA,TCGA-CV-6936,Negative,NA,NA,no,Unknown,Low Confidence Negative
+256,TCGA-CV-6937,TCGA-CV-6937,NA,TCGA-CV-6937,Negative,NA,NA,no,Unknown,Low Confidence Negative
+259,TCGA-CV-6940,TCGA-CV-6940,NA,TCGA-CV-6940,Negative,NA,NA,no,Unknown,Low Confidence Negative
+260,TCGA-CV-6941,TCGA-CV-6941,NA,TCGA-CV-6941,Negative,NA,NA,no,Unknown,Low Confidence Negative
+261,TCGA-CV-6942,TCGA-CV-6942,NA,TCGA-CV-6942,Negative,NA,NA,no,Unknown,Low Confidence Negative
+262,TCGA-CV-6943,TCGA-CV-6943,NA,TCGA-CV-6943,Negative,NA,NA,no,Unknown,Low Confidence Negative
+265,TCGA-CV-6950,TCGA-CV-6950,NA,TCGA-CV-6950,Negative,NA,NA,no,Unknown,Low Confidence Negative
+268,TCGA-CV-6953,TCGA-CV-6953,NA,TCGA-CV-6953,Negative,NA,NA,no,Unknown,Low Confidence Negative
+270,TCGA-CV-6955,TCGA-CV-6955,NA,TCGA-CV-6955,Negative,NA,NA,no,Unknown,Low Confidence Negative
+275,TCGA-CV-6962,TCGA-CV-6962,NA,TCGA-CV-6962,Negative,NA,NA,no,Unknown,Low Confidence Negative
+276,TCGA-CV-7089,TCGA-CV-7089,NA,TCGA-CV-7089,Negative,NA,NA,no,Unknown,Low Confidence Negative
+280,TCGA-CV-7097,TCGA-CV-7097,NA,TCGA-CV-7097,Negative,NA,NA,no,Unknown,Low Confidence Negative
+281,TCGA-CV-7099,TCGA-CV-7099,NA,TCGA-CV-7099,Negative,NA,NA,no,Unknown,Low Confidence Negative
+283,TCGA-CV-7101,TCGA-CV-7101,NA,TCGA-CV-7101,Negative,NA,NA,no,Unknown,Low Confidence Negative
+284,TCGA-CV-7102,TCGA-CV-7102,NA,TCGA-CV-7102,Negative,NA,NA,no,Unknown,Low Confidence Negative
+285,TCGA-CV-7103,TCGA-CV-7103,NA,TCGA-CV-7103,Negative,NA,NA,no,Unknown,Low Confidence Negative
+286,TCGA-CV-7104,TCGA-CV-7104,NA,TCGA-CV-7104,Negative,NA,NA,no,Unknown,Low Confidence Negative
+287,TCGA-CV-7177,TCGA-CV-7177,NA,TCGA-CV-7177,Negative,NA,NA,no,Unknown,Low Confidence Negative
+291,TCGA-CV-7235,TCGA-CV-7235,NA,TCGA-CV-7235,Negative,NA,NA,no,Unknown,Low Confidence Negative
+292,TCGA-CV-7236,TCGA-CV-7236,NA,TCGA-CV-7236,Negative,NA,NA,no,Unknown,Low Confidence Negative
+294,TCGA-CV-7242,TCGA-CV-7242,NA,TCGA-CV-7242,Negative,NA,NA,no,Unknown,Low Confidence Negative
+295,TCGA-CV-7243,TCGA-CV-7243,NA,TCGA-CV-7243,Negative,NA,NA,no,Unknown,Low Confidence Negative
+296,TCGA-CV-7245,TCGA-CV-7245,NA,TCGA-CV-7245,Negative,NA,NA,no,Unknown,Low Confidence Negative
+298,TCGA-CV-7248,TCGA-CV-7248,NA,TCGA-CV-7248,Negative,NA,NA,no,Unknown,Low Confidence Negative
+299,TCGA-CV-7250,TCGA-CV-7250,NA,TCGA-CV-7250,Negative,NA,NA,no,Unknown,Low Confidence Negative
+300,TCGA-CV-7252,TCGA-CV-7252,NA,TCGA-CV-7252,Negative,NA,NA,no,Unknown,Low Confidence Negative
+301,TCGA-CV-7253,TCGA-CV-7253,NA,TCGA-CV-7253,Negative,NA,NA,no,Unknown,Low Confidence Negative
+302,TCGA-CV-7254,TCGA-CV-7254,NA,TCGA-CV-7254,Negative,NA,NA,no,Unknown,Low Confidence Negative
+304,TCGA-CV-7261,TCGA-CV-7261,NA,TCGA-CV-7261,Negative,NA,NA,no,Unknown,Low Confidence Negative
+309,TCGA-CV-7410,TCGA-CV-7410,NA,TCGA-CV-7410,Negative,NA,NA,no,Unknown,Low Confidence Negative
+311,TCGA-CV-7413,TCGA-CV-7413,NA,TCGA-CV-7413,Negative,NA,NA,no,Unknown,Low Confidence Negative
+313,TCGA-CV-7415,TCGA-CV-7415,NA,TCGA-CV-7415,Negative,NA,NA,no,Unknown,Low Confidence Negative
+315,TCGA-CV-7418,TCGA-CV-7418,NA,TCGA-CV-7418,Negative,NA,NA,no,Unknown,Low Confidence Negative
+316,TCGA-CV-7421,TCGA-CV-7421,NA,TCGA-CV-7421,Negative,NA,NA,no,Unknown,Low Confidence Negative
+317,TCGA-CV-7422,TCGA-CV-7422,NA,TCGA-CV-7422,Negative,NA,NA,no,Unknown,Low Confidence Negative
+318,TCGA-CV-7423,TCGA-CV-7423,NA,TCGA-CV-7423,Negative,NA,NA,no,Unknown,Low Confidence Negative
+319,TCGA-CV-7424,TCGA-CV-7424,NA,TCGA-CV-7424,Negative,NA,NA,no,Unknown,Low Confidence Negative
+321,TCGA-CV-7427,TCGA-CV-7427,NA,TCGA-CV-7427,Negative,NA,NA,no,Unknown,Low Confidence Negative
+324,TCGA-CV-7430,TCGA-CV-7430,NA,TCGA-CV-7430,Negative,NA,NA,no,Unknown,Low Confidence Negative
+326,TCGA-CV-7433,TCGA-CV-7433,NA,TCGA-CV-7433,Negative,NA,NA,no,Unknown,Low Confidence Negative
+328,TCGA-CV-7435,TCGA-CV-7435,NA,TCGA-CV-7435,Negative,NA,NA,no,Unknown,Low Confidence Negative
+329,TCGA-CV-7437,TCGA-CV-7437,NA,TCGA-CV-7437,Negative,NA,NA,no,Unknown,Low Confidence Negative
+330,TCGA-CV-7438,TCGA-CV-7438,NA,TCGA-CV-7438,Negative,NA,NA,no,Unknown,Low Confidence Negative
+331,TCGA-CV-7440,TCGA-CV-7440,NA,TCGA-CV-7440,Negative,NA,NA,no,Unknown,Low Confidence Negative
+363,TCGA-CX-7082,TCGA-CX-7082,NA,TCGA-CX-7082,Negative,NA,NA,no,Unknown,Low Confidence Negative
+366,TCGA-CX-7219,TCGA-CX-7219,NA,TCGA-CX-7219,Negative,NA,NA,no,Unknown,Low Confidence Negative
+369,TCGA-D6-6516,TCGA-D6-6516,NA,TCGA-D6-6516,Negative,NA,NA,no,Unknown,Low Confidence Negative
+372,TCGA-D6-6824,TCGA-D6-6824,NA,TCGA-D6-6824,Negative,NA,NA,no,Unknown,Low Confidence Negative
+393,TCGA-DQ-7588,TCGA-DQ-7588,NA,TCGA-DQ-7588,Negative,NA,NA,no,Unknown,Low Confidence Negative
+397,TCGA-DQ-7592,TCGA-DQ-7592,NA,TCGA-DQ-7592,Negative,NA,NA,no,Unknown,Low Confidence Negative
+402,TCGA-F7-7848,TCGA-F7-7848,NA,TCGA-F7-7848,Negative,NA,NA,no,Unknown,Low Confidence Negative
+421,TCGA-HD-7229,TCGA-HD-7229,NA,TCGA-HD-7229,Negative,NA,NA,no,Unknown,Low Confidence Negative
+424,TCGA-HD-7831,TCGA-HD-7831,NA,TCGA-HD-7831,Negative,NA,NA,no,Unknown,Low Confidence Negative
+437,TCGA-IQ-7630,TCGA-IQ-7630,NA,TCGA-IQ-7630,Negative,NA,NA,no,Unknown,Low Confidence Negative
+438,TCGA-IQ-7631,TCGA-IQ-7631,NA,TCGA-IQ-7631,Negative,NA,NA,no,Unknown,Low Confidence Negative
+27,TCGA-BA-A6DA,NA,NA,TCGA-BA-A6DA,NA,Positive,NA,no,Unknown,Low Confidence Positive
+31,TCGA-BA-A6DF,NA,NA,NA,NA,Positive,NA,NA,Unknown,Low Confidence Positive
+50,TCGA-BB-7872,NA,NA,TCGA-BB-7872,NA,Positive,NA,no,Unknown,Low Confidence Positive
+125,TCGA-CN-A63Y,NA,NA,NA,NA,Positive,NA,NA,Unknown,Low Confidence Positive
+126,TCGA-CN-A640,NA,NA,NA,NA,Positive,NA,NA,Unknown,Low Confidence Positive
+127,TCGA-CN-A641,NA,NA,TCGA-CN-A641,NA,Positive,NA,no,Unknown,Low Confidence Positive
+130,TCGA-CN-A6V1,NA,NA,TCGA-CN-A6V1,NA,Positive,NA,no,Unknown,Low Confidence Positive
+400,TCGA-DQ-7595,NA,NA,TCGA-DQ-7595,NA,Positive,NA,no,Unknown,Low Confidence Positive
+492,TCGA-QK-A8ZA,NA,NA,TCGA-QK-A8ZA,NA,Positive,NA,no,Unknown,Low Confidence Positive
+495,TCGA-QK-AA3K,NA,NA,TCGA-QK-AA3K,NA,Positive,NA,no,Unknown,Low Confidence Positive
+22,TCGA-BA-A4IF,NA,NA,TCGA-BA-A4IF,NA,NA,NA,no,Unknown,Unknown
+25,TCGA-BA-A4II,NA,NA,TCGA-BA-A4II,NA,NA,NA,no,Unknown,Unknown
+26,TCGA-BA-A6D8,NA,NA,TCGA-BA-A6D8,NA,NA,NA,no,Unknown,Unknown
+28,TCGA-BA-A6DB,NA,NA,TCGA-BA-A6DB,NA,NA,NA,no,Unknown,Unknown
+29,TCGA-BA-A6DD,NA,NA,TCGA-BA-A6DD,NA,NA,NA,no,Unknown,Unknown
+30,TCGA-BA-A6DE,NA,NA,TCGA-BA-A6DE,NA,NA,NA,no,Unknown,Unknown
+32,TCGA-BA-A6DG,NA,NA,TCGA-BA-A6DG,NA,NA,NA,no,Unknown,Unknown
+33,TCGA-BA-A6DI,NA,NA,TCGA-BA-A6DI,NA,NA,NA,no,Unknown,Unknown
+34,TCGA-BA-A6DJ,NA,NA,TCGA-BA-A6DJ,NA,NA,NA,no,Unknown,Unknown
+35,TCGA-BA-A6DL,NA,NA,TCGA-BA-A6DL,NA,NA,NA,no,Unknown,Unknown
+36,TCGA-BA-A8YP,NA,NA,TCGA-BA-A8YP,NA,NA,NA,no,Unknown,Unknown
+41,TCGA-BB-4227,NA,NA,TCGA-BB-4227,NA,NA,NA,no,Unknown,Unknown
+44,TCGA-BB-7862,NA,NA,TCGA-BB-7862,NA,NA,NA,no,Unknown,Unknown
+45,TCGA-BB-7863,NA,NA,TCGA-BB-7863,NA,NA,NA,no,Unknown,Unknown
+48,TCGA-BB-7870,NA,NA,TCGA-BB-7870,NA,NA,NA,no,Unknown,Unknown
+49,TCGA-BB-7871,NA,NA,TCGA-BB-7871,NA,NA,NA,no,Unknown,Unknown
+51,TCGA-BB-8596,NA,NA,TCGA-BB-8596,NA,NA,NA,no,Unknown,Unknown
+52,TCGA-BB-8601,NA,NA,TCGA-BB-8601,NA,NA,NA,no,Unknown,Unknown
+53,TCGA-BB-A5HU,NA,NA,TCGA-BB-A5HU,NA,NA,NA,no,Unknown,Unknown
+54,TCGA-BB-A5HY,NA,NA,TCGA-BB-A5HY,NA,NA,NA,no,Unknown,Unknown
+55,TCGA-BB-A5HZ,NA,NA,TCGA-BB-A5HZ,NA,NA,NA,no,Unknown,Unknown
+57,TCGA-BB-A6UO,NA,NA,TCGA-BB-A6UO,NA,NA,NA,no,Unknown,Unknown
+58,TCGA-C9-A47Z,NA,NA,TCGA-C9-A47Z,NA,NA,NA,no,Unknown,Unknown
+59,TCGA-C9-A480,NA,NA,TCGA-C9-A480,NA,NA,NA,no,Unknown,Unknown
+115,TCGA-CN-A497,NA,NA,TCGA-CN-A497,NA,NA,NA,no,Unknown,Unknown
+116,TCGA-CN-A498,NA,NA,TCGA-CN-A498,NA,NA,NA,no,Unknown,Unknown
+118,TCGA-CN-A49A,NA,NA,TCGA-CN-A49A,NA,NA,NA,no,Unknown,Unknown
+119,TCGA-CN-A49B,NA,NA,TCGA-CN-A49B,NA,NA,NA,no,Unknown,Unknown
+121,TCGA-CN-A63T,NA,NA,TCGA-CN-A63T,NA,NA,NA,no,Unknown,Unknown
+122,TCGA-CN-A63U,NA,NA,TCGA-CN-A63U,NA,NA,NA,no,Unknown,Unknown
+123,TCGA-CN-A63V,NA,NA,TCGA-CN-A63V,NA,NA,NA,no,Unknown,Unknown
+124,TCGA-CN-A63W,NA,NA,TCGA-CN-A63W,NA,NA,NA,no,Unknown,Unknown
+128,TCGA-CN-A642,NA,NA,TCGA-CN-A642,NA,NA,NA,no,Unknown,Unknown
+131,TCGA-CN-A6V3,NA,NA,TCGA-CN-A6V3,NA,NA,NA,no,Unknown,Unknown
+143,TCGA-CQ-5333,NA,NA,TCGA-CQ-5333,NA,NA,NA,no,Unknown,Unknown
+149,TCGA-CQ-6222,NA,NA,TCGA-CQ-6222,NA,NA,NA,no,Unknown,Unknown
+156,TCGA-CQ-7063,NA,NA,TCGA-CQ-7063,NA,NA,NA,no,Unknown,Unknown
+157,TCGA-CQ-7064,NA,NA,NA,NA,NA,NA,NA,Unknown,Unknown
+159,TCGA-CQ-7067,NA,NA,TCGA-CQ-7067,NA,NA,NA,no,Unknown,Unknown
+161,TCGA-CQ-7069,NA,NA,TCGA-CQ-7069,NA,NA,NA,no,Unknown,Unknown
+162,TCGA-CQ-7071,NA,NA,TCGA-CQ-7071,NA,NA,NA,no,Unknown,Unknown
+163,TCGA-CQ-7072,NA,NA,TCGA-CQ-7072,NA,NA,NA,no,Unknown,Unknown
+164,TCGA-CQ-A4C6,NA,NA,TCGA-CQ-A4C6,NA,NA,NA,no,Unknown,Unknown
+165,TCGA-CQ-A4C7,NA,NA,TCGA-CQ-A4C7,NA,NA,NA,no,Unknown,Unknown
+166,TCGA-CQ-A4C9,NA,NA,TCGA-CQ-A4C9,NA,NA,NA,no,Unknown,Unknown
+167,TCGA-CQ-A4CA,NA,NA,TCGA-CQ-A4CA,NA,NA,NA,no,Unknown,Unknown
+168,TCGA-CQ-A4CB,NA,NA,TCGA-CQ-A4CB,NA,NA,NA,no,Unknown,Unknown
+169,TCGA-CQ-A4CD,NA,NA,TCGA-CQ-A4CD,NA,NA,NA,no,Unknown,Unknown
+170,TCGA-CQ-A4CE,NA,NA,TCGA-CQ-A4CE,NA,NA,NA,no,Unknown,Unknown
+171,TCGA-CQ-A4CG,NA,NA,TCGA-CQ-A4CG,NA,NA,NA,no,Unknown,Unknown
+172,TCGA-CQ-A4CH,NA,NA,TCGA-CQ-A4CH,NA,NA,NA,no,Unknown,Unknown
+173,TCGA-CQ-A4CI,NA,NA,TCGA-CQ-A4CI,NA,NA,NA,no,Unknown,Unknown
+308,TCGA-CV-7409,NA,NA,TCGA-CV-7409,NA,NA,NA,no,Unknown,Unknown
+320,TCGA-CV-7425,NA,NA,TCGA-CV-7425,NA,NA,NA,no,Unknown,Unknown
+332,TCGA-CV-7446,NA,NA,TCGA-CV-7446,NA,NA,NA,no,Unknown,Unknown
+333,TCGA-CV-7568,NA,NA,TCGA-CV-7568,NA,NA,NA,no,Unknown,Unknown
+334,TCGA-CV-A45O,NA,NA,TCGA-CV-A45O,NA,NA,NA,no,Unknown,Unknown
+335,TCGA-CV-A45P,NA,NA,TCGA-CV-A45P,NA,NA,NA,no,Unknown,Unknown
+336,TCGA-CV-A45Q,NA,NA,TCGA-CV-A45Q,NA,NA,NA,no,Unknown,Unknown
+337,TCGA-CV-A45R,NA,NA,TCGA-CV-A45R,NA,NA,NA,no,Unknown,Unknown
+338,TCGA-CV-A45T,NA,NA,TCGA-CV-A45T,NA,NA,NA,no,Unknown,Unknown
+339,TCGA-CV-A45U,NA,NA,TCGA-CV-A45U,NA,NA,NA,no,Unknown,Unknown
+340,TCGA-CV-A45V,NA,NA,TCGA-CV-A45V,NA,NA,NA,no,Unknown,Unknown
+341,TCGA-CV-A45W,NA,NA,TCGA-CV-A45W,NA,NA,NA,no,Unknown,Unknown
+342,TCGA-CV-A45X,NA,NA,TCGA-CV-A45X,NA,NA,NA,no,Unknown,Unknown
+343,TCGA-CV-A45Y,NA,NA,TCGA-CV-A45Y,NA,NA,NA,no,Unknown,Unknown
+344,TCGA-CV-A45Z,NA,NA,TCGA-CV-A45Z,NA,NA,NA,no,Unknown,Unknown
+345,TCGA-CV-A460,NA,NA,TCGA-CV-A460,NA,NA,NA,no,Unknown,Unknown
+346,TCGA-CV-A461,NA,NA,TCGA-CV-A461,NA,NA,NA,no,Unknown,Unknown
+347,TCGA-CV-A463,NA,NA,TCGA-CV-A463,NA,NA,NA,no,Unknown,Unknown
+348,TCGA-CV-A464,NA,NA,TCGA-CV-A464,NA,NA,NA,no,Unknown,Unknown
+349,TCGA-CV-A465,NA,NA,TCGA-CV-A465,NA,NA,NA,no,Unknown,Unknown
+350,TCGA-CV-A468,NA,NA,TCGA-CV-A468,NA,NA,NA,no,Unknown,Unknown
+351,TCGA-CV-A6JD,NA,NA,TCGA-CV-A6JD,NA,NA,NA,no,Unknown,Unknown
+352,TCGA-CV-A6JE,NA,NA,TCGA-CV-A6JE,NA,NA,NA,no,Unknown,Unknown
+353,TCGA-CV-A6JM,NA,NA,TCGA-CV-A6JM,NA,NA,NA,no,Unknown,Unknown
+354,TCGA-CV-A6JN,NA,NA,TCGA-CV-A6JN,NA,NA,NA,no,Unknown,Unknown
+355,TCGA-CV-A6JO,NA,NA,TCGA-CV-A6JO,NA,NA,NA,no,Unknown,Unknown
+356,TCGA-CV-A6JT,NA,NA,TCGA-CV-A6JT,NA,NA,NA,no,Unknown,Unknown
+357,TCGA-CV-A6JU,NA,NA,TCGA-CV-A6JU,NA,NA,NA,no,Unknown,Unknown
+358,TCGA-CV-A6JY,NA,NA,TCGA-CV-A6JY,NA,NA,NA,no,Unknown,Unknown
+359,TCGA-CV-A6JZ,NA,NA,TCGA-CV-A6JZ,NA,NA,NA,no,Unknown,Unknown
+360,TCGA-CV-A6K0,NA,NA,TCGA-CV-A6K0,NA,NA,NA,no,Unknown,Unknown
+361,TCGA-CV-A6K1,NA,NA,TCGA-CV-A6K1,NA,NA,NA,no,Unknown,Unknown
+362,TCGA-CV-A6K2,NA,NA,TCGA-CV-A6K2,NA,NA,NA,no,Unknown,Unknown
+367,TCGA-CX-A4AQ,NA,NA,TCGA-CX-A4AQ,NA,NA,NA,no,Unknown,Unknown
+376,TCGA-D6-8568,NA,NA,TCGA-D6-8568,NA,NA,NA,no,Unknown,Unknown
+377,TCGA-D6-8569,NA,NA,TCGA-D6-8569,NA,NA,NA,no,Unknown,Unknown
+378,TCGA-D6-A4Z9,NA,NA,TCGA-D6-A4Z9,NA,NA,NA,no,Unknown,Unknown
+379,TCGA-D6-A4ZB,NA,NA,TCGA-D6-A4ZB,NA,NA,NA,no,Unknown,Unknown
+380,TCGA-D6-A6EK,NA,NA,TCGA-D6-A6EK,NA,NA,NA,no,Unknown,Unknown
+381,TCGA-D6-A6EM,NA,NA,TCGA-D6-A6EM,NA,NA,NA,no,Unknown,Unknown
+382,TCGA-D6-A6EN,NA,NA,TCGA-D6-A6EN,NA,NA,NA,no,Unknown,Unknown
+383,TCGA-D6-A6EO,NA,NA,TCGA-D6-A6EO,NA,NA,NA,no,Unknown,Unknown
+384,TCGA-D6-A6EP,NA,NA,TCGA-D6-A6EP,NA,NA,NA,no,Unknown,Unknown
+385,TCGA-D6-A6EQ,NA,NA,TCGA-D6-A6EQ,NA,NA,NA,no,Unknown,Unknown
+386,TCGA-D6-A6ES,NA,NA,TCGA-D6-A6ES,NA,NA,NA,no,Unknown,Unknown
+387,TCGA-D6-A74Q,NA,NA,TCGA-D6-A74Q,NA,NA,NA,no,Unknown,Unknown
+394,TCGA-DQ-7589,NA,NA,TCGA-DQ-7589,NA,NA,NA,no,Unknown,Unknown
+403,TCGA-F7-8298,NA,NA,TCGA-F7-8298,NA,NA,NA,no,Unknown,Unknown
+404,TCGA-F7-8489,NA,NA,TCGA-F7-8489,NA,NA,NA,no,Unknown,Unknown
+405,TCGA-F7-A50G,NA,NA,TCGA-F7-A50G,NA,NA,NA,no,Unknown,Unknown
+406,TCGA-F7-A50I,NA,NA,TCGA-F7-A50I,NA,NA,NA,no,Unknown,Unknown
+407,TCGA-F7-A50J,NA,NA,TCGA-F7-A50J,NA,NA,NA,no,Unknown,Unknown
+408,TCGA-F7-A61S,NA,NA,TCGA-F7-A61S,NA,NA,NA,no,Unknown,Unknown
+409,TCGA-F7-A61V,NA,NA,TCGA-F7-A61V,NA,NA,NA,no,Unknown,Unknown
+410,TCGA-F7-A61W,NA,NA,TCGA-F7-A61W,NA,NA,NA,no,Unknown,Unknown
+411,TCGA-F7-A620,NA,NA,TCGA-F7-A620,NA,NA,NA,no,Unknown,Unknown
+412,TCGA-F7-A622,NA,NA,TCGA-F7-A622,NA,NA,NA,no,Unknown,Unknown
+413,TCGA-F7-A623,NA,NA,TCGA-F7-A623,NA,NA,NA,no,Unknown,Unknown
+414,TCGA-F7-A624,NA,NA,TCGA-F7-A624,NA,NA,NA,no,Unknown,Unknown
+416,TCGA-H7-8501,NA,NA,TCGA-H7-8501,NA,NA,NA,no,Unknown,Unknown
+417,TCGA-H7-8502,NA,NA,TCGA-H7-8502,NA,NA,NA,no,Unknown,Unknown
+418,TCGA-H7-A6C4,NA,NA,TCGA-H7-A6C4,NA,NA,NA,no,Unknown,Unknown
+419,TCGA-H7-A6C5,NA,NA,NA,NA,NA,NA,NA,Unknown,Unknown
+426,TCGA-HD-7917,NA,NA,TCGA-HD-7917,NA,NA,NA,no,Unknown,Unknown
+427,TCGA-HD-8224,NA,NA,TCGA-HD-8224,NA,NA,NA,no,Unknown,Unknown
+429,TCGA-HD-8634,NA,NA,TCGA-HD-8634,NA,NA,NA,no,Unknown,Unknown
+430,TCGA-HD-8635,NA,NA,TCGA-HD-8635,NA,NA,NA,no,Unknown,Unknown
+431,TCGA-HD-A4C1,NA,NA,TCGA-HD-A4C1,NA,NA,NA,no,Unknown,Unknown
+432,TCGA-HD-A633,NA,NA,TCGA-HD-A633,NA,NA,NA,no,Unknown,Unknown
+434,TCGA-HD-A6HZ,NA,NA,TCGA-HD-A6HZ,NA,NA,NA,no,Unknown,Unknown
+435,TCGA-HD-A6I0,NA,NA,TCGA-HD-A6I0,NA,NA,NA,no,Unknown,Unknown
+440,TCGA-IQ-A61E,NA,NA,TCGA-IQ-A61E,NA,NA,NA,no,Unknown,Unknown
+441,TCGA-IQ-A61G,NA,NA,TCGA-IQ-A61G,NA,NA,NA,no,Unknown,Unknown
+442,TCGA-IQ-A61H,NA,NA,TCGA-IQ-A61H,NA,NA,NA,no,Unknown,Unknown
+444,TCGA-IQ-A61J,NA,NA,TCGA-IQ-A61J,NA,NA,NA,no,Unknown,Unknown
+445,TCGA-IQ-A61K,NA,NA,NA,NA,NA,NA,NA,Unknown,Unknown
+446,TCGA-IQ-A61L,NA,NA,NA,NA,NA,NA,NA,Unknown,Unknown
+447,TCGA-IQ-A61O,NA,NA,TCGA-IQ-A61O,NA,NA,NA,no,Unknown,Unknown
+448,TCGA-IQ-A6SG,NA,NA,TCGA-IQ-A6SG,NA,NA,NA,no,Unknown,Unknown
+449,TCGA-IQ-A6SH,NA,NA,TCGA-IQ-A6SH,NA,NA,NA,no,Unknown,Unknown
+450,TCGA-KU-A66S,NA,NA,TCGA-KU-A66S,NA,NA,NA,no,Unknown,Unknown
+451,TCGA-KU-A66T,NA,NA,TCGA-KU-A66T,NA,NA,NA,no,Unknown,Unknown
+453,TCGA-KU-A6H8,NA,NA,TCGA-KU-A6H8,NA,NA,NA,no,Unknown,Unknown
+454,TCGA-MT-A51W,NA,NA,TCGA-MT-A51W,NA,NA,NA,no,Unknown,Unknown
+455,TCGA-MT-A51X,NA,NA,TCGA-MT-A51X,NA,NA,NA,no,Unknown,Unknown
+456,TCGA-MT-A67A,NA,NA,TCGA-MT-A67A,NA,NA,NA,no,Unknown,Unknown
+457,TCGA-MT-A67D,NA,NA,TCGA-MT-A67D,NA,NA,NA,no,Unknown,Unknown
+458,TCGA-MT-A67F,NA,NA,TCGA-MT-A67F,NA,NA,NA,no,Unknown,Unknown
+459,TCGA-MT-A67G,NA,NA,NA,NA,NA,NA,NA,Unknown,Unknown
+460,TCGA-MT-A7BN,NA,NA,TCGA-MT-A7BN,NA,NA,NA,no,Unknown,Unknown
+463,TCGA-MZ-A7D7,NA,NA,TCGA-MZ-A7D7,NA,NA,NA,no,Unknown,Unknown
+465,TCGA-P3-A5Q6,NA,NA,TCGA-P3-A5Q6,NA,NA,NA,no,Unknown,Unknown
+466,TCGA-P3-A5QA,NA,NA,TCGA-P3-A5QA,NA,NA,NA,no,Unknown,Unknown
+470,TCGA-P3-A6SX,NA,NA,TCGA-P3-A6SX,NA,NA,NA,no,Unknown,Unknown
+471,TCGA-P3-A6T0,NA,NA,TCGA-P3-A6T0,NA,NA,NA,no,Unknown,Unknown
+472,TCGA-P3-A6T2,NA,NA,TCGA-P3-A6T2,NA,NA,NA,no,Unknown,Unknown
+473,TCGA-P3-A6T3,NA,NA,TCGA-P3-A6T3,NA,NA,NA,no,Unknown,Unknown
+474,TCGA-P3-A6T4,NA,NA,TCGA-P3-A6T4,NA,NA,NA,no,Unknown,Unknown
+475,TCGA-P3-A6T5,NA,NA,TCGA-P3-A6T5,NA,NA,NA,no,Unknown,Unknown
+477,TCGA-P3-A6T7,NA,NA,TCGA-P3-A6T7,NA,NA,NA,no,Unknown,Unknown
+478,TCGA-P3-A6T8,NA,NA,TCGA-P3-A6T8,NA,NA,NA,no,Unknown,Unknown
+479,TCGA-QK-A64Z,NA,NA,TCGA-QK-A64Z,NA,NA,NA,no,Unknown,Unknown
+480,TCGA-QK-A652,NA,NA,TCGA-QK-A652,NA,NA,NA,no,Unknown,Unknown
+482,TCGA-QK-A6IG,NA,NA,TCGA-QK-A6IG,NA,NA,NA,no,Unknown,Unknown
+483,TCGA-QK-A6IH,NA,NA,TCGA-QK-A6IH,NA,NA,NA,no,Unknown,Unknown
+484,TCGA-QK-A6II,NA,NA,TCGA-QK-A6II,NA,NA,NA,no,Unknown,Unknown
+485,TCGA-QK-A6IJ,NA,NA,TCGA-QK-A6IJ,NA,NA,NA,no,Unknown,Unknown
+487,TCGA-QK-A6VB,NA,NA,TCGA-QK-A6VB,NA,NA,NA,no,Unknown,Unknown
+488,TCGA-QK-A6VC,NA,NA,TCGA-QK-A6VC,NA,NA,NA,no,Unknown,Unknown
+489,TCGA-QK-A8Z7,NA,NA,TCGA-QK-A8Z7,NA,NA,NA,no,Unknown,Unknown
+490,TCGA-QK-A8Z8,NA,NA,TCGA-QK-A8Z8,NA,NA,NA,no,Unknown,Unknown
+491,TCGA-QK-A8Z9,NA,NA,TCGA-QK-A8Z9,NA,NA,NA,no,Unknown,Unknown
+493,TCGA-QK-A8ZB,NA,NA,TCGA-QK-A8ZB,NA,NA,NA,no,Unknown,Unknown
+494,TCGA-QK-AA3J,NA,NA,TCGA-QK-AA3J,NA,NA,NA,no,Unknown,Unknown
+496,TCGA-RS-A6TO,NA,NA,TCGA-RS-A6TO,NA,NA,NA,no,Unknown,Unknown
+498,TCGA-T2-A6WX,NA,NA,TCGA-T2-A6WX,NA,NA,NA,no,Unknown,Unknown
+499,TCGA-T2-A6WZ,NA,NA,TCGA-T2-A6WZ,NA,NA,NA,no,Unknown,Unknown
+501,TCGA-T2-A6X2,NA,NA,TCGA-T2-A6X2,NA,NA,NA,no,Unknown,Unknown
+502,TCGA-T3-A92M,NA,NA,TCGA-T3-A92M,NA,NA,NA,no,Unknown,Unknown
+503,TCGA-T3-A92N,NA,NA,TCGA-T3-A92N,NA,NA,NA,no,Unknown,Unknown
+505,TCGA-TN-A7HJ,NA,NA,TCGA-TN-A7HJ,NA,NA,NA,no,Unknown,Unknown
+507,TCGA-UF-A718,NA,NA,TCGA-UF-A718,NA,NA,NA,no,Unknown,Unknown
+508,TCGA-UF-A719,NA,NA,TCGA-UF-A719,NA,NA,NA,no,Unknown,Unknown
+509,TCGA-UF-A71A,NA,NA,TCGA-UF-A71A,NA,NA,NA,no,Unknown,Unknown
+510,TCGA-UF-A71B,NA,NA,TCGA-UF-A71B,NA,NA,NA,no,Unknown,Unknown
+511,TCGA-UF-A71D,NA,NA,TCGA-UF-A71D,NA,NA,NA,no,Unknown,Unknown
+512,TCGA-UF-A71E,NA,NA,TCGA-UF-A71E,NA,NA,NA,no,Unknown,Unknown
+513,TCGA-UF-A7J9,NA,NA,TCGA-UF-A7J9,NA,NA,NA,no,Unknown,Unknown
+514,TCGA-UF-A7JA,NA,NA,TCGA-UF-A7JA,NA,NA,NA,no,Unknown,Unknown
+515,TCGA-UF-A7JC,NA,NA,TCGA-UF-A7JC,NA,NA,NA,no,Unknown,Unknown
+516,TCGA-UF-A7JD,NA,NA,TCGA-UF-A7JD,NA,NA,NA,no,Unknown,Unknown
+517,TCGA-UF-A7JF,NA,NA,TCGA-UF-A7JF,NA,NA,NA,no,Unknown,Unknown
+518,TCGA-UF-A7JH,NA,NA,TCGA-UF-A7JH,NA,NA,NA,no,Unknown,Unknown
+519,TCGA-UF-A7JJ,NA,NA,TCGA-UF-A7JJ,NA,NA,NA,no,Unknown,Unknown
+520,TCGA-UF-A7JK,NA,NA,TCGA-UF-A7JK,NA,NA,NA,no,Unknown,Unknown
+521,TCGA-UF-A7JO,NA,NA,TCGA-UF-A7JO,NA,NA,NA,no,Unknown,Unknown
+522,TCGA-UF-A7JS,NA,NA,TCGA-UF-A7JS,NA,NA,NA,no,Unknown,Unknown
+523,TCGA-UF-A7JT,NA,NA,TCGA-UF-A7JT,NA,NA,NA,no,Unknown,Unknown
+524,TCGA-UF-A7JV,NA,NA,TCGA-UF-A7JV,NA,NA,NA,no,Unknown,Unknown
+526,TCGA-WA-A7GZ,NA,NA,TCGA-WA-A7GZ,NA,NA,NA,no,Unknown,Unknown
+527,TCGA-WA-A7H4,NA,NA,TCGA-WA-A7H4,NA,NA,NA,no,Unknown,Unknown
+528,TCGA-4P-AA8J,NA,NA,TCGA-4P-AA8J,NA,NA,NA,no,Unknown,Unknown
