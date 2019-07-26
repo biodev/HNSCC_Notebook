@@ -67,9 +67,10 @@ settings$somatic_mutation_aberration_summary$`Analyze pathways for individual me
 
 settings$somatic_mutation_aberration_summary$`Have manual gene symbol corrections already been conducted? (y/n)` <- "y"
 
+
 settings$somatic_mutation_aberration_summary$`
 Please enter the row numbers of the variant types you would like to analyze (sepparated by a space).
-(Full list of options.)` <- "\nFrame_Shift_Del; Frame_Shift_Ins; In_Frame_Del; In_Frame_Ins; Missense_Mutation; Nonsense_Mutation; Nonstop_Mutation; Splice_Site"
+(Full list of options.)` <-  "\nFrame_Shift_Del; Frame_Shift_Ins; In_Frame_Del; In_Frame_Ins; Missense_Mutation; Nonsense_Mutation; Nonstop_Mutation; Splice_Site"
 
 settings$somatic_mutation_aberration_summary$`Would you like to filter out hypermutators?
 If yes, please enter a mutation count threshold.
@@ -105,6 +106,7 @@ settings$functional_drug_screen_summary$`Please select a file` <- "data/Targetom
 
 settings$functional_drug_screen_summary$`Please type in the name of the column with the gene symbols: ` <-	"targets"
 settings$functional_drug_screen_summary$`Have manual gene symbol corrections already been made? (y/n)` <-	"y"
+
 ```
 
 ## Building the study with the settings
@@ -135,6 +137,7 @@ Output is generated in `output/study_hnscc/results/overlap_analysis`. The releva
 ```{r}
 lightPaths <- read.delim("output/study_hnscc/results/overlap_analysis/Aberrationally enriched, containing drug targets.txt", delim="\t")
 DT::datatable(lightPaths)
+
 ```
 
 `Aberration enriched, not drug targeted.txt` - Dark pathway file
