@@ -16,6 +16,7 @@ pkgs <- c(
   "VariantAnnotation",
   "DelayedArray",
   "GSEABase",
+  "reactome.db",
   "Gviz",
   "AnnotationDbi", 
   "graphite", 
