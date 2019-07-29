@@ -1,0 +1,171 @@
+---
+title: "HNSCC HPV Cohort Subsets"
+author: "Aurora S Blucher"
+date: "7/26/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(dplyr)
+library(reshape2)
+library(ggplot2)
+library(tidyr)
+library(stringr)
+```
+
+## HNSCC HPV SUBSETS
+
+This script uses the HPV consensus annotation file to generate HPV-positive and HPV-negative subsets from the full TCGA Head and Neck Squamous Cell Carcinoma cohort. As part of the code review, we check to make sure that the HPV subsets we generate match previous HPV subsets. 
+
+These HPV cohort subsets are then used in another notebook in this project to find HPV-status cohort specific light and dark pathways.
+
+```{r}
+setwd("/Users/blucher/Box/OHSU (blucher@ohsu.edu)/HNSCC/gabby_manuscript/submission_PLOS/Figures_AndInput_FromGabby")
+
+################
+###DATA
+################
+
+#hnscc mutation data, same file used for pathway analysis of full cohort
+hnscc_mutation<-read.csv(file="TCGA.HNSC.mutect.84c7a87a-9dcc-48fb-bd69-ba9d6e6f3ca2.DR-7.0.somatic_cleaned.maf",header = TRUE, sep="\t")
+hnscc_mutation_cleanedBarcode<-hnscc_mutation %>% mutate(Patient_barcode=str_sub(Tumor_Sample_Barcode, 0, 12))
+hnscc_mutation_patientIDs<-hnscc_mutation_cleanedBarcode %>% select(Tumor_Sample_Barcode, Patient_barcode) 
+head(hnscc_mutation_patientIDs)
+
+#consensus hpv annotation file from Mitzi Boardman
+hpv_annotation_mitzi<-read.csv(file="HPV_Annotation_MB.csv", header = TRUE, sep=",")
+head(hpv_annotation_mitzi)
+```
+
+## HPV POSITIVES
+
+The HPV Positive cohort is created by subsetting our fill TCGA MAF file to include only those TCGA samples with an HPV annotation of "Highest Confidence Positive".
+
+```{r}
+#positives= final call is either highest confidence positive or high confidence positive
+#using highest confidence positive only
+hpv_positivesM<-hpv_annotation_mitzi %>% filter (FINAL_HPV_CALL=="Highest Confidence Positive" )
+n_distinct(hpv_positivesM) #62 highest confidence positives
+
+#how many positives are in the tcga hnscc file from gabby? 
+#ASB note, there may be more patient IDs in annotation file due to using a later version than when Gabby pulled MAF
+hpv_posM_inourset<-hnscc_mutation_patientIDs %>% filter(Patient_barcode %in% hpv_positivesM$TCGA_BARCODE) %>% unique()
+n_distinct(hpv_posM_inourset)#57 HPV positive samples in our tcga hnscc file
+
+
+#CREATE HPV POSITIVE SUBSET MAF 
+#create HPV positive subset maf, then remove our cleaned barcode
+hpv_pos_subset_for_maf<-hnscc_mutation_cleanedBarcode %>% filter(Patient_barcode %in% hpv_positivesM$TCGA_BARCODE) %>% select(-Patient_barcode, "patientid"=TCGA_Patient_Barcode) %>%unique()
+View(hpv_pos_subset_for_maf)
+levels(factor(hpv_pos_subset_for_maf$Variant_Classification)) #9 levels here
+write.table(hpv_pos_subset_for_maf, "TCGA.HNSC.mutect.84c7a87a-9dcc-48fb-bd69-ba9d6e6f3ca2.DR-7.0.somatic_cleaned_HPVpos_checked.maf", sep="\t", row.names = FALSE, col.names = TRUE, quote = FALSE)
+
+
+#COMPARING TO HPV POS SUBSET MAF FILE FROM GABBY
+#note, our maf file is larger (8013 rows compared to 5194 rows, same 121 cols)
+#check to make sure these are the same 57 samples as in Gabby's split files
+
+#HPV positive cohort from Gabby
+hpvPos_fromSubsetFile<-read.csv(file="TCGA.HNSC.mutect.84c7a87a-9dcc-48fb-bd69-ba9d6e6f3ca2.DR-7.0.somatic_cleaned_HPVpos.maf",header = TRUE, sep="\t")
+View(hpvPos_fromSubsetFile)
+hpvPos_fromSubsetFile_checkunique<-hpvPos_fromSubsetFile %>% unique()
+n_distinct(hpvPos_fromSubsetFile$Tumor_Sample_Barcode) #57 positive samples used in the analysis
+hpv_posM_inourset_check<-hpv_posM_inourset %>% mutate("Annotated_fromMitzi"=ifelse(hpv_posM_inourset$Tumor_Sample_Barcode %in% hpvPos_fromSubsetFile$Tumor_Sample_Barcode, "Yes", "No"))
+#View(hpv_posM_inourset_check) #yes, these are the same 57 samples
+
+
+#it seems to be the variant classification designation
+#17 levels of variant classification in Gabby's file
+levels(factor(hpvPos_fromSubsetFile$Variant_Classification)) #17 
+
+#9 levels of variant classification in our file
+variant_Classification_List<-levels(factor(hpv_pos_subset_for_maf$Variant_Classification))
+
+#filter gabby's file to our 9 variant classifications -> produces the same 5194 rows
+filtering_try<-hpvPos_fromSubsetFile %>% filter(Variant_Classification %in% variant_Classification_List)
+#View(filtering_try)
+#View(hpv_pos_subset_for_maf)
+
+#CHECK DATA FRAMES ARE EQUAL
+#try all_equal from dplyr
+#incompatible types distance/ somatic - just remove these columns for now, they are not used
+filtering_try_tocompare<-filtering_try %>% select(-DISTANCE, -SOMATIC)
+hpv_pos_subset_for_maf_tocompare<-hpv_pos_subset_for_maf %>% select(-DISTANCE, -SOMATIC)
+#ignore column order, ignore row order
+check<-all_equal(filtering_try_tocompare, hpv_pos_subset_for_maf_tocompare, ignore_col_order = TRUE, ignore_row_order = TRUE, convert=TRUE)
+check #YES DATA FRAMES ARE THE SAME
+```
+
+## HPV NEGATIVES
+
+The HPV Negative cohort is created by subsetting our fill TCGA MAF file to include only those TCGA samples with an HPV annotation of "High Confidence Negative".
+
+```{r}
+
+#positives from mitzi - final call is either highest confidence positive or high confidence positive
+#using highest confidence positive only
+hpv_negativesM<-hpv_annotation_mitzi %>% filter (FINAL_HPV_CALL=="High Confidence Negative" )
+#View(hpv_negativesM)#121 high confidence negatives here
+
+#how many negatives are in the tcga file from gabby?
+hpv_negM_inourset<-hnscc_mutation_patientIDs %>% filter(Patient_barcode %in% hpv_negativesM$TCGA_BARCODE) %>% unique()
+#View(hpv_negM_inourset) #118 HPV negative samples in Gabby's set
+
+#CREATE HPV NEGATIVE SUBSET MAF 
+#create HPV NEGATIVE subset maf, then remove our cleaned barcode
+hpv_neg_subset_for_maf<-hnscc_mutation_cleanedBarcode %>% filter(Patient_barcode %in% hpv_negativesM$TCGA_BARCODE) %>%select(-Patient_barcode, "patientid"=TCGA_Patient_Barcode) %>%unique()
+nrow(hpv_neg_subset_for_maf) #12771 rows
+write.table(hpv_neg_subset_for_maf, "TCGA.HNSC.mutect.84c7a87a-9dcc-48fb-bd69-ba9d6e6f3ca2.DR-7.0.somatic_cleaned_HPVneg_checked.maf", sep="\t", row.names = FALSE, col.names = TRUE, quote = FALSE)
+
+
+#COMPARING TO HPV NEG SUBSET MAF FILE FROM GABBY
+#note, our maf file is larger (8013 rows compared to 5194 rows, same 121 cols)
+#check to make sure these are the same 57 samples as in Gabby's split files
+
+#check to make sure these are the same 118 samples as in Gabby's split files
+#HPV negative cohort
+hpvneg_fromSubsetFile<-read.csv(file="TCGA.HNSC.mutect.84c7a87a-9dcc-48fb-bd69-ba9d6e6f3ca2.DR-7.0.somatic_cleaned_HPVneg.maf",header = TRUE, sep="\t")
+n_distinct(hpvneg_fromSubsetFile$Tumor_Sample_Barcode) #118 positive samples used in the analysis
+hpv_negM_inourset_check<-hpv_negM_inourset %>% mutate("Annotated_fromMitzi"=ifelse(hpv_negM_inourset$Tumor_Sample_Barcode %in% hpvneg_fromSubsetFile$Tumor_Sample_Barcode, "Yes", "No"))
+#View(hpv_negM_inourset_check) #yes- 118 samples
+nrow(hpvneg_fromSubsetFile) #19058 rows
+
+#it seems to be the variant classification designation
+levels(factor(hpvneg_fromSubsetFile$Variant_Classification)) #18 here
+
+#9 levels of variant classification in our file
+levels(factor(hpv_neg_subset_for_maf$Variant_Classification))
+variant_Classification_List_neg<-levels(factor(hpv_neg_subset_for_maf$Variant_Classification))
+
+#filter gabby's file to our 9 variant classifications -> produces the same 5194 rows
+filtering_try_neg<-hpvneg_fromSubsetFile %>% filter(Variant_Classification %in% variant_Classification_List_neg)
+nrow(filtering_try_neg) #12774
+#View(filtering_try)
+nrow(hpv_neg_subset_for_maf)#12771
+
+#NOTE, NOT EXACTLY EQUAL!
+#WE HAVE 3 ADDITIONAL ROWS IN THE SUBSET FILE FROM GABBY THAT ARE NOT IN OUR HPV NEG SUBSET FILE
+
+#CHECK DATA FRAMES ARE EQUAL
+#try all_equal from dplyr
+#incompatible types distance/ somatic - just remove these columns for now, they are not used
+filtering_try_tocompare_neg<-filtering_try_neg %>% select(-DISTANCE, -SOMATIC)
+hpv_neg_subset_for_maf_tocompare<-hpv_neg_subset_for_maf %>% select(-DISTANCE, -SOMATIC)
+#ignore column order, ignore row order
+check_neg<-all_equal(filtering_try_tocompare_neg, hpv_neg_subset_for_maf_tocompare, ignore_col_order = TRUE, ignore_row_order = TRUE, convert=TRUE)
+check_neg #DIFFERENT NUMBER OF ROWS
+
+
+#use anti_join to get those 3 rows
+extraRows_neg<-anti_join(filtering_try_tocompare_neg, hpv_neg_subset_for_maf_tocompare)
+nrow(extraRows_neg) #3 extra rows
+#notes
+#all 3 data points are Variant type DELETE, but those do not appear to be excluded
+#
+
+#save this file to show that there is a difference
+write.table(extraRows_neg, "TCGA.HNSC.mutect.84c7a87a-9dcc-48fb-bd69-ba9d6e6f3ca2.DR-7.0.somatic_cleaned_HPVneg_checked_3DifferingRows_072919.maf", sep="\t", row.names = FALSE, col.names = TRUE, quote = FALSE)
+
+
+
+```
