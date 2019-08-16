@@ -1,0 +1,32 @@
+---
+title: "Process Gistic Files"
+author: "Ted Laderas"
+date: "8/15/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Transforming the Gistic Data
+
+This is a simple script that transforms the GISTIC calls for the HNSCC data (the `all_thresholded.by_genes.txt") into a long format more appropriate to introduce into the mutation workflow.
+
+```{r}
+library(data.table)
+library(dtplyr)
+library(dplyr)
+library(here)
+
+
+gistic_file <- data.table::fread(here("data/gdac.broadinstitute.org_HNSC-TP.CopyNumber_Gistic2.Level_4.2012122100.0.0/all_thresholded.by_genes.txt"))
+
+gistic_long <- gistic_file %>% tidyr::gather("tcga_id", "cnv_call", - `Gene Symbol`, - `Locus ID`, -Cytoband) 
+
+
+gistic_long <- gistic_long %>% mutate(tcga_id = substr(tcga_id, 1, 12)) %>% filter(cnv_call != 0)
+
+saveRDS(gistic_long, file=here("data/gistic_long_calls.rds"))
+```
+
