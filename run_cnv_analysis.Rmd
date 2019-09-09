@@ -1,0 +1,195 @@
+---
+title: "Process Gistic Files"
+author: "Ted Laderas"
+date: "8/15/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Transforming the Gistic Data
+
+This is a simple script that transforms the GISTIC calls for the HNSCC data (the `all_thresholded.by_genes.txt") into a long format more appropriate to introduce into the mutation workflow.
+
+```{r}
+library(data.table)
+library(dtplyr)
+library(dplyr)
+library(here)
+
+
+gistic_file <- data.table::fread(here("data/gdac.broadinstitute.org_HNSC-TP.CopyNumber_Gistic2.Level_4.2012122100.0.0/all_thresholded.by_genes.txt"))
+
+gistic_long <- gistic_file %>% tidyr::gather("tcga_id", "cnv_call", - `Gene Symbol`, - `Locus ID`, -Cytoband) 
+
+
+gistic_long <- gistic_long %>% mutate(tcga_id = substr(tcga_id, 1, 12)) %>% filter(cnv_call != 0)
+
+#filter only to -2 and +2 calls
+gistic_long_calls <- gistic_long %>% 
+  filter(cnv_call !=0 & (cnv_call == -2 | cnv_call == 2)) %>%
+  mutate(Variant_Classification = "CNV", 
+         Variant_Type = case_when(cnv_call == -2 ~ "DEL",
+                   cnv_call == 2 ~ "AMP"
+  ))
+
+saveRDS(gistic_long_calls, file=here("data/gistic_long_calls.rds"))
+```
+
+
+```{r}
+head(gistic_long_calls,n = 20)
+```
+
+```{r}
+library(data.table)
+library(dplyr)
+gistic_long_calls <- readRDS(here::here("data/gistic_long_calls.rds"))
+
+##these are the needed columns
+cols <- c("Hugo_Symbol", "Chrom","Ncbi_Build", 
+          "Start_Position", "Reference_Allele", 
+          "Tumor_Sample_Barcode",  "Tumor_Seq_Allele1", 
+          "Tumor_Seq_Allele2", "Variant_Classification", 
+          "Variant_Type", "Dbsnp_Rs","Dbsnp_Val_Status")
+
+tcga_samp <- fread(here::here("data/TCGA.HNSC.HPV-positive.maf"))
+
+head(tcga_samp)
+
+new_gistic_long <- gistic_long_calls %>% mutate(Hugo_Symbol=`Gene Symbol`, 
+                                                Chrom = Cytoband, 
+                             Tumor_Sample_Barcode = tcga_id, 
+                             Start_Position = NA, Reference_Allele = NA,
+                             Ncbi_Build = "GRCh38", Tumor_Seq_Allele1=NA, 
+                             Tumor_Seq_Allele2 = NA, 
+                             Dbsnp_Rs = NA, Dbsnp_Val_Status = NA, Sequencer=NA
+                             )
+
+write.table(new_gistic_long,file = here::here("data/gistic_long_file.maf"), sep="\t", row.names = FALSE)
+
+#show that this dummied data passes dataCleaningAndCheck
+try(packageDir:::dataCleaningAndCheck(head(new_gistic_long)))
+
+#show that it passes addPidColumn
+try(packageDir:::addPidColumn(head(new_gistic_long)))
+
+#
+try(packageDir:::FilterDuplicates(new_gistic_long))
+```
+
+
+```{r}
+library(here)
+library("packageDir")
+library("roxygen2")
+library("stringr")
+library("DT")
+```
+
+## Running Overlap analysis
+
+A number of settings options have to be set for this analysis. 
+
+### Somatic Mutation Settings
+
+```{r}
+path_detail <- readRDS("data/path_detail.rds")
+
+settings <- getBasicSettings()
+
+#modify the settings object
+settings$somatic_mutation_aberration_summary$interactive <- "n"
+
+settings$somatic_mutation_aberration_summary$`Analyze pathways for individual members of the cohort? (y or n) `<- "n"
+
+settings$somatic_mutation_aberration_summary$`Select a .maf file containing the data set to be analyzed.` <- "data/gistic_long_file.maf"
+
+settings$somatic_mutation_aberration_summary$`Would you like to include PolyPhen analysis results in this analysis? (y/n) `<- "n"
+
+settings$somatic_mutation_aberration_summary$`Have manual gene symbol corrections already been conducted? (y/n)` <- "y"
+
+settings$somatic_mutation_aberration_summary$`Analyze pathways for individual members of the cohort? (y or n) ` <- "n"
+
+settings$somatic_mutation_aberration_summary$`Have manual gene symbol corrections already been conducted? (y/n)` <- "y"
+
+
+
+settings$somatic_mutation_aberration_summary$`
+Please enter the row numbers of the variant types you would like to analyze (sepparated by a space).(Full list of options.)` <-  "CNV"
+
+
+settings$somatic_mutation_aberration_summary$mutation_type <- c("CNV")
+
+settings$somatic_mutation_aberration_summary$`Would you like to filter out hypermutators?
+If yes, please enter a mutation count threshold.
+If no just press enter n ` <- "n"
+
+settings$somatic_mutation_aberration_summary$`Use special path significance analysis settings for this data type? (y/n)` <- "n"
+ 
+```
+
+```{r}
+settings$functional_drug_screen_summary$`Please select a file with a drug screen results data set
+` <- "data/Targetome_Level123_8_7_17.txt"
+
+settings$functional_drug_screen_summary$interactive <- "n"
+
+settings$functional_drug_screen_summary$`Have manual symbol corrections been performed yet for the current data set? (y/n)` <- "y"
+
+settings$functional_drug_screen_summary$`Analyze pathways for individual members of the cohort? (y or n) ` <- "n"
+
+settings$functional_drug_screen_summary$`
+ To analyze drug screen panel coverage (for a panel that has or has not been run), enter p
+ To process drug screen result set enter d
+ To save an HTML summary of the results enter h
+ To exit drug screen interface, enter q
+` <- "p"
+
+ 
+settings$functional_drug_screen_summary$gene_stat <- "g"
+ 
+settings$functional_drug_screen_summary$`Enter \\"g\\" to examine coverage using a set of gene names. Enter \\"d\\" to examine coverage using drug names, along with a drug target matrix: ` <- "g"
+
+settings$functional_drug_screen_summary$`Please select a file` <- "data/Targetome_Level123_8_7_17.txt"
+
+settings$functional_drug_screen_summary$`Please type in the name of the column with the gene symbols: ` <-	"targets"
+settings$functional_drug_screen_summary$`Have manual gene symbol corrections already been made? (y/n)` <-	"y"
+
+```
+
+```{r}
+study = getStudyObject(study.name="hnscc_cnv_only", geneIdentifierType="HUGO", path_detail = path_detail, settings = settings)
+```
+
+## Running the Analysis
+
+`loadBasicArms()` loads the data from the specified locations.
+
+`autoRunFromSettings()` runs all of the mutation processing and overlap analysis code.
+
+```{r}
+study <- loadBasicArms(study)
+study <- autoRunFromSettings(study)
+saveStudy(study)
+```
+
+
+```{r}
+lightPaths <- read.delim("output/study_hnscc_cnv_only/results/overlap_analysis/Aberrationally enriched, containing drug targets.txt", sep="\t")
+DT::datatable(lightPaths)
+
+```
+
+
+```{r}
+darkPaths <- read.delim("output/study_hnscc_cnv_only/results/overlap_analysis/Aberration enriched, not drug targeted.txt", sep= "\t")
+DT::datatable(darkPaths)
+```
+
+```{r}
+
+
+```
