@@ -1,8 +1,8 @@
 ---
-title: "Process Gistic Files"
+title: "CNV Pathway Overlap Analysis"
 author: "Ted Laderas"
 date: "8/15/2019"
-output: html_document
+output: html_notebook
 ---
 
 ```{r setup, include=FALSE}
@@ -11,75 +11,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Transforming the Gistic Data
 
-This is a simple script that transforms the GISTIC calls for the HNSCC data (the `all_thresholded.by_genes.txt") into a long format more appropriate to introduce into the mutation workflow.
-
-```{r}
-library(data.table)
-library(dtplyr)
-library(dplyr)
-library(here)
-
-
-gistic_file <- data.table::fread(here("data/gdac.broadinstitute.org_HNSC-TP.CopyNumber_Gistic2.Level_4.2012122100.0.0/all_thresholded.by_genes.txt"))
-
-gistic_long <- gistic_file %>% tidyr::gather("tcga_id", "cnv_call", - `Gene Symbol`, - `Locus ID`, -Cytoband) 
-
-
-gistic_long <- gistic_long %>% mutate(tcga_id = substr(tcga_id, 1, 12)) %>% filter(cnv_call != 0)
-
-#filter only to -2 and +2 calls
-gistic_long_calls <- gistic_long %>% 
-  filter(cnv_call !=0 & (cnv_call == -2 | cnv_call == 2)) %>%
-  mutate(Variant_Classification = "CNV", 
-         Variant_Type = case_when(cnv_call == -2 ~ "DEL",
-                   cnv_call == 2 ~ "AMP"
-  ))
-
-saveRDS(gistic_long_calls, file=here("data/gistic_long_calls.rds"))
-```
-
-
-```{r}
-head(gistic_long_calls,n = 20)
-```
-
-```{r}
-library(data.table)
-library(dplyr)
-gistic_long_calls <- readRDS(here::here("data/gistic_long_calls.rds"))
-
-##these are the needed columns
-cols <- c("Hugo_Symbol", "Chrom","Ncbi_Build", 
-          "Start_Position", "Reference_Allele", 
-          "Tumor_Sample_Barcode",  "Tumor_Seq_Allele1", 
-          "Tumor_Seq_Allele2", "Variant_Classification", 
-          "Variant_Type", "Dbsnp_Rs","Dbsnp_Val_Status")
-
-tcga_samp <- fread(here::here("data/TCGA.HNSC.HPV-positive.maf"))
-
-head(tcga_samp)
-
-new_gistic_long <- gistic_long_calls %>% mutate(Hugo_Symbol=`Gene Symbol`, 
-                                                Chrom = Cytoband, 
-                             Tumor_Sample_Barcode = tcga_id, 
-                             Start_Position = NA, Reference_Allele = NA,
-                             Ncbi_Build = "GRCh38", Tumor_Seq_Allele1=NA, 
-                             Tumor_Seq_Allele2 = NA, 
-                             Dbsnp_Rs = NA, Dbsnp_Val_Status = NA, Sequencer=NA
-                             )
-
-write.table(new_gistic_long,file = here::here("data/gistic_long_file.maf"), sep="\t", row.names = FALSE)
-
-#show that this dummied data passes dataCleaningAndCheck
-try(packageDir:::dataCleaningAndCheck(head(new_gistic_long)))
-
-#show that it passes addPidColumn
-try(packageDir:::addPidColumn(head(new_gistic_long)))
-
-#
-try(packageDir:::FilterDuplicates(new_gistic_long))
-```
-
+For information on how the dummy MAF file was made from the GISTIC results, please refer to `format_gistic.Rmd`.
 
 ```{r}
 library(here)
@@ -114,12 +46,6 @@ settings$somatic_mutation_aberration_summary$`Have manual gene symbol correction
 settings$somatic_mutation_aberration_summary$`Analyze pathways for individual members of the cohort? (y or n) ` <- "n"
 
 settings$somatic_mutation_aberration_summary$`Have manual gene symbol corrections already been conducted? (y/n)` <- "y"
-
-
-
-settings$somatic_mutation_aberration_summary$`
-Please enter the row numbers of the variant types you would like to analyze (sepparated by a space).(Full list of options.)` <-  "CNV"
-
 
 settings$somatic_mutation_aberration_summary$mutation_type <- c("CNV")
 
@@ -176,6 +102,7 @@ study <- autoRunFromSettings(study)
 saveStudy(study)
 ```
 
+# Light Paths from CNV Analysis
 
 ```{r}
 lightPaths <- read.delim("output/study_hnscc_cnv_only/results/overlap_analysis/Aberrationally enriched, containing drug targets.txt", sep="\t")
@@ -183,13 +110,58 @@ DT::datatable(lightPaths)
 
 ```
 
+#compare to mutation only analysis
 
 ```{r}
-darkPaths <- read.delim("output/study_hnscc_cnv_only/results/overlap_analysis/Aberration enriched, not drug targeted.txt", sep= "\t")
+light_paths_mutation <- read.delim(here("output/study_hnscc/results/overlap_analysis/Aberrationally enriched, containing drug targets.txt"), sep="\t")
+DT::datatable(lightPaths)
+
+```
+
+# Common to both analyses
+
+```{r}
+intersect(as.character(light_paths_mutation$path_id),as.character(lightPaths$path_id))
+```
+
+
+# Light Pathways In CNV analysis, but not mutation
+
+```{r}
+setdiff(as.character(lightPaths$path_id), as.character(light_paths_mutation$path_id))
+```
+
+# Light pathways unique to mutation and not in CNV 
+
+```{r}
+setdiff(as.character(lightPaths$path_id), as.character(light_paths_mutation$path_id))
+```
+
+
+# CNV Dark Pathways
+
+```{r}
+darkPaths <- read.delim("output/study_hnscc_cnv_only/results/overlap_analysis/Aberration enriched, not drug targeted.txt", sep= "\t", stringsAsFactors = FALSE)
 DT::datatable(darkPaths)
 ```
 
+# Dark Paths Common to Both Analyses
+
 ```{r}
+dark_paths_mutation <- read.delim("output/study_hnscc/results/overlap_analysis/Aberration enriched, not drug targeted.txt", sep= "\t", stringsAsFactors = FALSE)
+intersect(dark_paths_mutation$path_id, darkPaths$path_id)
+```
 
+## Dark Paths unique to CNV
 
+```{r}
+dark_paths_mutation <- read.delim("output/study_hnscc/results/overlap_analysis/Aberration enriched, not drug targeted.txt", sep= "\t", stringsAsFactors = FALSE)
+setdiff(darkPaths$path_id,dark_paths_mutation$path_id)
+```
+
+## Dark Paths unique to Mutation
+
+```{r}
+dark_paths_mutation <- read.delim("output/study_hnscc/results/overlap_analysis/Aberration enriched, not drug targeted.txt", sep= "\t", stringsAsFactors = FALSE)
+setdiff(dark_paths_mutation$path_id,darkPaths$path_id)
 ```
