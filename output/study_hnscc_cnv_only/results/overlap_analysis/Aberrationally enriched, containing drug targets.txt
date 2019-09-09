@@ -1,0 +1,122 @@
+"path number"	"path_id"	"full_path_length.x"	"testable_path_length.x"	"drug_targeted_genes"	"proportion_drug_targeted"	"full_path_length.y"	"testable_path_length.y"	"aberrational_genes"	"proportion_aberrational"	"proportion_of_cohort_w_aberrational_gene_in_path"	"Num_patient_with_aberrational_gene_.s._in_path"	"count_of_aberrational_genes_in_path_cross_cohort"	"max_in_one_gene"	"min_in_one_gene"	"hyperg_p_value"	"hyperg_p_w_FDR"
+"1"	1	"Abacavir transmembrane transport"	5	5	5	1	5	5	5	1	0.0540540540540541	16	18	13	1	0	0
+"2"	2	"Signaling by FGFR1 amplification mutants"	1	1	1	1	1	1	1	1	0.108108108108108	32	32	32	32	0	0
+"3"	3	"Signaling by FGFR2 amplification mutants"	1	1	1	1	1	1	1	1	0.00675675675675676	2	2	2	2	0	0
+"4"	4	"Signaling by FGFR4 mutants"	1	1	1	1	1	1	1	1	0.00337837837837838	1	1	1	1	0	0
+"5"	5	"t(4;14) translocations of FGFR3"	1	1	1	1	1	1	1	1	0.0236486486486486	7	7	7	7	0	0
+"6"	6	"AKT-mediated inactivation of FOXO1A"	4	4	3	0.75	4	4	4	1	0.0608108108108108	18	19	8	2	0	0
+"7"	7	"Activation of BIM and translocation to mitochondria"	3	3	2	0.666666666666667	3	3	3	1	0.0168918918918919	5	5	3	1	0	0
+"8"	8	"Chk1/Chk2(Cds1) mediated inactivation of Cyclin B:Cdk1 complex"	5	5	3	0.6	5	5	5	1	0.0304054054054054	9	11	6	1	0	0
+"9"	9	"Regulation of KIT signaling"	16	16	9	0.5625	16	16	16	1	0.260135135135135	77	90	17	1	0	0
+"10"	10	"Metabolism of folate and pterines"	9	9	5	0.555555555555556	9	9	9	1	0.141891891891892	42	44	18	1	0	0
+"11"	11	"Activation of CaMK IV"	2	2	1	0.5	2	2	2	1	0.0304054054054054	9	9	6	3	0	0
+"12"	12	"Activation of PKB"	4	4	2	0.5	4	4	4	1	0.0405405405405405	12	12	6	1	0	0
+"13"	13	"Adenosine P1 receptors"	4	4	2	0.5	4	4	4	1	0.0472972972972973	14	14	4	2	0	0
+"14"	14	"Enzymatic degradation of Dopamine by monoamine oxidase"	2	2	1	0.5	2	2	2	1	0.0608108108108108	18	20	15	5	0	0
+"15"	15	"Enzymatic degradation of dopamine by COMT"	2	2	1	0.5	2	2	2	1	0.0608108108108108	18	20	15	5	0	0
+"16"	16	"Estrogen biosynthesis"	2	2	1	0.5	2	2	2	1	0.0101351351351351	3	3	2	1	0	0
+"17"	17	"Inhibition of HSL"	2	2	1	0.5	2	2	2	1	0.0236486486486486	7	7	4	3	0	0
+"18"	18	"Neurophilin interactions with VEGF and VEGFR"	4	4	2	0.5	4	4	4	1	0.0371621621621622	11	11	4	2	0	0
+"19"	19	"PDE3B signalling"	2	2	1	0.5	2	2	2	1	0.0236486486486486	7	7	4	3	0	0
+"20"	20	"Regulation of PAK-2p34 activity by PS-GAP/RHG10"	2	2	1	0.5	2	2	2	1	0.179054054054054	53	53	51	2	0	0
+"21"	21	"Stimulation of the cell death response by PAK-2p34"	2	2	1	0.5	2	2	2	1	0.199324324324324	59	59	51	8	0	0
+"22"	22	"TRKA activation by NGF"	2	2	1	0.5	2	2	2	1	0.0506756756756757	15	15	9	6	0	0
+"23"	23	"VEGF binds to VEGFR leading to receptor dimerization"	8	8	4	0.5	8	8	8	1	0.128378378378378	38	43	14	2	0	0
+"24"	24	"VEGF ligand-receptor interactions"	8	8	4	0.5	8	8	8	1	0.128378378378378	38	43	14	2	0	0
+"25"	25	"p75NTR negatively regulates cell cycle via SC1"	6	6	3	0.5	6	6	6	1	0.0540540540540541	16	16	9	1	0	0
+"26"	26	"phospho-PLA2 pathway"	2	2	1	0.5	2	2	2	1	0.0405405405405405	12	12	7	5	0	0
+"27"	27	"Recycling of bile acids and salts"	15	15	7	0.466666666666667	15	15	15	1	0.131756756756757	39	56	13	1	0	0
+"28"	28	"EGFR Transactivation by Gastrin"	9	9	4	0.444444444444444	9	9	9	1	0.236486486486486	70	79	32	1	0	0
+"29"	29	"G2/M DNA damage checkpoint"	9	9	4	0.444444444444444	9	9	9	1	0.168918918918919	50	58	35	1	0	0
+"30"	30	"Sema3A PAK dependent Axon repulsion"	16	16	7	0.4375	16	16	16	1	0.35472972972973	105	155	51	2	0	0
+"31"	31	"AMPK inhibits chREBP transcriptional activation activity"	5	5	2	0.4	5	5	5	1	0.0675675675675676	20	23	6	2	0	0
+"32"	32	"GRB7 events in ERBB2 signaling"	5	5	2	0.4	5	5	5	1	0.0844594594594595	25	35	15	1	0	0
+"33"	33	"NGF-independant TRKA activation"	5	5	2	0.4	5	5	5	1	0.101351351351351	30	35	18	3	0	0
+"34"	34	"PKA-mediated phosphorylation of key metabolic factors"	5	5	2	0.4	5	5	5	1	0.0945945945945946	28	29	15	1	0	0
+"35"	35	"VEGFR2 mediated vascular permeability"	26	26	10	0.384615384615385	26	26	26	1	0.391891891891892	116	176	51	1	0	0
+"36"	36	"CD28 dependent PI3K/Akt signaling"	21	21	8	0.380952380952381	21	21	21	1	0.344594594594595	102	150	60	1	0	0
+"37"	37	"Erythrocytes take up carbon dioxide and release oxygen"	8	8	3	0.375	8	8	8	1	0.0945945945945946	28	42	13	1	0	0
+"38"	38	"Erythrocytes take up oxygen and release carbon dioxide"	8	8	3	0.375	8	8	8	1	0.0945945945945946	28	42	13	1	0	0
+"39"	39	"Negative regulation of the PI3K/AKT network"	8	8	3	0.375	8	8	8	1	0.125	37	43	13	1	0	0
+"40"	40	"O2/CO2 exchange in erythrocytes"	8	8	3	0.375	8	8	8	1	0.0945945945945946	28	42	13	1	0	0
+"41"	41	"Organic cation transport"	8	8	3	0.375	8	8	8	1	0.0540540540540541	16	21	9	1	0	0
+"42"	42	"Interleukin-7 signaling"	11	11	4	0.363636363636364	11	11	11	1	0.141891891891892	42	52	15	1	0	0
+"43"	43	"AKT phosphorylates targets in the nucleus"	9	9	3	0.333333333333333	9	9	9	1	0.165540540540541	49	53	22	1	0	0
+"44"	44	"Activation of TRKA receptors"	6	6	2	0.333333333333333	6	6	6	1	0.131756756756757	39	44	18	3	0	0
+"45"	45	"CaMK IV-mediated phosphorylation of CREB"	3	3	1	0.333333333333333	3	3	3	1	0.0472972972972973	14	14	6	3	0	0
+"46"	46	"Dopamine clearance from the synaptic cleft"	3	3	1	0.333333333333333	3	3	3	1	0.14527027027027	43	46	26	5	0	0
+"47"	47	"FGFR1c and Klotho ligand binding and activation"	3	3	1	0.333333333333333	3	3	3	1	0.128378378378378	38	41	32	1	0	0
+"48"	48	"FGFR2b ligand binding and activation"	6	6	2	0.333333333333333	6	6	6	1	0.317567567567568	94	107	82	1	0	0
+"49"	49	"GABA A (rho) receptor activation"	3	3	1	0.333333333333333	3	3	3	1	0.0304054054054054	9	11	7	2	0	0
+"50"	50	"Inhibition of TSC complex formation by PKB"	3	3	1	0.333333333333333	3	3	3	1	0.0337837837837838	10	10	5	1	0	0
+"51"	51	"Interactions of Tat with host cellular proteins"	3	3	1	0.333333333333333	3	3	3	1	0.027027027027027	8	9	5	1	0	0
+"52"	52	"Phosphorylation of proteins involved in the G2/M transition by Cyclin A:Cdc2 complexes"	3	3	1	0.333333333333333	3	3	3	1	0.0202702702702703	6	6	3	1	0	0
+"53"	53	"Regulation of gap junction activity"	3	3	1	0.333333333333333	3	3	3	1	0.0304054054054054	9	9	4	2	0	0
+"54"	54	"STAT6-mediated induction of chemokines"	3	3	1	0.333333333333333	3	3	3	1	0.0337837837837838	10	12	9	1	0	0
+"55"	55	"Signalling to STAT3"	3	3	1	0.333333333333333	3	3	3	1	0.0574324324324324	17	17	9	2	0	0
+"56"	56	"c-src mediated regulation of Cx43 function and closure of gap junctions"	3	3	1	0.333333333333333	3	3	3	1	0.0304054054054054	9	9	4	2	0	0
+"57"	57	"p75NTR recruits signalling complexes"	13	13	4	0.307692307692308	13	13	13	1	0.368243243243243	109	126	57	1	0	0
+"58"	58	"CREB phosphorylation through the activation of Adenylate Cyclase"	7	7	2	0.285714285714286	7	7	7	1	0.155405405405405	46	50	31	1	0	0
+"59"	59	"eNOS activation"	7	7	2	0.285714285714286	7	7	7	1	0.152027027027027	45	56	13	3	0	0
+"60"	60	"Signaling by FGFR in disease"	177	177	49	0.27683615819209	177	177	167	0.943502824858757	0.77027027027027	228	1226	82	0	0.000444536941456741	0.0183398479897641
+"61"	61	"GRB2:SOS provides linkage to MAPK signaling for Integrins"	15	15	4	0.266666666666667	15	15	15	1	0.300675675675676	89	113	34	1	0	0
+"62"	62	"CRMPs in Sema3A signaling"	16	16	4	0.25	16	16	16	1	0.192567567567568	57	82	10	1	0	0
+"63"	63	"Carnitine synthesis"	4	4	1	0.25	4	4	4	1	0.0641891891891892	19	19	10	1	0	0
+"64"	64	"ERKs are inactivated"	12	12	3	0.25	12	12	12	1	0.155405405405405	46	60	15	1	0	0
+"65"	65	"NF-kB activation through FADD/RIP-1 pathway mediated by caspase-8 and -10"	12	12	3	0.25	12	12	12	1	0.412162162162162	122	148	85	1	0	0
+"66"	66	"Phosphorylation of proteins involved in G1/S transition by active Cyclin E:Cdk2 complexes"	4	4	1	0.25	4	4	4	1	0.0743243243243243	22	22	11	2	0	0
+"67"	67	"SHC activation"	4	4	1	0.25	4	4	4	1	0.0540540540540541	16	18	8	2	0	0
+"68"	68	"Organic cation/anion/zwitterion transport"	13	13	3	0.230769230769231	13	13	13	1	0.10472972972973	31	53	9	1	0	0
+"69"	69	"Role of Abl in Robo-Slit signaling"	9	9	2	0.222222222222222	9	9	9	1	0.118243243243243	35	41	7	3	0	0
+"70"	70	"S6K1-mediated signalling"	9	9	2	0.222222222222222	9	9	9	1	0.22972972972973	68	78	55	1	0	0
+"71"	71	"Ca-dependent events"	28	28	6	0.214285714285714	28	28	28	1	0.385135135135135	114	175	31	1	0	0
+"72"	72	"SEMA3A-Plexin repulsion signaling by inhibiting Integrin adhesion"	14	14	3	0.214285714285714	14	14	14	1	0.222972972972973	66	84	19	1	0	0
+"73"	73	"PLC-gamma1 signalling"	33	33	7	0.212121212121212	33	33	33	1	0.402027027027027	119	194	31	1	0	0
+"74"	74	"Signaling by FGFR1 fusion mutants"	19	19	4	0.210526315789474	19	19	19	1	0.39527027027027	117	168	60	1	0	0
+"75"	75	"Disinhibition of SNARE formation"	5	5	1	0.2	5	5	5	1	0.027027027027027	8	9	3	1	0	0
+"76"	76	"FGFR1b ligand binding and activation"	5	5	1	0.2	5	5	5	1	0.324324324324324	96	106	82	1	0	0
+"77"	77	"G0 and Early G1"	25	25	5	0.2	25	25	25	1	0.320945945945946	95	138	34	1	0	0
+"78"	78	"G2 Phase"	5	5	1	0.2	5	5	5	1	0.0777027027027027	23	23	13	1	0	0
+"79"	79	"RAF activation"	5	5	1	0.2	5	5	5	1	0.0675675675675676	20	22	9	2	0	0
+"80"	80	"S6K1 signalling"	5	5	1	0.2	5	5	5	1	0.212837837837838	63	68	55	1	0	0
+"81"	81	"DAG and IP3 signaling"	31	31	6	0.193548387096774	31	31	31	1	0.388513513513513	115	179	31	1	0	0
+"82"	82	"CaM pathway"	26	26	5	0.192307692307692	26	26	26	1	0.371621621621622	110	163	31	1	0	0
+"83"	83	"Calmodulin induced events"	26	26	5	0.192307692307692	26	26	26	1	0.371621621621622	110	163	31	1	0	0
+"84"	84	"Hormone ligand-binding receptors"	11	11	2	0.181818181818182	11	11	11	1	0.111486486486486	33	42	9	1	0	0
+"85"	85	"Nephrin interactions"	22	22	4	0.181818181818182	22	22	22	1	0.375	111	213	60	1	0	0
+"86"	86	"Heme degradation"	6	6	1	0.166666666666667	6	6	6	1	0.0439189189189189	13	16	4	1	0	0
+"87"	87	"IRF3 mediated activation of type 1 IFN"	6	6	1	0.166666666666667	6	6	6	1	0.0608108108108108	18	20	9	1	0	0
+"88"	88	"IRS activation"	6	6	1	0.166666666666667	6	6	6	1	0.0709459459459459	21	24	8	2	0	0
+"89"	89	"Inhibition of replication initiation of damaged DNA by RB1/E2F1"	12	12	2	0.166666666666667	12	12	12	1	0.277027027027027	82	105	18	1	0	0
+"90"	90	"Mineralocorticoid biosynthesis"	6	6	1	0.166666666666667	6	6	6	1	0.162162162162162	48	56	33	2	0	0
+"91"	91	"Pyrimidine biosynthesis"	6	6	1	0.166666666666667	6	6	6	1	0.128378378378378	38	40	17	1	0	0
+"92"	92	"Telomere Extension By Telomerase"	6	6	1	0.166666666666667	6	6	6	1	0.158783783783784	47	51	26	1	0	0
+"93"	93	"Clearance of Nuclear Envelope Membranes from Chromatin"	7	7	1	0.142857142857143	7	7	7	1	0.165540540540541	49	53	16	1	0	0
+"94"	94	"Glycogen breakdown (glycogenolysis)"	14	14	2	0.142857142857143	14	14	14	1	0.341216216216216	101	134	42	1	0	0
+"95"	95	"Pentose phosphate pathway (hexose monophosphate shunt)"	7	7	1	0.142857142857143	7	7	7	1	0.0641891891891892	19	22	11	1	0	0
+"96"	96	"Regulation of Insulin-like Growth Factor (IGF) transport and uptake by Insulin-like Growth Factor Binding Proteins (IGFBPs)"	21	21	3	0.142857142857143	21	21	21	1	0.199324324324324	59	88	21	1	0	0
+"97"	97	"Cholesterol biosynthesis"	22	22	3	0.136363636363636	22	22	22	1	0.435810810810811	129	206	54	1	0	0
+"98"	98	"ChREBP activates metabolic gene expression"	8	8	1	0.125	8	8	8	1	0.0608108108108108	18	25	6	1	0	0
+"99"	99	"Ligand-receptor interactions"	8	8	1	0.125	8	8	8	1	0.097972972972973	29	36	10	1	0	0
+"100"	100	"PKA activation"	16	16	2	0.125	16	16	16	1	0.290540540540541	86	107	31	1	0	0
+"101"	101	"PKA-mediated phosphorylation of CREB"	17	17	2	0.117647058823529	17	17	17	1	0.290540540540541	86	112	31	1	0	0
+"102"	102	"Cobalamin (Cbl, vitamin B12) transport and metabolism"	20	20	2	0.1	20	20	20	1	0.219594594594595	65	84	21	1	0	0
+"103"	103	"E2F-enabled inhibition of pre-replication complex formation"	10	10	1	0.1	10	10	10	1	0.118243243243243	35	38	14	1	0	0
+"104"	104	"MASTL Facilitates Mitotic Progression"	10	10	1	0.1	10	10	10	1	0.128378378378378	38	42	15	1	0	0
+"105"	105	"TRIF-mediated programmed cell death"	10	10	1	0.1	10	10	10	1	0.388513513513513	115	139	85	1	0	0
+"106"	106	"Dimerization of procaspase-8"	11	11	1	0.0909090909090909	11	11	11	1	0.452702702702703	134	195	85	2	0	0
+"107"	107	"Regulation by c-FLIP"	11	11	1	0.0909090909090909	11	11	11	1	0.452702702702703	134	195	85	2	0	0
+"108"	108	"Ligand-gated ion channel transport"	26	26	2	0.0769230769230769	26	26	26	1	0.297297297297297	88	270	60	1	0	0
+"109"	109	"Regulation of pyruvate dehydrogenase (PDH) complex"	14	14	1	0.0714285714285714	14	14	14	1	0.22972972972973	68	106	15	1	0	0
+"110"	110	"Synthesis of Prostaglandins (PG) and Thromboxanes (TX)"	14	14	1	0.0714285714285714	14	14	14	1	0.10472972972973	31	51	7	1	0	0
+"111"	111	"HDL-mediated lipid transport"	15	15	1	0.0666666666666667	15	15	15	1	0.141891891891892	42	59	11	1	0	0
+"112"	112	"Regulation of innate immune responses to cytosolic DNA"	15	15	1	0.0666666666666667	15	15	15	1	0.148648648648649	44	56	15	1	0	0
+"113"	113	"Synthesis, secretion, and deacylation of Ghrelin"	17	17	1	0.0588235294117647	17	17	17	1	0.344594594594595	102	144	49	1	0	0
+"114"	114	"Integration of energy metabolism"	104	104	6	0.0576923076923077	104	104	100	0.961538461538462	0.631756756756757	187	610	59	0	0.000405108083912364	0.0167660579833849
+"115"	115	"Generic Transcription Pathway"	483	483	26	0.0538302277432712	483	483	445	0.921325051759834	0.817567567567568	242	2376	79	0	0.000122010488810442	0.00508176591279611
+"116"	116	"Transmembrane transport of small molecules"	618	618	32	0.0517799352750809	618	618	570	0.922330097087379	0.831081081081081	246	3625	85	0	1.03200638185141e-05	0.000431206384253885
+"117"	117	"Gene Expression"	1164	1164	59	0.0506872852233677	1164	1164	1048	0.900343642611684	0.888513513513513	263	5766	79	0	0.000404879700919514	0.0167660579833849
+"118"	118	"Iron uptake and transport"	43	43	2	0.0465116279069767	43	43	43	1	0.476351351351351	141	332	51	1	0	0
+"119"	119	"Insulin receptor recycling"	26	26	1	0.0384615384615385	26	26	26	1	0.347972972972973	103	163	23	1	0	0
+"120"	120	"Gap junction trafficking and regulation"	30	30	1	0.0333333333333333	30	30	30	1	0.371621621621622	110	166	58	1	0	0
+"121"	121	"Ion channel transport"	167	167	5	0.029940119760479	167	167	157	0.940119760479042	0.672297297297297	199	1154	85	0	0.00108465410376701	0.0446078488543385

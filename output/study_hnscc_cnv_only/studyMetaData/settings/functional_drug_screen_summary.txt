@@ -1,0 +1,27 @@
+"vals"
+"interactive"	"FALSE"
+"
+ To analyze drug screen panel coverage (for a panel that has or has not been run), enter p
+ To process drug screen result set enter d
+ To save an HTML summary of the results enter h
+ To exit drug screen interface, enter q
+"	"p"
+"Please select a file with a drug screen results data set
+"	"data/Targetome_Level123_8_7_17.txt"
+"Have manual symbol corrections been performed yet for the current data set? (y/n)"	"y"
+"Please select a drug screen score cutoff value:"	"40"
+"Use special path significance analysis settings for this data type? (y/n)"	"FALSE"
+"To limit by proportion of cohort with genes in examined state, enter minimum proportion here:
+(enter 0 for no limit): "	"0"
+"To limit by count of patients with genes in examined state, enter count here:
+(Enter 1 to skip limiting by count)"	"1"
+"Analyze pathways for individual members of the cohort? (y or n) "	"n"
+"Would you like to run the path analysis in verbose mode? (y or n) "	"y"
+"To add additional path significance tests, please select the R script file containing the interfaces to these enrichment tests"	""
+"Enter \\"g\\" to examine coverage using a set of gene names.
+Enter \\"d\\" to examine coverage using drug names, along with a drug target matrix: "	"g"
+"Please select a file"	"data/Targetome_Level123_8_7_17.txt"
+"Please type in the name of the column with the gene symbols: "	"targets"
+"Have manual gene symbol corrections already been made? (y/n)"	"y"
+"Enter \\"g\\" to examine coverage using a set of gene names. Enter \\"d\\" to examine coverage using drug names, along with a drug target matrix: "	"g"
+"gene_stat"	"g"

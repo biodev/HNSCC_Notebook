@@ -15,7 +15,7 @@ The majority of the analysis code is contained in a package called `packageDir` 
 
 To install, use the following code:
 
-```{r}
+```{r eval=FALSE}
 install.packages("remotes")
 remotes::install_github("biodev/packageDir")
 ```
@@ -102,6 +102,8 @@ settings$functional_drug_screen_summary$`
  
 settings$functional_drug_screen_summary[['Enter \\"g\\" to examine coverage using a set of gene names.\nEnter \\"d\\" to examine coverage using drug names, along with a drug target matrix: ']] <- "g"
 
+settings$functional_drug_screen_summary$gene_stat <- "g"
+
 settings$functional_drug_screen_summary$`Please select a file` <- "data/Targetome_Level123_8_7_17.txt"
 
 settings$functional_drug_screen_summary$`Please type in the name of the column with the gene symbols: ` <-	"targets"
@@ -135,7 +137,7 @@ Output is generated in `output/study_hnscc/results/overlap_analysis`. The releva
 `Aberrationally enriched, containing drug targets.txt` - Light pathway file
 
 ```{r}
-lightPaths <- read.delim("output/study_hnscc/results/overlap_analysis/Aberrationally enriched, containing drug targets.txt", delim="\t")
+lightPaths <- read.delim(here("output/study_hnscc/results/overlap_analysis/Aberrationally enriched, containing drug targets.txt"), sep="\t")
 DT::datatable(lightPaths)
 
 ```
@@ -143,6 +145,6 @@ DT::datatable(lightPaths)
 `Aberration enriched, not drug targeted.txt` - Dark pathway file
 
 ```{r}
-darkPaths <- read.delim("output/study_hnscc/results/overlap_analysis/Aberration enriched, not drug targeted.txt", delim = "\t")
+darkPaths <- read.delim(here("output/study_hnscc/results/overlap_analysis/Aberration enriched, not drug targeted.txt"), sep = "\t")
 DT::datatable(darkPaths)
 ```

@@ -1,0 +1,2 @@
+"types"	"counts"
+"1"	"CNV"	131432

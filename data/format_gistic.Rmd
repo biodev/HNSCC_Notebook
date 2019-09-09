@@ -27,6 +27,49 @@ gistic_long <- gistic_file %>% tidyr::gather("tcga_id", "cnv_call", - `Gene Symb
 
 gistic_long <- gistic_long %>% mutate(tcga_id = substr(tcga_id, 1, 12)) %>% filter(cnv_call != 0)
 
-saveRDS(gistic_long, file=here("data/gistic_long_calls.rds"))
+#filter only to -2 and +2 calls
+gistic_long_calls <- gistic_long %>% 
+  filter(cnv_call !=0 & (cnv_call == -2 | cnv_call == 2)) %>%
+  mutate(Variant_Classification = "CNV", 
+         Variant_Type = case_when(cnv_call == -2 ~ "DEL",
+                   cnv_call == 2 ~ "AMP"
+  ))
+
+saveRDS(gistic_long_calls, file=here("data/gistic_long_calls.rds"))
 ```
 
+
+```{r}
+head(gistic_long_calls)
+```
+
+```{r}
+library(data.table)
+library(dplyr)
+gistic_long_calls <- readRDS(here::here("data/gistic_long_calls.rds"))
+
+##these are the needed columns
+cols <- c("Hugo_Symbol", "Chrom","Ncbi_Build", 
+          "Start_Position", "Reference_Allele", 
+          "Tumor_Sample_Barcode",  "Tumor_Seq_Allele1", 
+          "Tumor_Seq_Allele2", "Variant_Classification", 
+          "Variant_Type", "Dbsnp_Rs","Dbsnp_Val_Status")
+
+tcga_samp <- fread(here::here("data/TCGA.HNSC.HPV-positive.maf"))
+
+head(tcga_samp)
+
+new_gistic_long <- gistic_long_calls %>% mutate(Hugo_Symbol=`Gene Symbol`, Chrom = Cytoband, 
+                             Tumor_Sample_Barcode = tcga_id, Start_Position = NA, Reference_Allele = NA,
+                             Ncbi_Build = "GRCh38", Tumor_Seq_Allele1=NA, Tumor_Seq_Allele2 = NA, 
+                             Dbsnp_Rs = NA, Dbsnp_Val_Status = NA
+                             )
+
+write.table(new_gistic_long,file = here::here("data/gistic_long_file.maf"), sep="\t", row.names = FALSE)
+
+#show that this dummied data passes dataCleaningAndCheck
+packageDir:::dataCleaningAndCheck(head(new_gistic_long))
+
+#
+packageDir:::addPidColumn(head(new_gistic_long))
+```
