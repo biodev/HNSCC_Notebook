@@ -1,0 +1,7 @@
+"path_id"	"full_path_length"	"testable_path_length"	"aberrational_genes"	"proportion_aberrational"	"proportion_of_cohort_w_aberrational_gene_in_path"	"Num_patient_with_aberrational_gene_.s._in_path"	"count_of_aberrational_genes_in_path_cross_cohort"	"max_in_one_gene"	"min_in_one_gene"	"hyperg_p_value"	"hyperg_p_w_FDR"
+"ABH3 mediated Reversal of Alkylation Damage"	"ABH3 mediated Reversal of Alkylation Damage"	1	1	1	1	0.0175438596491228	1	1	1	1	0	0
+"Acrosome Reaction"	"Acrosome Reaction"	1	1	1	1	0.0175438596491228	1	1	1	1	0	0
+"Biosynthesis of A2E, implicated in retinal degradation"	"Biosynthesis of A2E, implicated in retinal degradation"	1	1	1	1	0.0175438596491228	1	1	1	1	0	0
+"Tandem pore domain halothane-inhibited K+ channel (THIK)"	"Tandem pore domain halothane-inhibited K+ channel (THIK)"	1	1	1	1	0.0350877192982456	2	2	2	2	0	0
+"Laminin interactions"	"Laminin interactions"	23	23	14	0.608695652173913	0.245614035087719	14	19	3	0	1.3061813644244e-05	0.00788673108890875
+"Collagen biosynthesis and modifying enzymes"	"Collagen biosynthesis and modifying enzymes"	64	64	27	0.421875	0.315789473684211	18	33	3	0	0.000111965801883773	0.0428165125675568

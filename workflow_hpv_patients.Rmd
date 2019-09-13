@@ -103,9 +103,8 @@ settings$somatic_mutation_aberration_summary$`
 Please enter the row numbers of the variant types you would like to analyze (sepparated by a space).
 ` <- "\nFrame_Shift_Del; Frame_Shift_Ins; In_Frame_Del; In_Frame_Ins; Missense_Mutation; Nonsense_Mutation; Nonstop_Mutation; Splice_Site\n"
 
-settings$somatic_mutation_aberration_summary$`
-Please enter the row numbers of the variant types you would like to analyze (sepparated by a space).
-(Full list of options.)` <-  "\nFrame_Shift_Del; Frame_Shift_Ins; In_Frame_Del; In_Frame_Ins; Missense_Mutation; Nonsense_Mutation; Nonstop_Mutation; Splice_Site\n"
+settings$somatic_mutation_aberration_summary$mutation_type <- c("Frame_Shift_Del", "Frame_Shift_Ins", "In_Frame_Del", "In_Frame_Ins", "Missense_Mutation", "Nonsense_Mutation", "Nonstop_Mutation", "Splice_Site")
+
 
 settings$somatic_mutation_aberration_summary$`Would you like to filter out hypermutators?
 If yes, please enter a mutation count threshold.
@@ -127,6 +126,8 @@ settings$functional_drug_screen_summary$interactive <- "n"
 settings$functional_drug_screen_summary$`Have manual symbol corrections been performed yet for the current data set? (y/n)` <- "y"
 
 settings$functional_drug_screen_summary$`Analyze pathways for individual members of the cohort? (y or n) ` <- "n"
+
+settings$functional_drug_screen_summary$gene_stat <- "g"
 
 settings$functional_drug_screen_summary$`
  To analyze drug screen panel coverage (for a panel that has or has not been run), enter p
@@ -163,18 +164,14 @@ saveStudy(study)
 
 ```
 
-## Running HPV negative patients
+## Inspecting Output, HPV Positive Patients
 
-We can reuse the settings object, specifying our HPV negative patients
-
-## Inspecting the output
-
-Output is generated in `output/study_hnscc/results/overlap_analysis`. The relevant files are:
+Output is generated in `output/study_hnscc_hpv_positive/results/overlap_analysis`. The relevant files are:
 
 `Aberrationally enriched, containing drug targets.txt` - Light pathway file
 
 ```{r}
-lightPaths <- read.delim("output/study_hnscc/results/overlap_analysis/Aberrationally enriched, containing drug targets.txt", delim="\t")
+lightPaths <- read.delim("output/study_hnscc_hpv_positive/results/overlap_analysis/Aberrationally enriched, containing drug targets.txt", sep="\t")
 DT::datatable(lightPaths)
 
 ```
@@ -182,6 +179,41 @@ DT::datatable(lightPaths)
 `Aberration enriched, not drug targeted.txt` - Dark pathway file
 
 ```{r}
-darkPaths <- read.delim("output/study_hnscc/results/overlap_analysis/Aberration enriched, not drug targeted.txt", delim = "\t")
+darkPaths <- read.delim("output/study_hnscc_hpv_positive/results/overlap_analysis/Aberration enriched, not drug targeted.txt", sep = "\t")
+DT::datatable(darkPaths)
+```
+
+
+# Running HPV negative patients
+
+We can reuse the settings object, specifying our HPV negative patients mutation file:
+
+
+```{r}
+settings$somatic_mutation_aberration_summary$`Select a .maf file containing the data set to be analyzed.` <- "data/TCGA.HNSC.HPV-negative.maf"
+
+study = getStudyObject(study.name="hnscc_hpv_negative", geneIdentifierType="HUGO", path_detail = path_detail, settings = settings)
+
+study <- loadBasicArms(study)
+study <- autoRunFromSettings(study)
+saveStudy(study)
+```
+
+## Inspecting the output, HPV-Negative
+
+Output is generated in `output/study_hnscc_hpv_negative/results/overlap_analysis`. The relevant files are:
+
+`Aberrationally enriched, containing drug targets.txt` - Light pathway file
+
+```{r}
+lightPaths <- read.delim("output/study_hnscc_hpv_negative/results/overlap_analysis/Aberrationally enriched, containing drug targets.txt", sep="\t")
+DT::datatable(lightPaths)
+
+```
+
+`Aberration enriched, not drug targeted.txt` - Dark pathway file
+
+```{r}
+darkPaths <- read.delim("output/study_hnscc_hpv_negative/results/overlap_analysis/Aberration enriched, not drug targeted.txt", sep = "\t")
 DT::datatable(darkPaths)
 ```

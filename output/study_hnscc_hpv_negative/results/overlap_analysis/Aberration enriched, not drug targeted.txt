@@ -1,0 +1,28 @@
+"path_id"	"full_path_length"	"testable_path_length"	"aberrational_genes"	"proportion_aberrational"	"proportion_of_cohort_w_aberrational_gene_in_path"	"Num_patient_with_aberrational_gene_.s._in_path"	"count_of_aberrational_genes_in_path_cross_cohort"	"max_in_one_gene"	"min_in_one_gene"	"hyperg_p_value"	"hyperg_p_w_FDR"
+"ABH3 mediated Reversal of Alkylation Damage"	"ABH3 mediated Reversal of Alkylation Damage"	1	1	1	1	0.00847457627118644	1	1	1	1	0	0
+"Abnormal conversion of 2-oxoglutarate to 2-hydroxyglutarate"	"Abnormal conversion of 2-oxoglutarate to 2-hydroxyglutarate"	1	1	1	1	0.00847457627118644	1	1	1	1	0	0
+"Aromatic amines can be N-hydroxylated or N-dealkylated by CYP1A2"	"Aromatic amines can be N-hydroxylated or N-dealkylated by CYP1A2"	1	1	1	1	0.00847457627118644	1	1	1	1	0	0
+"Biosynthesis of A2E, implicated in retinal degradation"	"Biosynthesis of A2E, implicated in retinal degradation"	1	1	1	1	0.00847457627118644	1	1	1	1	0	0
+"C6 deamination of adenosine"	"C6 deamination of adenosine"	2	2	2	1	0.0169491525423729	2	2	1	1	0	0
+"COX reactions"	"COX reactions"	1	1	1	1	0.00847457627118644	1	1	1	1	0	0
+"Conjugation of benzoate with glycine"	"Conjugation of benzoate with glycine"	5	5	5	1	0.0847457627118644	10	10	6	1	0	0
+"Conjugation of phenylacetate with glutamine"	"Conjugation of phenylacetate with glutamine"	2	2	2	1	0.0593220338983051	7	7	6	1	0	0
+"Formation of editosomes by ADAR proteins"	"Formation of editosomes by ADAR proteins"	2	2	2	1	0.0169491525423729	2	2	1	1	0	0
+"GABA synthesis"	"GABA synthesis"	2	2	2	1	0.0254237288135593	3	3	2	1	0	0
+"Hyaluronan biosynthesis and export"	"Hyaluronan biosynthesis and export"	4	4	4	1	0.0593220338983051	7	8	3	1	0	0
+"NADPH regeneration"	"NADPH regeneration"	1	1	1	1	0.00847457627118644	1	1	1	1	0	0
+"NOSIP mediated eNOS trafficking"	"NOSIP mediated eNOS trafficking"	2	2	2	1	0.0169491525423729	2	2	1	1	0	0
+"PLC-mediated hydrolysis of PIP2"	"PLC-mediated hydrolysis of PIP2"	1	1	1	1	0.0169491525423729	2	2	2	2	0	0
+"Reactions specific to the hybrid N-glycan synthesis pathway"	"Reactions specific to the hybrid N-glycan synthesis pathway"	1	1	1	1	0.00847457627118644	1	1	1	1	0	0
+"Regulation by TREX1"	"Regulation by TREX1"	1	1	1	1	0.0169491525423729	2	2	2	2	0	0
+"Synthesis of Hepoxilins (HX) and Trioxilins (TrX)"	"Synthesis of Hepoxilins (HX) and Trioxilins (TrX)"	1	1	1	1	0.00847457627118644	1	1	1	1	0	0
+"Transfer of LPS from LBP carrier to CD14"	"Transfer of LPS from LBP carrier to CD14"	2	2	2	1	0.0169491525423729	2	3	2	1	0	0
+"Translesion synthesis by Pol eta"	"Translesion synthesis by Pol eta"	1	1	1	1	0.00847457627118644	1	1	1	1	0	0
+"mRNA Editing: A to I Conversion"	"mRNA Editing: A to I Conversion"	2	2	2	1	0.0169491525423729	2	2	1	1	0	0
+"Reduction of cytosolic Ca++ levels"	"Reduction of cytosolic Ca++ levels"	10	10	9	0.9	0.127118644067797	15	16	4	0	0.000141540392621708	0.0332040081865669
+"Platelet calcium homeostasis"	"Platelet calcium homeostasis"	19	19	16	0.842105263157895	0.220338983050847	26	30	4	0	1.81191237165201e-05	0.00523907626697025
+"Synthesis of IP3 and IP4 in the cytosol"	"Synthesis of IP3 and IP4 in the cytosol"	25	25	20	0.8	0.228813559322034	27	35	3	0	1.40156509735867e-05	0.00414906242789349
+"Other semaphorin interactions"	"Other semaphorin interactions"	19	19	15	0.789473684210526	0.245762711864407	29	37	7	0	0.000154077126553021	0.0354756528642773
+"Laminin interactions"	"Laminin interactions"	23	23	18	0.782608695652174	0.279661016949153	33	48	10	0	5.8796082816448e-05	0.0155538003822078
+"O-glycosylation of TSR domain-containing proteins"	"O-glycosylation of TSR domain-containing proteins"	39	39	29	0.743589743589744	0.440677966101695	52	81	9	0	6.07871723379283e-06	0.00188946101744766
+"Collagen biosynthesis and modifying enzymes"	"Collagen biosynthesis and modifying enzymes"	64	64	44	0.6875	0.508474576271186	60	108	9	0	2.23946122868135e-06	0.000713945280184895

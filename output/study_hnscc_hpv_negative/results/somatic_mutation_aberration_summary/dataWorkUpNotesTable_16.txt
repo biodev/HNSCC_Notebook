@@ -1,0 +1,10 @@
+"types"	"counts"
+"1"	"Frame_Shift_Del"	406
+"2"	"Frame_Shift_Ins"	221
+"3"	"In_Frame_Del"	73
+"4"	"In_Frame_Ins"	24
+"5"	"Missense_Mutation"	10802
+"6"	"Nonsense_Mutation"	911
+"7"	"Nonstop_Mutation"	16
+"8"	"Splice_Site"	304
+"9"	"Translation_Start_Site"	14
