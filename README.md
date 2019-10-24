@@ -13,7 +13,9 @@ The notebook for this analysis can be found [here](https://github.com/biodev/HNS
 
 
 ### Input 
-[TCGA HNSCC cohort mutation file.](https://github.com/biodev/HNSCC_Notebook/blob/master/data/TCGA.HNSC.mutect.84c7a87a-9dcc-48fb-bd69-ba9d6e6f3ca2.DR-7.0.somatic_cleaned.maf) Gene mutations for the TCGA head and neck squamous cell carcinoma cohort.
+[TCGA HNSCC cohort mutation data.](https://github.com/biodev/HNSCC_Notebook/blob/master/data/TCGA.HNSC.mutect.84c7a87a-9dcc-48fb-bd69-ba9d6e6f3ca2.DR-7.0.somatic_cleaned.maf) Gene mutations for the TCGA head and neck squamous cell carcinoma cohort.
+
+[TCGA HNSCC cohort copy number data](https://github.com/biodev/HNSCC_Notebook/blob/master/data/gistic_long_file.maf) Copy number alterations for the TCGA head and neck squamous cell carcinoma cohort.
 
 [Reactome Pathway Gene List.](https://github.com/biodev/HNSCC_Notebook/tree/master/reference_data/paths) Reactome pathways and gene members used in the pathway analysis. 
 
@@ -33,7 +35,7 @@ The notebook for this analysis can be found [here](https://github.com/biodev/HNS
 
 Additional output for the sub-analysis of HPV cohorts: 
 
-[HPV-Positive Light Pathways (https://github.com/biodev/HNSCC_Notebook/blob/master/output/study_hnscc_hpv_positive/results/overlap_analysis/Aberrationally%20enriched%2C%20containing%20drug%20targets.txt)
+[HPV-Positive Light Pathways](https://github.com/biodev/HNSCC_Notebook/blob/master/output/study_hnscc_hpv_positive/results/overlap_analysis/Aberrationally%20enriched%2C%20containing%20drug%20targets.txt)
 
 [HPV-Positive Dark Pathways](https://github.com/biodev/HNSCC_Notebook/blob/master/output/study_hnscc_hpv_positive/results/overlap_analysis/Aberration%20enriched%2C%20not%20drug%20targeted.txt)
 
