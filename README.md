@@ -23,23 +23,27 @@ The notebook for this analysis can be found [here](https://github.com/biodev/HNS
 
 ### Output
 
-[Light Pathways](https://github.com/biodev/HNSCC_Notebook/blob/master/output/study_hnscc/results/overlap_analysis/Aberrationally%20enriched%2C%20containing%20drug%20targets.txt) are pathways found to be enriched in the cohort and also drug-targeted.
+[Mutation Enriched Light Pathways](https://github.com/biodev/HNSCC_Notebook/blob/master/output/study_hnscc/results/overlap_analysis/Aberrationally%20enriched%2C%20containing%20drug%20targets.txt) are pathways found to be mutationally enriched in the cohort and also drug-targeted.
 
-[Dark Pathways](https://github.com/biodev/HNSCC_Notebook/blob/master/output/study_hnscc/results/overlap_analysis/Aberration%20enriched%2C%20not%20drug%20targeted.txt) are pathways found to be enriched in the cohort and are not currently drug-targeted.
+[Mutation Enriched Dark Pathways](https://github.com/biodev/HNSCC_Notebook/blob/master/output/study_hnscc/results/overlap_analysis/Aberration%20enriched%2C%20not%20drug%20targeted.txt) are pathways found to be mutationall enriched in the cohort and are not currently drug-targeted.
+
+[Copy Number Enriched Light Pathways](https://github.com/biodev/HNSCC_Notebook/blob/master/output/study_hnscc_cnv_only/results/overlap_analysis/Aberrationally%20enriched%2C%20containing%20drug%20targets.txt) are pathways found to be copy number enriched in the cohort and also drug-targeted.
+
+[Copy Number Enriched Dark Pathways](https://github.com/biodev/HNSCC_Notebook/blob/master/output/study_hnscc_cnv_only/results/overlap_analysis/Aberration%20enriched%2C%20not%20drug%20targeted.txt) are pathways found to be copy number enriched in the cohort and are not currently drug-targeted.
 
 Additional output for the sub-analysis of HPV cohorts: 
 
-HPV-Positive Light Pathways
+[HPV-Positive Light Pathways (https://github.com/biodev/HNSCC_Notebook/blob/master/output/study_hnscc_hpv_positive/results/overlap_analysis/Aberrationally%20enriched%2C%20containing%20drug%20targets.txt)
 
-HPV-Positive Dark Pathways
+[HPV-Positive Dark Pathways](https://github.com/biodev/HNSCC_Notebook/blob/master/output/study_hnscc_hpv_positive/results/overlap_analysis/Aberration%20enriched%2C%20not%20drug%20targeted.txt)
 
-HPV-Negative Cohort Light Pathways
+[HPV-Negative Cohort Light Pathways](https://github.com/biodev/HNSCC_Notebook/blob/master/output/study_hnscc_hpv_negative/results/overlap_analysis/Aberrationally%20enriched%2C%20containing%20drug%20targets.txt)
 
-HPV-Negative Cohort Dark Pathways
+[HPV-Negative Cohort Dark Pathways](https://github.com/biodev/HNSCC_Notebook/blob/master/output/study_hnscc_hpv_negative/results/overlap_analysis/Aberration%20enriched%2C%20not%20drug%20targeted.txt)
 
 
 ### Citation
-Choonoo, G., Blucher, A., Higgins, S., Boardman, M., Jeng, S., Zheng, C., Jacobs, J., Anderson, A., Chamberlin, S., Evans, N., Vigoda, M., Cordier, B., Tyner, J., Kulesz-Martin, M., McWeeney, S., and Laderas, T.  2019. [Plos One. Illuminating biological pathways for drug targeting in head and neck squamous cell carcinoma.](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0223639)
+Choonoo, G., Blucher, A., Higgins, S., Boardman, M., Jeng, S., Zheng, C., Jacobs, J., Anderson, A., Chamberlin, S., Evans, N., Vigoda, M., Cordier, B., Tyner, J., Kulesz-Martin, M., McWeeney, S., and Laderas, T.  2019. Plos One. [Illuminating biological pathways for drug targeting in head and neck squamous cell carcinoma.](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0223639)
 
 ### Contact
 Please contact Ted Laderas and/or Aurora Blucher for questions relating to this work.
