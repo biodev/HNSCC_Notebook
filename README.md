@@ -35,9 +35,9 @@ The notebook for this analysis can be found [here](https://github.com/biodev/HNS
 
 Additional output for the sub-analysis of HPV cohorts: 
 
-[HPV-Positive Light Pathways](https://github.com/biodev/HNSCC_Notebook/blob/master/output/study_hnscc_hpv_positive/results/overlap_analysis/Aberrationally%20enriched%2C%20containing%20drug%20targets.txt)
+[HPV-Positive Cohort Light Pathways](https://github.com/biodev/HNSCC_Notebook/blob/master/output/study_hnscc_hpv_positive/results/overlap_analysis/Aberrationally%20enriched%2C%20containing%20drug%20targets.txt)
 
-[HPV-Positive Dark Pathways](https://github.com/biodev/HNSCC_Notebook/blob/master/output/study_hnscc_hpv_positive/results/overlap_analysis/Aberration%20enriched%2C%20not%20drug%20targeted.txt)
+[HPV-Positive Cohort Dark Pathways](https://github.com/biodev/HNSCC_Notebook/blob/master/output/study_hnscc_hpv_positive/results/overlap_analysis/Aberration%20enriched%2C%20not%20drug%20targeted.txt)
 
 [HPV-Negative Cohort Light Pathways](https://github.com/biodev/HNSCC_Notebook/blob/master/output/study_hnscc_hpv_negative/results/overlap_analysis/Aberrationally%20enriched%2C%20containing%20drug%20targets.txt)
 
